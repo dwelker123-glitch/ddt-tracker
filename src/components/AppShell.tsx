@@ -3,7 +3,6 @@ import {
   CalendarClock,
   Database,
   FileSpreadsheet,
-  History,
   MapPin,
   Settings,
   Upload,
@@ -13,8 +12,7 @@ import type { DdtRecord, PageId } from "../types";
 
 const navItems: Array<{ id: PageId; label: string; icon: typeof MapPin }> = [
   { id: "touhy", label: "Touhy DDT Entry", icon: MapPin },
-  { id: "devon-a", label: "Devon DDT Entry A", icon: MapPin },
-  { id: "devon-b", label: "Devon DDT Entry B", icon: MapPin },
+  { id: "devon", label: "Devon DDT Entry", icon: MapPin },
   { id: "weekly", label: "Weekly Summary", icon: CalendarClock },
   { id: "trends", label: "Historical Trends", icon: BarChart3 },
   { id: "schedule", label: "Management Schedule Upload", icon: Upload },

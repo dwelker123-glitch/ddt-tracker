@@ -2,7 +2,8 @@
   "records": [
     {
       "id": "touhy-sat-1",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "30",
@@ -36,7 +37,8 @@
     },
     {
       "id": "touhy-sat-2",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "29",
@@ -70,7 +72,8 @@
     },
     {
       "id": "touhy-sat-3",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "26",
@@ -104,7 +107,8 @@
     },
     {
       "id": "touhy-sat-4",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "24",
@@ -138,7 +142,8 @@
     },
     {
       "id": "touhy-sat-5",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "22",
@@ -172,7 +177,8 @@
     },
     {
       "id": "touhy-sat-6",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "20",
@@ -206,7 +212,8 @@
     },
     {
       "id": "touhy-sat-7",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "18",
@@ -240,7 +247,8 @@
     },
     {
       "id": "touhy-sat-8",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "16",
@@ -274,7 +282,8 @@
     },
     {
       "id": "touhy-sat-9",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "14",
@@ -308,7 +317,8 @@
     },
     {
       "id": "touhy-sat-10",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "12",
@@ -342,7 +352,8 @@
     },
     {
       "id": "touhy-sat-11",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "10",
@@ -376,7 +387,8 @@
     },
     {
       "id": "touhy-sat-12",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "25",
@@ -410,7 +422,8 @@
     },
     {
       "id": "touhy-sat-13",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "23",
@@ -444,7 +457,8 @@
     },
     {
       "id": "touhy-sat-14",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "21",
@@ -478,7 +492,8 @@
     },
     {
       "id": "touhy-sat-15",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "19",
@@ -512,7 +527,8 @@
     },
     {
       "id": "touhy-sat-16",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "17",
@@ -546,7 +562,8 @@
     },
     {
       "id": "touhy-sat-17",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "15",
@@ -580,7 +597,8 @@
     },
     {
       "id": "touhy-sat-18",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "13",
@@ -614,7 +632,8 @@
     },
     {
       "id": "touhy-sat-19",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "11",
@@ -648,7 +667,8 @@
     },
     {
       "id": "touhy-sat-20",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "9",
@@ -682,7 +702,8 @@
     },
     {
       "id": "touhy-sat-21",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "27",
@@ -716,7 +737,8 @@
     },
     {
       "id": "touhy-sat-22",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "28",
@@ -750,7 +772,8 @@
     },
     {
       "id": "touhy-sat-23",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "29",
@@ -784,7 +807,8 @@
     },
     {
       "id": "touhy-sat-24",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "30",
@@ -818,7 +842,8 @@
     },
     {
       "id": "touhy-sat-25",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "22",
@@ -852,7 +877,8 @@
     },
     {
       "id": "touhy-sat-26",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "20",
@@ -886,7 +912,8 @@
     },
     {
       "id": "touhy-sat-27",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 2",
       "dock": "18",
@@ -920,7 +947,8 @@
     },
     {
       "id": "touhy-sat-28",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 3",
       "dock": "30",
@@ -954,7 +982,8 @@
     },
     {
       "id": "touhy-sat-29",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 3",
       "dock": "26",
@@ -988,7 +1017,8 @@
     },
     {
       "id": "touhy-sat-30",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 3",
       "dock": "24",
@@ -1022,7 +1052,8 @@
     },
     {
       "id": "touhy-sat-31",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 3",
       "dock": "22",
@@ -1056,7 +1087,8 @@
     },
     {
       "id": "touhy-sat-32",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 3",
       "dock": "20",
@@ -1090,7 +1122,8 @@
     },
     {
       "id": "touhy-sat-33",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 3",
       "dock": "18",
@@ -1124,7 +1157,8 @@
     },
     {
       "id": "touhy-sat-34",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 3",
       "dock": "16",
@@ -1158,7 +1192,8 @@
     },
     {
       "id": "touhy-sat-35",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 3",
       "dock": "14",
@@ -1192,7 +1227,8 @@
     },
     {
       "id": "touhy-sat-36",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 3",
       "dock": "12",
@@ -1226,7 +1262,8 @@
     },
     {
       "id": "touhy-sat-37",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 3",
       "dock": "10",
@@ -1260,7 +1297,8 @@
     },
     {
       "id": "touhy-sat-38",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 3",
       "dock": "25",
@@ -1294,7 +1332,8 @@
     },
     {
       "id": "touhy-sat-39",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 3",
       "dock": "23",
@@ -1328,7 +1367,8 @@
     },
     {
       "id": "touhy-sat-40",
-      "location": "touhy",
+      "location": "Touhy",
+      "trackerPage": "Touhy DDT Entry",
       "date": "2026-06-20",
       "shift": "Tour 3",
       "dock": "21",
@@ -1371,7 +1411,7 @@
       "endTime": "23:59",
       "area": "Tower",
       "date": "2026-06-20",
-      "location": "touhy"
+      "location": "Touhy"
     },
     {
       "id": "touhy-sat-dispatch",
@@ -1382,7 +1422,7 @@
       "endTime": "23:59",
       "area": "Dispatch",
       "date": "2026-06-20",
-      "location": "touhy"
+      "location": "Touhy"
     },
     {
       "id": "touhy-sat-podium",
@@ -1393,7 +1433,7 @@
       "endTime": "23:59",
       "area": "Podium",
       "date": "2026-06-20",
-      "location": "touhy"
+      "location": "Touhy"
     },
     {
       "id": "touhy-sun-podium",
@@ -1404,7 +1444,7 @@
       "endTime": "23:59",
       "area": "Podium",
       "date": "2026-06-21",
-      "location": "touhy"
+      "location": "Touhy"
     },
     {
       "id": "touhy-mon-tower",
@@ -1415,7 +1455,7 @@
       "endTime": "23:59",
       "area": "Tower",
       "date": "2026-06-22",
-      "location": "touhy"
+      "location": "Touhy"
     },
     {
       "id": "touhy-mon-podium",
@@ -1426,7 +1466,7 @@
       "endTime": "23:59",
       "area": "Podium",
       "date": "2026-06-22",
-      "location": "touhy"
+      "location": "Touhy"
     }
   ]
 }

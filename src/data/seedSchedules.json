@@ -8,7 +8,7 @@
     "endTime": "23:59",
     "area": "Tower",
     "date": "2026-06-20",
-    "location": "touhy"
+    "location": "Touhy"
   },
   {
     "id": "touhy-sat-dispatch",
@@ -19,7 +19,7 @@
     "endTime": "23:59",
     "area": "Dispatch",
     "date": "2026-06-20",
-    "location": "touhy"
+    "location": "Touhy"
   },
   {
     "id": "touhy-sat-podium",
@@ -30,7 +30,7 @@
     "endTime": "23:59",
     "area": "Podium",
     "date": "2026-06-20",
-    "location": "touhy"
+    "location": "Touhy"
   },
   {
     "id": "touhy-sun-podium",
@@ -41,7 +41,7 @@
     "endTime": "23:59",
     "area": "Podium",
     "date": "2026-06-21",
-    "location": "touhy"
+    "location": "Touhy"
   },
   {
     "id": "touhy-mon-tower",
@@ -52,7 +52,7 @@
     "endTime": "23:59",
     "area": "Tower",
     "date": "2026-06-22",
-    "location": "touhy"
+    "location": "Touhy"
   },
   {
     "id": "touhy-mon-podium",
@@ -63,6 +63,6 @@
     "endTime": "23:59",
     "area": "Podium",
     "date": "2026-06-22",
-    "location": "touhy"
+    "location": "Touhy"
   }
 ]

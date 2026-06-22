@@ -1,5 +1,7 @@
 import seedRecords from "../data/seedRecords.json";
 import seedSchedules from "../data/seedSchedules.json";
+import { trackerPageForLocation } from "../data/locations";
+import { normalizeLocation } from "./importExport";
 import type {
   DdtInputRecord,
   DdtRecord,
@@ -8,6 +10,7 @@ import type {
   ScheduleRecord,
 } from "../types";
 import { summarize, withMetrics } from "./calculations";
+import { debugLog } from "./debug";
 
 const recordsKey = "ddt.records.v1";
 const snapshotsKey = "ddt.snapshots.v1";
@@ -26,22 +29,69 @@ export const defaultFilters: Filters = {
   supervisor: "",
 };
 
-function read<T>(key: string, fallback: T): T {
+export function readStorage<T>(key: string, fallback: T): T {
   try {
     const value = localStorage.getItem(key);
     return value ? (JSON.parse(value) as T) : fallback;
   } catch {
+    debugLog.warn("Failed to load saved data; using fallback.", { key });
     return fallback;
   }
 }
 
 function write<T>(key: string, value: T) {
-  localStorage.setItem(key, JSON.stringify(value));
+  try {
+    localStorage.setItem(key, JSON.stringify(value));
+  } catch (error) {
+    debugLog.warn("Failed to save data.", { key, error: error instanceof Error ? error.name : "unknown" });
+    throw error;
+  }
+}
+
+export function normalizeRecord(record: Partial<DdtInputRecord> & { location?: unknown }): DdtInputRecord | null {
+  if (!record.id || !record.date) {
+    debugLog.warn("Rejected record missing required identity fields.");
+    return null;
+  }
+  const location = normalizeLocation(record.location);
+  const normalized: DdtInputRecord = {
+    id: String(record.id),
+    location,
+    trackerPage: trackerPageForLocation(location),
+    date: String(record.date),
+    shift: record.shift ?? "AM",
+    dock: String(record.dock ?? ""),
+    opsx: String(record.opsx ?? ""),
+    loader: String(record.loader ?? ""),
+    driver: String(record.driver ?? ""),
+    truck: String(record.truck ?? ""),
+    flights: [
+      record.flights?.[0] ?? { flight: "", category: "" },
+      record.flights?.[1] ?? { flight: "", category: "" },
+      record.flights?.[2] ?? { flight: "", category: "" },
+    ],
+    scheduledDdt: String(record.scheduledDdt ?? ""),
+    actualDdt: String(record.actualDdt ?? ""),
+    scheduledKat: String(record.scheduledKat ?? ""),
+    actualKat: String(record.actualKat ?? ""),
+    delayReason: String(record.delayReason ?? ""),
+    notes: String(record.notes ?? ""),
+    operationalComments: String(record.operationalComments ?? ""),
+    manager: record.manager,
+    supervisor: record.supervisor,
+    closedAt: record.closedAt,
+  };
+  return normalized;
 }
 
 export function getInputRecords(): DdtInputRecord[] {
-  const records = read<unknown>(recordsKey, seedRecords);
-  return Array.isArray(records) ? (records as DdtInputRecord[]) : (seedRecords as DdtInputRecord[]);
+  const records = readStorage<unknown>(recordsKey, seedRecords);
+  const source = Array.isArray(records) ? records : seedRecords;
+  if (!Array.isArray(records)) debugLog.warn("Saved records were malformed; using seed data.");
+  return source.flatMap((record) => {
+    const normalized = normalizeRecord(record as Partial<DdtInputRecord>);
+    return normalized ? [normalized] : [];
+  });
 }
 
 export function saveInputRecords(records: DdtInputRecord[]) {
@@ -53,14 +103,9 @@ export function getRecords(): DdtRecord[] {
 }
 
 export function upsertRecord(record: DdtInputRecord) {
-  const normalizedRecord: DdtInputRecord = {
-    ...record,
-    flights: [
-      record.flights?.[0] ?? { flight: "", category: "" },
-      record.flights?.[1] ?? { flight: "", category: "" },
-      record.flights?.[2] ?? { flight: "", category: "" },
-    ],
-  };
+  const normalizedRecord = normalizeRecord(record);
+  if (!normalizedRecord) throw new Error("Record is missing required fields.");
+  debugLog.dev("Validated record for persistence.", { id: normalizedRecord.id, location: normalizedRecord.location });
   const records = getInputRecords();
   const next = records.some((item) => item.id === normalizedRecord.id)
     ? records.map((item) => (item.id === normalizedRecord.id ? normalizedRecord : item))
@@ -70,8 +115,16 @@ export function upsertRecord(record: DdtInputRecord) {
 }
 
 export function getSnapshots(): HistoricalSnapshot[] {
-  const snapshots = read<unknown>(snapshotsKey, []);
-  return Array.isArray(snapshots) ? (snapshots as HistoricalSnapshot[]) : [];
+  const snapshots = readStorage<unknown>(snapshotsKey, []);
+  if (!Array.isArray(snapshots)) {
+    debugLog.warn("Historical snapshot data was malformed; using empty history.");
+    return [];
+  }
+  return snapshots.filter((snapshot): snapshot is HistoricalSnapshot => {
+    const valid = Boolean(snapshot && typeof snapshot === "object" && "records" in snapshot);
+    if (!valid) debugLog.warn("Rejected malformed historical snapshot.");
+    return valid;
+  });
 }
 
 export function closeDay(location: DdtInputRecord["location"], date: string) {
@@ -101,8 +154,18 @@ export function closeDay(location: DdtInputRecord["location"], date: string) {
 }
 
 export function getSchedules(): ScheduleRecord[] {
-  const schedules = read<unknown>(schedulesKey, seedSchedules);
-  return Array.isArray(schedules) ? (schedules as ScheduleRecord[]) : (seedSchedules as ScheduleRecord[]);
+  const schedules = readStorage<unknown>(schedulesKey, seedSchedules);
+  if (!Array.isArray(schedules)) {
+    debugLog.warn("Saved schedules were malformed; using seed schedules.");
+    return seedSchedules.map((schedule) => ({
+      ...(schedule as ScheduleRecord),
+      location: normalizeLocation((schedule as ScheduleRecord).location),
+    }));
+  }
+  return schedules.map((schedule) => ({
+    ...(schedule as ScheduleRecord),
+    location: normalizeLocation((schedule as ScheduleRecord).location),
+  }));
 }
 
 export function saveSchedules(records: ScheduleRecord[]) {
@@ -110,7 +173,7 @@ export function saveSchedules(records: ScheduleRecord[]) {
 }
 
 export function getFilters(): Filters {
-  return read<Filters>(filtersKey, defaultFilters);
+  return readStorage<Filters>(filtersKey, defaultFilters);
 }
 
 export function saveFilters(filters: Filters) {
@@ -118,7 +181,7 @@ export function saveFilters(filters: Filters) {
 }
 
 export function getTheme(): "light" | "dark" {
-  return read<"light" | "dark">(themeKey, "light");
+  return readStorage<"light" | "dark">(themeKey, "light");
 }
 
 export function saveTheme(theme: "light" | "dark") {

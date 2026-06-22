@@ -1,6 +1,7 @@
 import { ComplianceChart, DelayChart } from "../components/Charts";
 import { KpiStrip } from "../components/KpiStrip";
 import { complianceByDate, delayReasons, summarize } from "../services/calculations";
+import { locationLabel } from "../data/locations";
 import { getSnapshots } from "../services/storage";
 import type { DdtRecord } from "../types";
 
@@ -28,7 +29,7 @@ export function HistoricalTrendsPage({ records }: { records: DdtRecord[] }) {
             {snapshots.map((snapshot) => (
               <tr key={snapshot.id}>
                 <td>{snapshot.date}</td>
-                <td>{snapshot.location}</td>
+                <td>{locationLabel(snapshot.location)}</td>
                 <td>{new Date(snapshot.closedAt).toLocaleString()}</td>
                 <td>{snapshot.summary.compliance}%</td>
                 <td>{snapshot.records.length}</td>

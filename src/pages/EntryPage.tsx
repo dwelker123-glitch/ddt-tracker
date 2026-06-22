@@ -18,6 +18,7 @@ type Props = {
 export function EntryPage({ location, records, onRecordsChange }: Props) {
   const locationRecords = records.filter((record) => record.location === location);
   const [selectedId, setSelectedId] = useState(locationRecords[0]?.id);
+  const [saveError, setSaveError] = useState("");
   const selected = locationRecords.find((record) => record.id === selectedId) ?? locationRecords[0];
   const summary = summarize(locationRecords);
   const trend = complianceByDate(locationRecords);
@@ -27,15 +28,25 @@ export function EntryPage({ location, records, onRecordsChange }: Props) {
   const filtered = useMemo(() => locationRecords.slice(0, 80), [locationRecords]);
 
   const save = (record: DdtInputRecord) => {
-    upsertRecord(record);
-    onRecordsChange();
+    try {
+      upsertRecord(record);
+      setSaveError("");
+      onRecordsChange();
+    } catch {
+      setSaveError("Unable to save this departure. Check required fields and try again.");
+    }
   };
 
   const addRecord = () => {
-    const record = makeBlankRecord(location);
-    upsertRecord(record);
-    setSelectedId(record.id);
-    onRecordsChange();
+    try {
+      const record = makeBlankRecord(location);
+      upsertRecord(record);
+      setSelectedId(record.id);
+      setSaveError("");
+      onRecordsChange();
+    } catch {
+      setSaveError("Unable to add a new departure right now.");
+    }
   };
 
   const handleCloseDay = () => {
@@ -47,29 +58,31 @@ export function EntryPage({ location, records, onRecordsChange }: Props) {
   return (
     <div className="page-grid">
       <div className="main-column">
-        <KpiStrip summary={summary} />
+        <section className="entry-tray" aria-label="New data entry tray">
+          <div className="entry-tray-actions">
+            <button type="button" className="secondary-button" onClick={addRecord}>
+              <Plus size={16} />
+              Add
+            </button>
+            <button type="button" className="primary-button" onClick={handleCloseDay}>
+              <LockKeyhole size={16} />
+              Close Day
+            </button>
+          </div>
+          {selected && <RecordEditor record={selected} onSave={save} error={saveError} />}
+        </section>
         <section className="panel">
           <div className="panel-heading">
             <div>
               <h2>Departure Board</h2>
               <p>Protected calculated values update automatically.</p>
             </div>
-            <div className="button-row">
-              <button type="button" className="secondary-button" onClick={addRecord}>
-                <Plus size={16} />
-                Add
-              </button>
-              <button type="button" className="primary-button" onClick={handleCloseDay}>
-                <LockKeyhole size={16} />
-                Close Day
-              </button>
-            </div>
           </div>
           <RecordTable records={filtered} selectedId={selected?.id} onSelect={(record) => setSelectedId(record.id)} />
         </section>
+        <KpiStrip summary={summary} />
       </div>
       <aside className="side-column">
-        {selected && <RecordEditor location={location} record={selected} onSave={save} />}
         <section className="panel">
           <div className="panel-heading"><h2>DDT Compliance</h2></div>
           <ComplianceChart data={trend} />

@@ -98,6 +98,22 @@ button {
   font-weight: 700;
 }
 
+.password-field {
+  display: grid;
+  gap: 5px;
+}
+
+.password-input-row {
+  display: grid;
+  grid-template-columns: 1fr 42px;
+  gap: 8px;
+}
+
+.password-toggle {
+  height: 38px;
+  min-height: 38px;
+}
+
 .app-shell {
   display: grid;
   grid-template-columns: 248px 1fr;
@@ -281,6 +297,17 @@ button {
 .editor-panel {
   padding: 16px;
   min-width: 0;
+}
+
+.entry-tray {
+  display: grid;
+  gap: 10px;
+}
+
+.entry-tray-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
 }
 
 .panel-heading {

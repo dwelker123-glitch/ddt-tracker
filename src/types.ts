@@ -1,4 +1,4 @@
-export type LocationId = "touhy" | "devon-a" | "devon-b";
+export type LocationId = "Touhy" | "Devon";
 
 export type Shift = "Tour 1" | "Tour 2" | "Tour 3" | "AM" | "PM" | "Overnight";
 
@@ -12,6 +12,7 @@ export type FlightLeg = {
 export type DdtInputRecord = {
   id: string;
   location: LocationId;
+  trackerPage: "Touhy DDT Entry" | "Devon DDT Entry";
   date: string;
   shift: Shift;
   dock: string;
@@ -89,8 +90,7 @@ export type Filters = {
 
 export type PageId =
   | "touhy"
-  | "devon-a"
-  | "devon-b"
+  | "devon"
   | "weekly"
   | "trends"
   | "schedule"

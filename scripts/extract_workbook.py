@@ -71,7 +71,8 @@ def extract_records() -> list[dict[str, Any]]:
             records.append(
                 {
                     "id": f"{ws.title.lower().replace(' ', '-')}-{len(records) + 1}",
-                    "location": "touhy",
+                    "location": "Touhy",
+                    "trackerPage": "Touhy DDT Entry",
                     "date": current_date,
                     "shift": current_shift,
                     "dock": dock,
@@ -114,7 +115,7 @@ def extract_schedule() -> list[dict[str, Any]]:
                     "endTime": "23:59",
                     "area": area,
                     "date": sheet_date(ws),
-                    "location": "touhy",
+                    "location": "Touhy",
                 }
             )
     return schedule

@@ -1,11 +1,13 @@
 import { Upload } from "lucide-react";
 import { useMemo, useState } from "react";
 import { readTabularFile, parseScheduleRows } from "../services/importExport";
+import { debugLog } from "../services/debug";
 import { getSchedules, saveSchedules } from "../services/storage";
 import type { DdtRecord, ScheduleRecord } from "../types";
 
 export function ScheduleUploadPage({ records }: { records: DdtRecord[] }) {
   const [schedules, setSchedules] = useState<ScheduleRecord[]>(getSchedules());
+  const [uploadError, setUploadError] = useState("");
   const correlated = useMemo(
     () =>
       schedules.map((schedule) => {
@@ -20,11 +22,22 @@ export function ScheduleUploadPage({ records }: { records: DdtRecord[] }) {
 
   const upload = async (file?: File) => {
     if (!file) return;
-    const rows = await readTabularFile(file);
-    const parsed = parseScheduleRows(rows);
-    const next = [...parsed, ...schedules];
-    saveSchedules(next);
-    setSchedules(next);
+    try {
+      const rows = await readTabularFile(file);
+      const parsed = parseScheduleRows(rows);
+      if (!parsed.length) {
+        setUploadError("No valid schedule rows were found in that file.");
+        debugLog.warn("Rejected schedule upload with no valid rows.");
+        return;
+      }
+      const next = [...parsed, ...schedules];
+      saveSchedules(next);
+      setSchedules(next);
+      setUploadError("");
+    } catch {
+      setUploadError("Unable to import that schedule file.");
+      debugLog.warn("Failed to import schedule file.");
+    }
   };
 
   return (
@@ -39,6 +52,7 @@ export function ScheduleUploadPage({ records }: { records: DdtRecord[] }) {
           Upload Excel or CSV
           <input type="file" accept=".xlsx,.xls,.csv" onChange={(event) => upload(event.target.files?.[0])} />
         </label>
+        {uploadError && <p className="error-text">{uploadError}</p>}
       </section>
       <section className="panel">
         <div className="panel-heading"><h2>Coverage Correlation</h2></div>

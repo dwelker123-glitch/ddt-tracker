@@ -1,4 +1,4 @@
-import { LockKeyhole } from "lucide-react";
+import { Eye, EyeOff, LockKeyhole } from "lucide-react";
 import { FormEvent, useState } from "react";
 
 const accessCode = "SkyChefs2026";
@@ -11,6 +11,7 @@ type Props = {
 export function PasswordGate({ children }: Props) {
   const [hasAccess, setHasAccess] = useState(() => sessionStorage.getItem(accessKey) === "granted");
   const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState("");
 
   const submit = (event: FormEvent) => {
@@ -34,17 +35,28 @@ export function PasswordGate({ children }: Props) {
         </div>
         <h1>DDT Tracker</h1>
         <p>Employee access required.</p>
-        <label>
-          Password
-          <input
-            autoFocus
-            autoComplete="current-password"
-            type="password"
-            value={password}
-            onChange={(event) => setPassword(event.target.value)}
-            aria-invalid={Boolean(error)}
-          />
-        </label>
+        <div className="password-field">
+          <label htmlFor="employee-password">Password</label>
+          <div className="password-input-row">
+            <input
+              id="employee-password"
+              autoFocus
+              autoComplete="current-password"
+              type={showPassword ? "text" : "password"}
+              value={password}
+              onChange={(event) => setPassword(event.target.value)}
+              aria-invalid={Boolean(error)}
+            />
+            <button
+              className="icon-button password-toggle"
+              type="button"
+              aria-label={showPassword ? "Hide password" : "Show password"}
+              onClick={() => setShowPassword((current) => !current)}
+            >
+              {showPassword ? <EyeOff size={17} /> : <Eye size={17} />}
+            </button>
+          </div>
+        </div>
         {error && <span className="password-error">{error}</span>}
         <button className="primary-button" type="submit">
           <LockKeyhole size={16} />

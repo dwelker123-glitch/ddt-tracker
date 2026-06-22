@@ -24,8 +24,7 @@ export default function App() {
   const title = useMemo(() => {
     const labels: Record<PageId, string> = {
       touhy: "Touhy DDT Entry",
-      "devon-a": "Devon DDT Entry A",
-      "devon-b": "Devon DDT Entry B",
+      devon: "Devon DDT Entry",
       weekly: "Weekly Summary",
       trends: "Historical Trends",
       schedule: "Management Schedule Upload",
@@ -55,13 +54,8 @@ export default function App() {
           </button>
         }
       >
-        {page === "touhy" && <EntryPage location="touhy" records={records} onRecordsChange={refreshRecords} />}
-        {page === "devon-a" && (
-          <EntryPage location="devon-a" records={records} onRecordsChange={refreshRecords} />
-        )}
-        {page === "devon-b" && (
-          <EntryPage location="devon-b" records={records} onRecordsChange={refreshRecords} />
-        )}
+        {page === "touhy" && <EntryPage location="Touhy" records={records} onRecordsChange={refreshRecords} />}
+        {page === "devon" && <EntryPage location="Devon" records={records} onRecordsChange={refreshRecords} />}
         {page === "weekly" && <WeeklySummaryPage records={records} />}
         {page === "trends" && <HistoricalTrendsPage records={records} />}
         {page === "schedule" && <ScheduleUploadPage records={records} />}

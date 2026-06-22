@@ -3,15 +3,15 @@ import { Save } from "lucide-react";
 import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { ddtRecordSchema } from "../services/validation";
-import type { DdtInputRecord, DdtRecord, LocationId } from "../types";
+import type { DdtInputRecord, DdtRecord } from "../types";
 
 type Props = {
-  location: LocationId;
   record: DdtRecord;
   onSave: (record: DdtInputRecord) => void;
+  error?: string;
 };
 
-export function RecordEditor({ record, onSave }: Props) {
+export function RecordEditor({ record, onSave, error }: Props) {
   const { register, handleSubmit, reset, formState } = useForm<DdtInputRecord>({
     defaultValues: record,
     resolver: zodResolver(ddtRecordSchema),
@@ -52,6 +52,7 @@ export function RecordEditor({ record, onSave }: Props) {
         Operational comments<textarea {...register("operationalComments")} disabled={Boolean(record.closedAt)} />
       </label>
       {formState.errors.date && <p className="error-text">Date is required.</p>}
+      {error && <p className="error-text">{error}</p>}
       <button className="primary-button" type="submit" disabled={Boolean(record.closedAt)}>
         <Save size={16} />
         Save
