@@ -1,0 +1,68 @@
+[
+  {
+    "id": "touhy-sat-tower",
+    "manager": "Hugo",
+    "supervisor": "Hugo",
+    "shift": "Daily coverage",
+    "startTime": "00:00",
+    "endTime": "23:59",
+    "area": "Tower",
+    "date": "2026-06-20",
+    "location": "touhy"
+  },
+  {
+    "id": "touhy-sat-dispatch",
+    "manager": "Ivan, LaTisha, Thomas",
+    "supervisor": "Ivan, LaTisha, Thomas",
+    "shift": "Daily coverage",
+    "startTime": "00:00",
+    "endTime": "23:59",
+    "area": "Dispatch",
+    "date": "2026-06-20",
+    "location": "touhy"
+  },
+  {
+    "id": "touhy-sat-podium",
+    "manager": "Diego, Pandit, Marc",
+    "supervisor": "Diego, Pandit, Marc",
+    "shift": "Daily coverage",
+    "startTime": "00:00",
+    "endTime": "23:59",
+    "area": "Podium",
+    "date": "2026-06-20",
+    "location": "touhy"
+  },
+  {
+    "id": "touhy-sun-podium",
+    "manager": "Dock lead JP, Sup Ivan,",
+    "supervisor": "Dock lead JP, Sup Ivan,",
+    "shift": "Daily coverage",
+    "startTime": "00:00",
+    "endTime": "23:59",
+    "area": "Podium",
+    "date": "2026-06-21",
+    "location": "touhy"
+  },
+  {
+    "id": "touhy-mon-tower",
+    "manager": "HUGO",
+    "supervisor": "HUGO",
+    "shift": "Daily coverage",
+    "startTime": "00:00",
+    "endTime": "23:59",
+    "area": "Tower",
+    "date": "2026-06-22",
+    "location": "touhy"
+  },
+  {
+    "id": "touhy-mon-podium",
+    "manager": "Richard, James",
+    "supervisor": "Richard, James",
+    "shift": "Daily coverage",
+    "startTime": "00:00",
+    "endTime": "23:59",
+    "area": "Podium",
+    "date": "2026-06-22",
+    "location": "touhy"
+  }
+]

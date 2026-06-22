@@ -1,0 +1,7482 @@
+[
+  {
+    "id": "touhy-sat-1",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "30",
+    "opsx": "",
+    "loader": "Syl",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "cm 236",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "05:47",
+    "actualDdt": "06:00",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-2",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "29",
+    "opsx": "",
+    "loader": "SYL",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "AS 587",
+        "category": "x"
+      },
+      {
+        "flight": "AS 9232",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "05:47",
+    "actualDdt": "06:00",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-3",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "26",
+    "opsx": "",
+    "loader": "Derrick",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1879",
+        "category": "x"
+      },
+      {
+        "flight": "2301",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "06:25",
+    "actualDdt": "06:16",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-4",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "24",
+    "opsx": "",
+    "loader": "Charaf",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2277",
+        "category": "x"
+      },
+      {
+        "flight": "2814",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "06:25",
+    "actualDdt": "06:05",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-5",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "22",
+    "opsx": "",
+    "loader": "Anthony",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1180",
+        "category": "x"
+      },
+      {
+        "flight": "2044",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "06:25",
+    "actualDdt": "06:00",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-6",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "20",
+    "opsx": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2333",
+        "category": "x"
+      },
+      {
+        "flight": "2728",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "06:25",
+    "actualDdt": "06:00",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-7",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "18",
+    "opsx": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1484",
+        "category": "x"
+      },
+      {
+        "flight": "2006",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "06:25",
+    "actualDdt": "06:20",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-8",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "16",
+    "opsx": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1146",
+        "category": "x"
+      },
+      {
+        "flight": "840",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "06:25",
+    "actualDdt": "06:20",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-9",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "14",
+    "opsx": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2775",
+        "category": "x"
+      },
+      {
+        "flight": "359",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "06:25",
+    "actualDdt": "06:40",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-10",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "12",
+    "opsx": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "764",
+        "category": "x"
+      },
+      {
+        "flight": "1082",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "06:25",
+    "actualDdt": "06:25",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-11",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "10",
+    "opsx": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1778",
+        "category": "x"
+      },
+      {
+        "flight": "342",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "06:25",
+    "actualDdt": "06:34",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-12",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "25",
+    "opsx": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2099",
+        "category": "x"
+      },
+      {
+        "flight": "2431",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "06:30",
+    "actualDdt": "06:30",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-13",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "23",
+    "opsx": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2847",
+        "category": "x"
+      },
+      {
+        "flight": "2805",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "06:30",
+    "actualDdt": "06:30",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-14",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "21",
+    "opsx": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1452",
+        "category": "x"
+      },
+      {
+        "flight": "1643",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "06:30",
+    "actualDdt": "06:30",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-15",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "19",
+    "opsx": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1292",
+        "category": "x"
+      },
+      {
+        "flight": "2137",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "06:30",
+    "actualDdt": "06:40",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-16",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "17",
+    "opsx": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "528",
+        "category": "x"
+      },
+      {
+        "flight": "371",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "06:30",
+    "actualDdt": "06:40",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-17",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "15",
+    "opsx": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "660",
+        "category": "x"
+      },
+      {
+        "flight": "581",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "06:31",
+    "actualDdt": "06:50",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-18",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "13",
+    "opsx": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1258",
+        "category": "x"
+      },
+      {
+        "flight": "1198",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "06:31",
+    "actualDdt": "06:40",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-19",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "11",
+    "opsx": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1270",
+        "category": "x"
+      },
+      {
+        "flight": "1994",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "06:32",
+    "actualDdt": "06:40",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-20",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "9",
+    "opsx": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1972",
+        "category": "x"
+      },
+      {
+        "flight": "485",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "06:33",
+    "actualDdt": "06:45",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-21",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "27",
+    "opsx": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1996",
+        "category": "x"
+      },
+      {
+        "flight": "1674",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "06:34",
+    "actualDdt": "07:00",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-22",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "28",
+    "opsx": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "535",
+        "category": "x"
+      },
+      {
+        "flight": "1008",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "06:36",
+    "actualDdt": "07:00",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-23",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "29",
+    "opsx": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2176",
+        "category": "x"
+      },
+      {
+        "flight": "307",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "06:38",
+    "actualDdt": "07:00",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-24",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "30",
+    "opsx": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2483",
+        "category": "x"
+      },
+      {
+        "flight": "224",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "06:38",
+    "actualDdt": "07:00",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-25",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "22",
+    "opsx": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "656",
+        "category": "x"
+      },
+      {
+        "flight": "2225",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "06:40",
+    "actualDdt": "07:00",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-26",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "20",
+    "opsx": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2797",
+        "category": "x"
+      },
+      {
+        "flight": "1688",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "06:40",
+    "actualDdt": "06:50",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "missing BOB cart 402",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-27",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 2",
+    "dock": "18",
+    "opsx": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2145",
+        "category": "x"
+      },
+      {
+        "flight": "669",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "06:49",
+    "actualDdt": "07:25",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "missing glass cart 402",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-28",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "30",
+    "opsx": "",
+    "loader": "Syl",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "AS 1546",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:00",
+    "actualDdt": "08:00",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-29",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "26",
+    "opsx": "",
+    "loader": "JB",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1606",
+        "category": "x"
+      },
+      {
+        "flight": "2427",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:15",
+    "actualDdt": "08:00",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-30",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "24",
+    "opsx": "",
+    "loader": "Anthony",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1793",
+        "category": "x"
+      },
+      {
+        "flight": "1355",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:25",
+    "actualDdt": "08:15",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-31",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "22",
+    "opsx": "",
+    "loader": "Chu chu",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "567",
+        "category": "x"
+      },
+      {
+        "flight": "424",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:25",
+    "actualDdt": "08:14",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-32",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "20",
+    "opsx": "",
+    "loader": "Derrick",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "441",
+        "category": "x"
+      },
+      {
+        "flight": "1869",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:29",
+    "actualDdt": "08:18",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-33",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "18",
+    "opsx": "",
+    "loader": "Charaf",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "723",
+        "category": "x"
+      },
+      {
+        "flight": "2389",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:30",
+    "actualDdt": "08:24",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-34",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "16",
+    "opsx": "",
+    "loader": "Jorge",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2684",
+        "category": "x"
+      },
+      {
+        "flight": "2342",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:30",
+    "actualDdt": "08:26",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-35",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "14",
+    "opsx": "",
+    "loader": "Adonias",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1659",
+        "category": "x"
+      },
+      {
+        "flight": "2401",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:33",
+    "actualDdt": "08:18",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-36",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "12",
+    "opsx": "",
+    "loader": "Thaer",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2672",
+        "category": "x"
+      },
+      {
+        "flight": "1834",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:33",
+    "actualDdt": "08:17",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-37",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "10",
+    "opsx": "",
+    "loader": "Peter",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1887",
+        "category": "x"
+      },
+      {
+        "flight": "2849",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:35",
+    "actualDdt": "08:32",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-38",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "25",
+    "opsx": "",
+    "loader": "JB",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2414",
+        "category": "x"
+      },
+      {
+        "flight": "279",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:35",
+    "actualDdt": "08:20",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-39",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "23",
+    "opsx": "",
+    "loader": "Anthony",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "365",
+        "category": "x"
+      },
+      {
+        "flight": "2804",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:35",
+    "actualDdt": "08:26",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-40",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "21",
+    "opsx": "",
+    "loader": "Chu chu",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1297",
+        "category": "x"
+      },
+      {
+        "flight": "786",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:37",
+    "actualDdt": "08:29",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-41",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "19",
+    "opsx": "",
+    "loader": "Derrick",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1620",
+        "category": "x"
+      },
+      {
+        "flight": "2195",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:40",
+    "actualDdt": "08:34",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-42",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "17",
+    "opsx": "",
+    "loader": "Charaf",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1612",
+        "category": "x"
+      },
+      {
+        "flight": "2616",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:42",
+    "actualDdt": "08:41",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-43",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "15",
+    "opsx": "",
+    "loader": "Syl",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2653",
+        "category": "x"
+      },
+      {
+        "flight": "1061",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:48",
+    "actualDdt": "08:42",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-44",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "13",
+    "opsx": "",
+    "loader": "Adonias",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1921",
+        "category": "x"
+      },
+      {
+        "flight": "2688",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:51",
+    "actualDdt": "08:49",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-45",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "11",
+    "opsx": "",
+    "loader": "Thaer",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1377",
+        "category": "x"
+      },
+      {
+        "flight": "1733",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:53",
+    "actualDdt": "09:16",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "ACTS light 0832",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-46",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "9",
+    "opsx": "",
+    "loader": "Kenneth",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1044",
+        "category": "x"
+      },
+      {
+        "flight": "2182",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:53",
+    "actualDdt": "08:46",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-47",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "27",
+    "opsx": "",
+    "loader": "Kassa",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1803",
+        "category": "x"
+      },
+      {
+        "flight": "1856",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:54",
+    "actualDdt": "08:49",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-48",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "28",
+    "opsx": "",
+    "loader": "Angel",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2008",
+        "category": "x"
+      },
+      {
+        "flight": "2287",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "09:00",
+    "actualDdt": "08:59",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-49",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "11",
+    "opsx": "",
+    "loader": "Peter",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "FERRY",
+        "category": "x"
+      },
+      {
+        "flight": "3874",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "10:00",
+    "actualDdt": "10:00",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "CXLD",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-50",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "13",
+    "opsx": "",
+    "loader": "Devonte",
+    "driver": "",
+    "truck": "4799",
+    "flights": [
+      {
+        "flight": "2774",
+        "category": "x"
+      },
+      {
+        "flight": "1811",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "10:10",
+    "actualDdt": "10:24",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "RL0938- Late ACTS",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-51",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "15",
+    "opsx": "",
+    "loader": "Dulce",
+    "driver": "",
+    "truck": "1809",
+    "flights": [
+      {
+        "flight": "606",
+        "category": "x"
+      },
+      {
+        "flight": "623",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "10:10",
+    "actualDdt": "10:34",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "Plane change waiting food @1011",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-52",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "17",
+    "opsx": "",
+    "loader": "Vicky",
+    "driver": "",
+    "truck": "7624",
+    "flights": [
+      {
+        "flight": "2821",
+        "category": "x"
+      },
+      {
+        "flight": "1363",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "10:40",
+    "actualDdt": "10:23",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "RL0944",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-53",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "19",
+    "opsx": "",
+    "loader": "Raje",
+    "driver": "",
+    "truck": "876",
+    "flights": [
+      {
+        "flight": "1554",
+        "category": "x"
+      },
+      {
+        "flight": "2290",
+        "category": "x"
+      },
+      {
+        "flight": "1332",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "10:40",
+    "actualDdt": "10:37",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "RL0946",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-54",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "26",
+    "opsx": "",
+    "loader": "Chris",
+    "driver": "",
+    "truck": "7592",
+    "flights": [
+      {
+        "flight": "2032",
+        "category": "x"
+      },
+      {
+        "flight": "1660",
+        "category": "x"
+      },
+      {
+        "flight": "2343",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "10:40",
+    "actualDdt": "10:35",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "RL0948",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-55",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "12",
+    "opsx": "",
+    "loader": "Charaf",
+    "driver": "",
+    "truck": "7163",
+    "flights": [
+      {
+        "flight": "247",
+        "category": "x"
+      },
+      {
+        "flight": "1525",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "10:40",
+    "actualDdt": "10:21",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "RL0942",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-56",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "14",
+    "opsx": "",
+    "loader": "Thaer",
+    "driver": "",
+    "truck": "6494",
+    "flights": [
+      {
+        "flight": "561",
+        "category": "x"
+      },
+      {
+        "flight": "455",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "10:40",
+    "actualDdt": "10:44",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "RL0936- Late ACTS",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-57",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "10",
+    "opsx": "",
+    "loader": "Jorge",
+    "driver": "",
+    "truck": "7609",
+    "flights": [
+      {
+        "flight": "2440",
+        "category": "x"
+      },
+      {
+        "flight": "2794",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "10:45",
+    "actualDdt": "10:38",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "RL1025",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-58",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "18",
+    "opsx": "",
+    "loader": "Chu chu",
+    "driver": "",
+    "truck": "1169",
+    "flights": [
+      {
+        "flight": "2465",
+        "category": "x"
+      },
+      {
+        "flight": "1746",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "10:46",
+    "actualDdt": "10:41",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "RL0946",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-59",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "20",
+    "opsx": "",
+    "loader": "Adonias",
+    "driver": "",
+    "truck": "7620",
+    "flights": [
+      {
+        "flight": "1955",
+        "category": "x"
+      },
+      {
+        "flight": "1905",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "10:40",
+    "actualDdt": "10:50",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "RL0948- Late ACTS",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-60",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "16",
+    "opsx": "",
+    "loader": "Anthony",
+    "driver": "",
+    "truck": "7599",
+    "flights": [
+      {
+        "flight": "1350",
+        "category": "x"
+      },
+      {
+        "flight": "1693",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "10:50",
+    "actualDdt": "10:21",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "RL0946",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-61",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "24",
+    "opsx": "",
+    "loader": "Syl",
+    "driver": "",
+    "truck": "876",
+    "flights": [
+      {
+        "flight": "794",
+        "category": "x"
+      },
+      {
+        "flight": "2226",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "10:50",
+    "actualDdt": "10:03",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "RL1000",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-62",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "21",
+    "opsx": "",
+    "loader": "Fesule",
+    "driver": "",
+    "truck": "5711",
+    "flights": [
+      {
+        "flight": "2683",
+        "category": "x"
+      },
+      {
+        "flight": "622",
+        "category": "x"
+      },
+      {
+        "flight": "2000",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "11:00",
+    "actualDdt": "11:13",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "missing glass carts P102 on both 622 & 2000. Remade and received @1040. RL on 1041",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-63",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "22",
+    "opsx": "",
+    "loader": "Kennith",
+    "driver": "",
+    "truck": "1168",
+    "flights": [
+      {
+        "flight": "1695",
+        "category": "x"
+      },
+      {
+        "flight": "2635",
+        "category": "x"
+      },
+      {
+        "flight": "1057",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "11:30",
+    "actualDdt": "11:08",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "RL1010",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-64",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "17",
+    "opsx": "",
+    "loader": "Thaer",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "356",
+        "category": "x"
+      },
+      {
+        "flight": "374",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "11:55",
+    "actualDdt": "11:48",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-65",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "11",
+    "opsx": "",
+    "loader": "Derrick",
+    "driver": "",
+    "truck": "7595",
+    "flights": [
+      {
+        "flight": "609",
+        "category": "x"
+      },
+      {
+        "flight": "2091",
+        "category": "x"
+      },
+      {
+        "flight": "1129",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "12:00",
+    "actualDdt": "11:33",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-66",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "25",
+    "opsx": "",
+    "loader": "Francisco",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1862",
+        "category": "x"
+      },
+      {
+        "flight": "1314",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "12:05",
+    "actualDdt": "11:36",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-67",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "27",
+    "opsx": "",
+    "loader": "Syl",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2142",
+        "category": "x"
+      },
+      {
+        "flight": "1069",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "12:10",
+    "actualDdt": "11:03",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-68",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "19",
+    "opsx": "",
+    "loader": "Peter",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "704",
+        "category": "x"
+      },
+      {
+        "flight": "1502",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "12:20",
+    "actualDdt": "11:42",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-69",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "21",
+    "opsx": "",
+    "loader": "Shew",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1349",
+        "category": "x"
+      },
+      {
+        "flight": "1577",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "12:25",
+    "actualDdt": "12:03",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-70",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "23",
+    "opsx": "",
+    "loader": "Vicky",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1821",
+        "category": "x"
+      },
+      {
+        "flight": "2803",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "12:05",
+    "actualDdt": "11:40",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-71",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "10",
+    "opsx": "",
+    "loader": "Dulce",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2430",
+        "category": "x"
+      },
+      {
+        "flight": "695",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "12:30",
+    "actualDdt": "11:44",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-72",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "12",
+    "opsx": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "587",
+        "category": "x"
+      },
+      {
+        "flight": "1550",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "12:10",
+    "actualDdt": "12:04",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-73",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "14",
+    "opsx": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "cm 236",
+        "category": "x"
+      },
+      {
+        "flight": "229",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "13:20",
+    "actualDdt": "13:00",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-74",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "16",
+    "opsx": "",
+    "loader": "Delante",
+    "driver": "",
+    "truck": "4795",
+    "flights": [
+      {
+        "flight": "664",
+        "category": "x"
+      },
+      {
+        "flight": "2437",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "12:45",
+    "actualDdt": "12:29",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-75",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "18",
+    "opsx": "",
+    "loader": "Priqauis",
+    "driver": "",
+    "truck": "5029",
+    "flights": [
+      {
+        "flight": "1334",
+        "category": "x"
+      },
+      {
+        "flight": "841",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "13:11",
+    "actualDdt": "12:56",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-76",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "20",
+    "opsx": "",
+    "loader": "clariremise",
+    "driver": "",
+    "truck": "7625",
+    "flights": [
+      {
+        "flight": "2812",
+        "category": "x"
+      },
+      {
+        "flight": "2846",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "13:25",
+    "actualDdt": "13:06",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-77",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "22",
+    "opsx": "",
+    "loader": "Francisco",
+    "driver": "",
+    "truck": "9441",
+    "flights": [
+      {
+        "flight": "793",
+        "category": "x"
+      },
+      {
+        "flight": "2251",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "13:25",
+    "actualDdt": "13:08",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-78",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "11",
+    "opsx": "",
+    "loader": "Mike",
+    "driver": "",
+    "truck": "8011",
+    "flights": [
+      {
+        "flight": "576",
+        "category": "x"
+      },
+      {
+        "flight": "2053",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "13:32",
+    "actualDdt": "13:14",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-79",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "13",
+    "opsx": "",
+    "loader": "Charaf",
+    "driver": "",
+    "truck": "3073",
+    "flights": [
+      {
+        "flight": "2329",
+        "category": "x"
+      },
+      {
+        "flight": "2124",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "13:32",
+    "actualDdt": "13:04",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-80",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "15",
+    "opsx": "",
+    "loader": "Angel",
+    "driver": "",
+    "truck": "9443",
+    "flights": [
+      {
+        "flight": "2207",
+        "category": "x"
+      },
+      {
+        "flight": "2357",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "13:37",
+    "actualDdt": "12:40",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-81",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "17",
+    "opsx": "",
+    "loader": "Sandeep",
+    "driver": "",
+    "truck": "9453",
+    "flights": [
+      {
+        "flight": "777",
+        "category": "x"
+      },
+      {
+        "flight": "1801",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "13:39",
+    "actualDdt": "13:41",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-82",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "19",
+    "opsx": "",
+    "loader": "Asha",
+    "driver": "",
+    "truck": "7162",
+    "flights": [
+      {
+        "flight": "2466",
+        "category": "x"
+      },
+      {
+        "flight": "2790",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "13:40",
+    "actualDdt": "13:18",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-83",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "21",
+    "opsx": "",
+    "loader": "Thear",
+    "driver": "",
+    "truck": "9447",
+    "flights": [
+      {
+        "flight": "503",
+        "category": "x"
+      },
+      {
+        "flight": "745",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "13:45",
+    "actualDdt": "13:33",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-84",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "10",
+    "opsx": "",
+    "loader": "Simon",
+    "driver": "",
+    "truck": "7016",
+    "flights": [
+      {
+        "flight": "714",
+        "category": "x"
+      },
+      {
+        "flight": "1920",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "13:50",
+    "actualDdt": "13:42",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-85",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "12",
+    "opsx": "",
+    "loader": "Joshy",
+    "driver": "",
+    "truck": "9442",
+    "flights": [
+      {
+        "flight": "2223",
+        "category": "X"
+      },
+      {
+        "flight": "378",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "13:54",
+    "actualDdt": "13:43",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-86",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "9",
+    "opsx": "",
+    "loader": "Dwight",
+    "driver": "",
+    "truck": "9450",
+    "flights": [
+      {
+        "flight": "1616",
+        "category": "x"
+      },
+      {
+        "flight": "600",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "14:00",
+    "actualDdt": "13:42",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-87",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "23",
+    "opsx": "",
+    "loader": "Chris",
+    "driver": "",
+    "truck": "4798",
+    "flights": [
+      {
+        "flight": "2618",
+        "category": "x"
+      },
+      {
+        "flight": "1875",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "14:11",
+    "actualDdt": "13:32",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-88",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "24",
+    "opsx": "",
+    "loader": "Adonias",
+    "driver": "",
+    "truck": "9448",
+    "flights": [
+      {
+        "flight": "F9",
+        "category": "x"
+      },
+      {
+        "flight": "3135",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "15:14",
+    "actualDdt": "13:45",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-89",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "13",
+    "opsx": "",
+    "loader": "CHARAF",
+    "driver": "",
+    "truck": "7604",
+    "flights": [
+      {
+        "flight": "2652",
+        "category": "X"
+      },
+      {
+        "flight": "1776",
+        "category": "X"
+      },
+      {
+        "flight": "1398",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "15:35",
+    "actualDdt": "15:27",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-90",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "24",
+    "opsx": "",
+    "loader": "JOSHY",
+    "driver": "",
+    "truck": "7620",
+    "flights": [
+      {
+        "flight": "2865",
+        "category": "X"
+      },
+      {
+        "flight": "1748",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "15:30",
+    "actualDdt": "15:18",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-91",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "15",
+    "opsx": "",
+    "loader": "MIKE",
+    "driver": "",
+    "truck": "7624",
+    "flights": [
+      {
+        "flight": "1989",
+        "category": "X"
+      },
+      {
+        "flight": "1583",
+        "category": "X"
+      },
+      {
+        "flight": "534",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "16:10",
+    "actualDdt": "15:20",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-92",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "17",
+    "opsx": "",
+    "loader": "SANDEEP",
+    "driver": "",
+    "truck": "7619",
+    "flights": [
+      {
+        "flight": "1954",
+        "category": "X"
+      },
+      {
+        "flight": "1382",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "15:30",
+    "actualDdt": "14:58",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-93",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "19",
+    "opsx": "",
+    "loader": "ASHA",
+    "driver": "",
+    "truck": "9451",
+    "flights": [
+      {
+        "flight": "2202",
+        "category": "X"
+      },
+      {
+        "flight": "1732",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "15:57",
+    "actualDdt": "15:21",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-94",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "21",
+    "opsx": "",
+    "loader": "KENNITH",
+    "driver": "",
+    "truck": "9446",
+    "flights": [
+      {
+        "flight": "1401",
+        "category": "X"
+      },
+      {
+        "flight": "1974",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "16:03",
+    "actualDdt": "14:50",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-95",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "10",
+    "opsx": "",
+    "loader": "SIMON",
+    "driver": "",
+    "truck": "7163",
+    "flights": [
+      {
+        "flight": "288",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "15:50",
+    "actualDdt": "16:00",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-96",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "23",
+    "opsx": "",
+    "loader": "CHRIS",
+    "driver": "",
+    "truck": "876",
+    "flights": [
+      {
+        "flight": "1393",
+        "category": "X"
+      },
+      {
+        "flight": "2180",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "15:44",
+    "actualDdt": "15:13",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-97",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "12",
+    "opsx": "",
+    "loader": "DWIGHT",
+    "driver": "",
+    "truck": "4684",
+    "flights": [
+      {
+        "flight": "1369",
+        "category": "X"
+      },
+      {
+        "flight": "1946",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "15:45",
+    "actualDdt": "15:29",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-98",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "14",
+    "opsx": "",
+    "loader": "ADONIS",
+    "driver": "",
+    "truck": "885",
+    "flights": [
+      {
+        "flight": "1967",
+        "category": "X"
+      },
+      {
+        "flight": "2443",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "15:55",
+    "actualDdt": "15:27",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-99",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "16",
+    "opsx": "",
+    "loader": "SAHREM",
+    "driver": "",
+    "truck": "922",
+    "flights": [
+      {
+        "flight": "456",
+        "category": "X"
+      },
+      {
+        "flight": "1504",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "15:30",
+    "actualDdt": "14:53",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-100",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "11",
+    "opsx": "",
+    "loader": "SIMON",
+    "driver": "",
+    "truck": "7612",
+    "flights": [
+      {
+        "flight": "118",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "16:25",
+    "actualDdt": "14:44",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-101",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "18",
+    "opsx": "",
+    "loader": "PRIYANCKI",
+    "driver": "",
+    "truck": "7599",
+    "flights": [
+      {
+        "flight": "2417",
+        "category": "X"
+      },
+      {
+        "flight": "1335",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "15:49",
+    "actualDdt": "14:55",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-102",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "20",
+    "opsx": "",
+    "loader": "CLARENISE",
+    "driver": "",
+    "truck": "7610",
+    "flights": [
+      {
+        "flight": "2784",
+        "category": "X"
+      },
+      {
+        "flight": "1568",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "15:44",
+    "actualDdt": "14:35",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-103",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "22",
+    "opsx": "",
+    "loader": "FRANCISCO",
+    "driver": "",
+    "truck": "6801",
+    "flights": [
+      {
+        "flight": "2496",
+        "category": "X"
+      },
+      {
+        "flight": "303",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "15:40",
+    "actualDdt": "14:38",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-104",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "25",
+    "opsx": "",
+    "loader": "JOSHY",
+    "driver": "",
+    "truck": "5976",
+    "flights": [
+      {
+        "flight": "1178",
+        "category": "X"
+      },
+      {
+        "flight": "2362",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "16:00",
+    "actualDdt": "16:20",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-105",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "11",
+    "opsx": "",
+    "loader": "MIKE",
+    "driver": "",
+    "truck": "4682",
+    "flights": [
+      {
+        "flight": "2481",
+        "category": "X"
+      },
+      {
+        "flight": "2160",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "16:04",
+    "actualDdt": "16:18",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-106",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "15",
+    "opsx": "",
+    "loader": "CLERNISE",
+    "driver": "",
+    "truck": "8011",
+    "flights": [
+      {
+        "flight": "2331",
+        "category": "X"
+      },
+      {
+        "flight": "636",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "16:05",
+    "actualDdt": "16:10",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-107",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "17",
+    "opsx": "",
+    "loader": "SANDEEP",
+    "driver": "",
+    "truck": "7003",
+    "flights": [
+      {
+        "flight": "2294",
+        "category": "X"
+      },
+      {
+        "flight": "1475",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "15:38",
+    "actualDdt": "16:00",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-108",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "19",
+    "opsx": "",
+    "loader": "ASHA",
+    "driver": "",
+    "truck": "7615",
+    "flights": [
+      {
+        "flight": "2179",
+        "category": "X"
+      },
+      {
+        "flight": "1557",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "16:05",
+    "actualDdt": "16:00",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-109",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "23",
+    "opsx": "",
+    "loader": "FRANCISCO",
+    "driver": "",
+    "truck": "7598",
+    "flights": [
+      {
+        "flight": "340",
+        "category": "X"
+      },
+      {
+        "flight": "759",
+        "category": "X"
+      },
+      {
+        "flight": "1400",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "16:10",
+    "actualDdt": "17:23",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-110",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "25",
+    "opsx": "",
+    "loader": "CHRIS",
+    "driver": "",
+    "truck": "5008",
+    "flights": [
+      {
+        "flight": "1580",
+        "category": "X"
+      },
+      {
+        "flight": "658",
+        "category": "X"
+      },
+      {
+        "flight": "2148",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "17:29",
+    "actualDdt": "17:48",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-111",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "27",
+    "opsx": "",
+    "loader": "MIKE",
+    "driver": "",
+    "truck": "9447",
+    "flights": [
+      {
+        "flight": "1156",
+        "category": "X"
+      },
+      {
+        "flight": "312",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "17:30",
+    "actualDdt": "17:43",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-112",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "12",
+    "opsx": "",
+    "loader": "JOSHY",
+    "driver": "",
+    "truck": "7162",
+    "flights": [
+      {
+        "flight": "1800",
+        "category": "X"
+      },
+      {
+        "flight": "1394",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "17:30",
+    "actualDdt": "17:31",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-113",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "14",
+    "opsx": "",
+    "loader": "JOSHY",
+    "driver": "",
+    "truck": "4798",
+    "flights": [
+      {
+        "flight": "1673",
+        "category": "X"
+      },
+      {
+        "flight": "602",
+        "category": "X"
+      },
+      {
+        "flight": "1884",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "17:30",
+    "actualDdt": "17:31",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-114",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "16",
+    "opsx": "",
+    "loader": "PRIYANKI",
+    "driver": "",
+    "truck": "7598",
+    "flights": [
+      {
+        "flight": "1842",
+        "category": "X"
+      },
+      {
+        "flight": "2317",
+        "category": "X"
+      },
+      {
+        "flight": "1492",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "17:30",
+    "actualDdt": "17:45",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-115",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "18",
+    "opsx": "",
+    "loader": "SANDEEP",
+    "driver": "",
+    "truck": "7622",
+    "flights": [
+      {
+        "flight": "2426",
+        "category": "X"
+      },
+      {
+        "flight": "1625",
+        "category": "X"
+      },
+      {
+        "flight": "1819",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "17:32",
+    "actualDdt": "17:25",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-116",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "20",
+    "opsx": "",
+    "loader": "ASHA",
+    "driver": "",
+    "truck": "5711",
+    "flights": [
+      {
+        "flight": "2649",
+        "category": "X"
+      },
+      {
+        "flight": "1338",
+        "category": "X"
+      },
+      {
+        "flight": "2135",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "17:35",
+    "actualDdt": "17:25",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-117",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "22",
+    "opsx": "",
+    "loader": "CLARINESIE",
+    "driver": "",
+    "truck": "1805",
+    "flights": [
+      {
+        "flight": "481",
+        "category": "X"
+      },
+      {
+        "flight": "2243",
+        "category": "X"
+      },
+      {
+        "flight": "2808",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "17:35",
+    "actualDdt": "17:27",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-118",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "24",
+    "opsx": "",
+    "loader": "FRANCISCO",
+    "driver": "",
+    "truck": "7609",
+    "flights": [
+      {
+        "flight": "630",
+        "category": "X"
+      },
+      {
+        "flight": "2199",
+        "category": "X"
+      },
+      {
+        "flight": "1649",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "17:40",
+    "actualDdt": "18:00",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-119",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "26",
+    "opsx": "",
+    "loader": "CHRIS",
+    "driver": "",
+    "truck": "4797",
+    "flights": [
+      {
+        "flight": "2783",
+        "category": "X"
+      },
+      {
+        "flight": "2063",
+        "category": "X"
+      },
+      {
+        "flight": "457",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "17:43",
+    "actualDdt": "17:59",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-120",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "28",
+    "opsx": "",
+    "loader": "DWIGHT",
+    "driver": "",
+    "truck": "7607",
+    "flights": [
+      {
+        "flight": "308",
+        "category": "X"
+      },
+      {
+        "flight": "1710",
+        "category": "X"
+      },
+      {
+        "flight": "2071",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "17:43",
+    "actualDdt": "18:21",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-121",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "9",
+    "opsx": "",
+    "loader": "SIMON",
+    "driver": "",
+    "truck": "7602",
+    "flights": [
+      {
+        "flight": "2144",
+        "category": "X"
+      },
+      {
+        "flight": "2005",
+        "category": "X"
+      },
+      {
+        "flight": "2829",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "17:44",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-122",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "13",
+    "opsx": "",
+    "loader": "JOSHY",
+    "driver": "",
+    "truck": "7600",
+    "flights": [
+      {
+        "flight": "1828",
+        "category": "X"
+      },
+      {
+        "flight": "2211",
+        "category": "X"
+      },
+      {
+        "flight": "1273",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "17:44",
+    "actualDdt": "18:15",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-123",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "15",
+    "opsx": "",
+    "loader": "PRIYANKI",
+    "driver": "",
+    "truck": "1170",
+    "flights": [
+      {
+        "flight": "2734",
+        "category": "X"
+      },
+      {
+        "flight": "533",
+        "category": "X"
+      },
+      {
+        "flight": "1923",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "17:45",
+    "actualDdt": "18:34",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-124",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "11",
+    "opsx": "",
+    "loader": "MIKE",
+    "driver": "",
+    "truck": "883",
+    "flights": [
+      {
+        "flight": "329",
+        "category": "X"
+      },
+      {
+        "flight": "1209",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "17:48",
+    "actualDdt": "17:58",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-125",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "17",
+    "opsx": "",
+    "loader": "SANDEEP",
+    "driver": "",
+    "truck": "883",
+    "flights": [
+      {
+        "flight": "1495",
+        "category": "X"
+      },
+      {
+        "flight": "2813",
+        "category": "X"
+      },
+      {
+        "flight": "1015",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "17:54",
+    "actualDdt": "17:55",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-126",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "19",
+    "opsx": "",
+    "loader": "ASHA",
+    "driver": "",
+    "truck": "9453",
+    "flights": [
+      {
+        "flight": "1761",
+        "category": "X"
+      },
+      {
+        "flight": "2770",
+        "category": "X"
+      },
+      {
+        "flight": "1301",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "17:56",
+    "actualDdt": "17:59",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-127",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "21",
+    "opsx": "",
+    "loader": "CLARIENESE",
+    "driver": "",
+    "truck": "3073",
+    "flights": [
+      {
+        "flight": "403",
+        "category": "X"
+      },
+      {
+        "flight": "1850",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "19:18",
+    "actualDdt": "18:08",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-128",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "10",
+    "opsx": "",
+    "loader": "SIMON",
+    "driver": "",
+    "truck": "7613",
+    "flights": [
+      {
+        "flight": "912",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "19:20",
+    "actualDdt": "18:29",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-129",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "23",
+    "opsx": "",
+    "loader": "FRANCISCO",
+    "driver": "",
+    "truck": "7598",
+    "flights": [
+      {
+        "flight": "2106",
+        "category": "X"
+      },
+      {
+        "flight": "767",
+        "category": "X"
+      },
+      {
+        "flight": "",
+        "category": "X"
+      }
+    ],
+    "scheduledDdt": "19:33",
+    "actualDdt": "18:34",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-130",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "WIDE",
+    "driver": "BODIES",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "1899-12-29",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-131",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "219",
+    "driver": "F",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "07:15",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-132",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "219",
+    "driver": "Y",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "07:15",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-133",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "202",
+    "driver": "FY",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "07:05",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-134",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "KE38",
+    "driver": "F",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "10:15",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-135",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "KE38",
+    "driver": "Y",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "10:15",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-136",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "3",
+    "opsx": "",
+    "loader": "salguero",
+    "driver": "F",
+    "truck": "4686",
+    "flights": [
+      {
+        "flight": "881",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "10:00",
+    "actualDdt": "09:50",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-137",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "4",
+    "opsx": "",
+    "loader": "eric ledesman",
+    "driver": "Y",
+    "truck": "4682",
+    "flights": [
+      {
+        "flight": "881",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "10:00",
+    "actualDdt": "09:50",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-138",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "6",
+    "opsx": "",
+    "loader": "lorena",
+    "driver": "FY",
+    "truck": "7605",
+    "flights": [
+      {
+        "flight": "1902",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "10:30",
+    "actualDdt": "10:20",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-139",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "5",
+    "opsx": "",
+    "loader": "dooreze",
+    "driver": "F",
+    "truck": "4681",
+    "flights": [
+      {
+        "flight": "944",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "12:55",
+    "actualDdt": "12:51",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-140",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "6",
+    "opsx": "",
+    "loader": "Gualberto",
+    "driver": "Y",
+    "truck": "7003",
+    "flights": [
+      {
+        "flight": "944",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "12:55",
+    "actualDdt": "12:51",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-141",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "970",
+    "driver": "F",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "13:30",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-142",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "970",
+    "driver": "Y",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "13:30",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-143",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "3",
+    "driver": "FY",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "13:40",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-144",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "929",
+    "driver": "FY",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "14:15",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-145",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "953",
+    "driver": "F",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "15:45",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-146",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "953",
+    "driver": "Y",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "15:45",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-147",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "987",
+    "driver": "F",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "15:55",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-148",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "987",
+    "driver": "Y",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "15:55",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-149",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "972",
+    "driver": "F",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "15:45",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-150",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "972",
+    "driver": "Y",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "15:45",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-151",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "987",
+    "driver": "F",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "15:55",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-152",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "987",
+    "driver": "Y",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "15:55",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-153",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "907",
+    "driver": "F",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "16:15",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-154",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "907",
+    "driver": "Y",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "16:15",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-155",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "909",
+    "driver": "FY",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "16:15",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-156",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "980",
+    "driver": "FY",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "18:05",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-157",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "938",
+    "driver": "FY",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "19:25",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-158",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "845",
+    "driver": "F",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "19:15",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-159",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "845",
+    "driver": "Y",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "19:15",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-160",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "AY10",
+    "driver": "F",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "19:15",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-161",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "AY10",
+    "driver": "Y",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "19:15",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-162",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "769",
+    "driver": "FY",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "19:25",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-163",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "416",
+    "driver": "F",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "19:25",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sat-164",
+    "location": "touhy",
+    "date": "2026-06-20",
+    "shift": "Tour 3",
+    "dock": "",
+    "opsx": "",
+    "loader": "416",
+    "driver": "Y",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "19:25",
+    "actualDdt": "",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-165",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 1",
+    "dock": "8",
+    "opsx": "",
+    "loader": "John B",
+    "driver": "",
+    "truck": "6418",
+    "flights": [
+      {
+        "flight": "2666",
+        "category": "x"
+      },
+      {
+        "flight": "2310",
+        "category": "x"
+      },
+      {
+        "flight": "1269",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "02:45",
+    "actualDdt": "03:32",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-166",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 1",
+    "dock": "7",
+    "opsx": "",
+    "loader": "John B",
+    "driver": "",
+    "truck": "7599",
+    "flights": [
+      {
+        "flight": "1939",
+        "category": "x"
+      },
+      {
+        "flight": "2295",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "02:45",
+    "actualDdt": "03:03",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-167",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 1",
+    "dock": "15",
+    "opsx": "",
+    "loader": "Ibrahim",
+    "driver": "",
+    "truck": "7003",
+    "flights": [
+      {
+        "flight": "2120",
+        "category": "x"
+      },
+      {
+        "flight": "574",
+        "category": "x"
+      },
+      {
+        "flight": "2811",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "03:47",
+    "actualDdt": "04:17",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-168",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 1",
+    "dock": "9",
+    "opsx": "",
+    "loader": "Derrick",
+    "driver": "",
+    "truck": "7604",
+    "flights": [
+      {
+        "flight": "2806",
+        "category": "x"
+      },
+      {
+        "flight": "2622",
+        "category": "x"
+      },
+      {
+        "flight": "2823",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "03:45",
+    "actualDdt": "03:35",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-169",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 1",
+    "dock": "10",
+    "opsx": "",
+    "loader": "Syl",
+    "driver": "",
+    "truck": "7607",
+    "flights": [
+      {
+        "flight": "AS 715",
+        "category": "x"
+      },
+      {
+        "flight": "AS 1470",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "03:45",
+    "actualDdt": "03:36",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-170",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 1",
+    "dock": "17",
+    "opsx": "",
+    "loader": "Jamell",
+    "driver": "",
+    "truck": "4798",
+    "flights": [
+      {
+        "flight": "1186",
+        "category": "x"
+      },
+      {
+        "flight": "1657",
+        "category": "x"
+      },
+      {
+        "flight": "2795",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "03:50",
+    "actualDdt": "03:49",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-171",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 1",
+    "dock": "27",
+    "opsx": "",
+    "loader": "Syl",
+    "driver": "",
+    "truck": "O876",
+    "flights": [
+      {
+        "flight": "F9 44",
+        "category": "x"
+      },
+      {
+        "flight": "F9 2145",
+        "category": "x"
+      },
+      {
+        "flight": "F9 2205",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "03:45",
+    "actualDdt": "03:00",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-172",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 1",
+    "dock": "11",
+    "opsx": "",
+    "loader": "Derrick",
+    "driver": "",
+    "truck": "5711",
+    "flights": [
+      {
+        "flight": "1077",
+        "category": "x"
+      },
+      {
+        "flight": "1799",
+        "category": "x"
+      },
+      {
+        "flight": "2232",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "03:45",
+    "actualDdt": "04:35",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "waiting for ACTS to finish checking",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-173",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 1",
+    "dock": "13",
+    "opsx": "",
+    "loader": "Ibrahim",
+    "driver": "",
+    "truck": "7595",
+    "flights": [
+      {
+        "flight": "1627",
+        "category": "x"
+      },
+      {
+        "flight": "1689",
+        "category": "x"
+      },
+      {
+        "flight": "1285",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "03:45",
+    "actualDdt": "03:33",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-174",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 1",
+    "dock": "23",
+    "opsx": "",
+    "loader": "Thaer",
+    "driver": "",
+    "truck": "7592",
+    "flights": [
+      {
+        "flight": "2175",
+        "category": "x"
+      },
+      {
+        "flight": "1336",
+        "category": "x"
+      },
+      {
+        "flight": "539",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "04:45",
+    "actualDdt": "04:20",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-175",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 1",
+    "dock": "25",
+    "opsx": "",
+    "loader": "Jorge",
+    "driver": "",
+    "truck": "4681",
+    "flights": [
+      {
+        "flight": "482",
+        "category": "x"
+      },
+      {
+        "flight": "2247",
+        "category": "x"
+      },
+      {
+        "flight": "1150",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "04:45",
+    "actualDdt": "04:23",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-176",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 1",
+    "dock": "21",
+    "opsx": "",
+    "loader": "Adonias",
+    "driver": "",
+    "truck": "7596",
+    "flights": [
+      {
+        "flight": "1421",
+        "category": "x"
+      },
+      {
+        "flight": "2034",
+        "category": "x"
+      },
+      {
+        "flight": "2736",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "04:45",
+    "actualDdt": "04:10",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-177",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 1",
+    "dock": "19",
+    "opsx": "",
+    "loader": "Jamell",
+    "driver": "",
+    "truck": "7602",
+    "flights": [
+      {
+        "flight": "246",
+        "category": "x"
+      },
+      {
+        "flight": "2300",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "03:58",
+    "actualDdt": "03:22",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-178",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 1",
+    "dock": "12",
+    "opsx": "",
+    "loader": "Airion",
+    "driver": "",
+    "truck": "7989",
+    "flights": [
+      {
+        "flight": "341",
+        "category": "x"
+      },
+      {
+        "flight": "1116",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "04:45",
+    "actualDdt": "03:33",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-179",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 1",
+    "dock": "14",
+    "opsx": "",
+    "loader": "Airion",
+    "driver": "",
+    "truck": "7610",
+    "flights": [
+      {
+        "flight": "2361",
+        "category": "x"
+      },
+      {
+        "flight": "1217",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "04:45",
+    "actualDdt": "04:26",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-180",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 1",
+    "dock": "16",
+    "opsx": "",
+    "loader": "Charaf",
+    "driver": "",
+    "truck": "4683",
+    "flights": [
+      {
+        "flight": "1358",
+        "category": "x"
+      },
+      {
+        "flight": "1231",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "04:45",
+    "actualDdt": "04:27",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-181",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 1",
+    "dock": "22",
+    "opsx": "",
+    "loader": "Thaer",
+    "driver": "",
+    "truck": "7612",
+    "flights": [
+      {
+        "flight": "2428",
+        "category": "x"
+      },
+      {
+        "flight": "563",
+        "category": "x"
+      },
+      {
+        "flight": "3931",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "04:45",
+    "actualDdt": "05:02",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "flight added 3931",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-182",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 1",
+    "dock": "18",
+    "opsx": "",
+    "loader": "Charaf",
+    "driver": "",
+    "truck": "1809",
+    "flights": [
+      {
+        "flight": "1740",
+        "category": "x"
+      },
+      {
+        "flight": "2038",
+        "category": "x"
+      },
+      {
+        "flight": "1488",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "04:50",
+    "actualDdt": "04:28",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-183",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 1",
+    "dock": "20",
+    "opsx": "",
+    "loader": "Adonias",
+    "driver": "",
+    "truck": "7620",
+    "flights": [
+      {
+        "flight": "2609",
+        "category": "x"
+      },
+      {
+        "flight": "1076",
+        "category": "x"
+      },
+      {
+        "flight": "1262",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "04:55",
+    "actualDdt": "04:36",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-184",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 1",
+    "dock": "24",
+    "opsx": "",
+    "loader": "Jorge",
+    "driver": "",
+    "truck": "7613",
+    "flights": [
+      {
+        "flight": "2326",
+        "category": "x"
+      },
+      {
+        "flight": "2092",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "05:15",
+    "actualDdt": "05:04",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-185",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "9",
+    "opsx": "",
+    "loader": "John B",
+    "driver": "",
+    "truck": "O922",
+    "flights": [
+      {
+        "flight": "UA 1705",
+        "category": "x"
+      },
+      {
+        "flight": "UA 1778",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "05:45",
+    "actualDdt": "04:36",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-186",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "15",
+    "opsx": "",
+    "loader": "Jamell",
+    "driver": "",
+    "truck": "7597",
+    "flights": [
+      {
+        "flight": "UA 2431",
+        "category": "x"
+      },
+      {
+        "flight": "UA 2301",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "06:25",
+    "actualDdt": "05:24",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-187",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "13",
+    "opsx": "",
+    "loader": "Syl",
+    "driver": "",
+    "truck": "1805",
+    "flights": [
+      {
+        "flight": "CM  236",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "06:30",
+    "actualDdt": "04:56",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-188",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "22",
+    "opsx": "",
+    "loader": "Airion",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "UA 1996",
+        "category": "x"
+      },
+      {
+        "flight": "UA 2814",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "06:34",
+    "actualDdt": "06:39",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-189",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "13",
+    "opsx": "",
+    "loader": "Mario",
+    "driver": "",
+    "truck": "8029",
+    "flights": [
+      {
+        "flight": "UA  581",
+        "category": "x"
+      },
+      {
+        "flight": "UA  660",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "06:36",
+    "actualDdt": "06:40",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-190",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "15",
+    "opsx": "",
+    "loader": "Jamell",
+    "driver": "",
+    "truck": "7600",
+    "flights": [
+      {
+        "flight": "UA 2610",
+        "category": "x"
+      },
+      {
+        "flight": "UA 2728",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "06:31",
+    "actualDdt": "06:19",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-191",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "12",
+    "opsx": "",
+    "loader": "Derrick",
+    "driver": "",
+    "truck": "9449",
+    "flights": [
+      {
+        "flight": "UA 2847",
+        "category": "x"
+      },
+      {
+        "flight": "UA 1111",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "06:45",
+    "actualDdt": "05:43",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-192",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "14",
+    "opsx": "",
+    "loader": "Syl",
+    "driver": "",
+    "truck": "7621",
+    "flights": [
+      {
+        "flight": "AS  587",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "06:45",
+    "actualDdt": "05:20",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-193",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "29",
+    "opsx": "",
+    "loader": "Taylor",
+    "driver": "",
+    "truck": "1177",
+    "flights": [
+      {
+        "flight": "UA 2099",
+        "category": "x"
+      },
+      {
+        "flight": "UA 2483",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "06:30",
+    "actualDdt": "05:44",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-194",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "17",
+    "opsx": "",
+    "loader": "Adonias",
+    "driver": "",
+    "truck": "7163",
+    "flights": [
+      {
+        "flight": "UA 1180",
+        "category": "x"
+      },
+      {
+        "flight": "UA 2137",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "06:38",
+    "actualDdt": "06:01",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-195",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "19",
+    "opsx": "",
+    "loader": "Thaer",
+    "driver": "",
+    "truck": "9448",
+    "flights": [
+      {
+        "flight": "UA  764",
+        "category": "x"
+      },
+      {
+        "flight": "UA  840",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "06:25",
+    "actualDdt": "06:06",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-196",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "26",
+    "opsx": "",
+    "loader": "Charaf",
+    "driver": "",
+    "truck": "5008",
+    "flights": [
+      {
+        "flight": "UA 2805",
+        "category": "x"
+      },
+      {
+        "flight": "UA 2145",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "06:45",
+    "actualDdt": "06:41",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-197",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "21",
+    "opsx": "",
+    "loader": "Airion",
+    "driver": "",
+    "truck": "9442",
+    "flights": [
+      {
+        "flight": "UA 2277",
+        "category": "x"
+      },
+      {
+        "flight": "UA 1688",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "06:49",
+    "actualDdt": "05:11",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-198",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "24",
+    "opsx": "",
+    "loader": "Jorge",
+    "driver": "",
+    "truck": "6494",
+    "flights": [
+      {
+        "flight": "UA 1972",
+        "category": "x"
+      },
+      {
+        "flight": "UA 1994",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "06:45",
+    "actualDdt": "06:12",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-199",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "19",
+    "opsx": "",
+    "loader": "Thaer",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "UA  224",
+        "category": "x"
+      },
+      {
+        "flight": "UA  359",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "06:45",
+    "actualDdt": "07:08",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-200",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "23",
+    "opsx": "",
+    "loader": "Mario",
+    "driver": "",
+    "truck": "7609",
+    "flights": [
+      {
+        "flight": "UA 2333",
+        "category": "x"
+      },
+      {
+        "flight": "UA  490",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "07:04",
+    "actualDdt": "05:15",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-201",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "25",
+    "opsx": "",
+    "loader": "Charaf",
+    "driver": "",
+    "truck": "9447",
+    "flights": [
+      {
+        "flight": "UA 2775",
+        "category": "x"
+      },
+      {
+        "flight": "UA 2225",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "06:45",
+    "actualDdt": "06:17",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-202",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "16",
+    "opsx": "",
+    "loader": "Jamell",
+    "driver": "",
+    "truck": "4684",
+    "flights": [
+      {
+        "flight": "UA 1292",
+        "category": "x"
+      },
+      {
+        "flight": "UA 1082",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "06:50",
+    "actualDdt": "05:50",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-203",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "21",
+    "opsx": "",
+    "loader": "Airion",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "UA 1117",
+        "category": "x"
+      },
+      {
+        "flight": "UA 1674",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "06:51",
+    "actualDdt": "06:57",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-204",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "27",
+    "opsx": "",
+    "loader": "Ibrahim",
+    "driver": "",
+    "truck": "9446",
+    "flights": [
+      {
+        "flight": "UA 1484",
+        "category": "x"
+      },
+      {
+        "flight": "UA  530",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "06:59",
+    "actualDdt": "05:14",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-205",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "10",
+    "opsx": "",
+    "loader": "John B",
+    "driver": "",
+    "truck": "9453",
+    "flights": [
+      {
+        "flight": "UA  466",
+        "category": "x"
+      },
+      {
+        "flight": "UA  202",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "06:52",
+    "actualDdt": "05:29",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-206",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "17",
+    "opsx": "",
+    "loader": "Adonias",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "UA 1008",
+        "category": "x"
+      },
+      {
+        "flight": "UA  307",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "06:55",
+    "actualDdt": "06:57",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-207",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "28",
+    "opsx": "",
+    "loader": "Alvin",
+    "driver": "",
+    "truck": "6801",
+    "flights": [
+      {
+        "flight": "UA 2044",
+        "category": "x"
+      },
+      {
+        "flight": "UA 2797",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "06:50",
+    "actualDdt": "06:42",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-208",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "20",
+    "opsx": "",
+    "loader": "Thaer",
+    "driver": "",
+    "truck": "9441",
+    "flights": [
+      {
+        "flight": "UA 1270",
+        "category": "x"
+      },
+      {
+        "flight": "UA  729",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "06:50",
+    "actualDdt": "06:22",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-209",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "9",
+    "opsx": "",
+    "loader": "Peter",
+    "driver": "",
+    "truck": "7599",
+    "flights": [
+      {
+        "flight": "UA  535",
+        "category": "x"
+      },
+      {
+        "flight": "UA 1643",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "06:51",
+    "actualDdt": "06:48",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-210",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 2",
+    "dock": "28",
+    "opsx": "",
+    "loader": "Alvin",
+    "driver": "",
+    "truck": "3073",
+    "flights": [
+      {
+        "flight": "UA  528",
+        "category": "x"
+      },
+      {
+        "flight": "UA 1198",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "06:57",
+    "actualDdt": "06:04",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-211",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "23",
+    "opsx": "",
+    "loader": "Alvin",
+    "driver": "",
+    "truck": "4796",
+    "flights": [
+      {
+        "flight": "UA  669",
+        "category": "x"
+      },
+      {
+        "flight": "UA 1793",
+        "category": "x"
+      },
+      {
+        "flight": "UA 2668",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:00",
+    "actualDdt": "07:50",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-212",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "25",
+    "opsx": "",
+    "loader": "Sandeep",
+    "driver": "",
+    "truck": "9451",
+    "flights": [
+      {
+        "flight": "1381",
+        "category": "x"
+      },
+      {
+        "flight": "2427",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:10",
+    "actualDdt": "07:55",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "tour sheet says 8:00 ddt",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-213",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "27",
+    "opsx": "",
+    "loader": "Ibrahim",
+    "driver": "",
+    "truck": "9452",
+    "flights": [
+      {
+        "flight": "UA  567",
+        "category": "x"
+      },
+      {
+        "flight": "UA 1377",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:10",
+    "actualDdt": "07:29",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-214",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "12",
+    "opsx": "",
+    "loader": "Peter",
+    "driver": "",
+    "truck": "7605",
+    "flights": [
+      {
+        "flight": "UA  215",
+        "category": "x"
+      },
+      {
+        "flight": "UA 1044",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:10",
+    "actualDdt": "08:17",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-215",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "10",
+    "opsx": "",
+    "loader": "Simon",
+    "driver": "",
+    "truck": "7003",
+    "flights": [
+      {
+        "flight": "UA 1606",
+        "category": "x"
+      },
+      {
+        "flight": "UA 1834",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:10",
+    "actualDdt": "07:51",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-216",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "14",
+    "opsx": "",
+    "loader": "John B",
+    "driver": "",
+    "truck": "7607",
+    "flights": [
+      {
+        "flight": "UA  441",
+        "category": "x"
+      },
+      {
+        "flight": "UA 1733",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:14",
+    "actualDdt": "07:21",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-217",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "16",
+    "opsx": "",
+    "loader": "Airion",
+    "driver": "",
+    "truck": "O885",
+    "flights": [
+      {
+        "flight": "UA 2684",
+        "category": "x"
+      },
+      {
+        "flight": "UA 2342",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:14",
+    "actualDdt": "07:44",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-218",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "18",
+    "opsx": "",
+    "loader": "Adonias",
+    "driver": "",
+    "truck": "3073",
+    "flights": [
+      {
+        "flight": "UA 2389",
+        "category": "x"
+      },
+      {
+        "flight": "UA 1869",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:14",
+    "actualDdt": "07:47",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-219",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "20",
+    "opsx": "",
+    "loader": "Thaer",
+    "driver": "",
+    "truck": "7596",
+    "flights": [
+      {
+        "flight": "UA  723",
+        "category": "x"
+      },
+      {
+        "flight": "UA 2008",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:15",
+    "actualDdt": "07:44",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-220",
+    "location": "touhy",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "22",
+    "opsx": "",
+    "loader": "Derrick",
+    "driver": "",
+    "truck": "6492",
+    "flights": [
+      {
+        "flight": "UA 2401",
+        "category": "x"
+      },
+      {
+        "flight": "UA 2616",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:17",
+    "actualDdt": "07:45",
+    "scheduledKat": "",
+    "actualKat": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  }
+]
