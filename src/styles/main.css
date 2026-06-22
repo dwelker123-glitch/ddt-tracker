@@ -49,6 +49,55 @@ button {
   cursor: pointer;
 }
 
+.password-screen {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  padding: 24px;
+  background:
+    linear-gradient(135deg, rgb(15 159 133 / 10%), transparent 42%),
+    var(--bg);
+}
+
+.password-card {
+  display: grid;
+  gap: 14px;
+  width: min(100%, 390px);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  padding: 28px;
+}
+
+.password-mark {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  background: var(--surface-2);
+  color: var(--accent-strong);
+}
+
+.password-card h1 {
+  margin: 0;
+  font-size: 26px;
+  line-height: 1.15;
+}
+
+.password-card p {
+  margin: -6px 0 4px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.password-error {
+  color: var(--danger);
+  font-size: 13px;
+  font-weight: 700;
+}
+
 .app-shell {
   display: grid;
   grid-template-columns: 248px 1fr;
