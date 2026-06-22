@@ -4,7 +4,7 @@ import { AppShell } from "./components/AppShell";
 import { PasswordGate } from "./components/PasswordGate";
 import { AdminPage } from "./pages/AdminPage";
 import { EntryPage } from "./pages/EntryPage";
-import { HistoricalTrendsPage } from "./pages/HistoricalTrendsPage";
+import { DashboardPage } from "./pages/HistoricalTrendsPage";
 import { ImportExportPage } from "./pages/ImportExportPage";
 import { ScheduleUploadPage } from "./pages/ScheduleUploadPage";
 import { WeeklySummaryPage } from "./pages/WeeklySummaryPage";
@@ -27,7 +27,7 @@ export default function App() {
       touhy: "Touhy DDT Entry",
       devon: "Devon DDT Entry",
       weekly: "Weekly Summary",
-      trends: "Historical Trends",
+      dashboard: "Dashboard",
       schedule: "Management Schedule Upload",
       "import-export": "Import / Export",
       admin: "Administration",
@@ -77,7 +77,7 @@ export default function App() {
           />
         )}
         {page === "weekly" && <WeeklySummaryPage records={records} />}
-        {page === "trends" && <HistoricalTrendsPage records={records} />}
+        {page === "dashboard" && <DashboardPage records={records} />}
         {page === "schedule" && <ScheduleUploadPage records={records} />}
         {page === "import-export" && <ImportExportPage records={records} onRecordsChange={refreshRecords} />}
         {page === "admin" && <AdminPage onRecordsChange={refreshRecords} />}

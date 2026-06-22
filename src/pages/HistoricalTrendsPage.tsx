@@ -5,7 +5,7 @@ import { locationLabel } from "../data/locations";
 import { getSnapshots } from "../services/storage";
 import type { DdtRecord } from "../types";
 
-export function HistoricalTrendsPage({ records }: { records: DdtRecord[] }) {
+export function DashboardPage({ records }: { records: DdtRecord[] }) {
   const snapshots = getSnapshots();
   const summary = summarize(records);
   return (

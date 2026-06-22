@@ -91,7 +91,7 @@ export type PageId =
   | "touhy"
   | "devon"
   | "weekly"
-  | "trends"
+  | "dashboard"
   | "schedule"
   | "import-export"
   | "admin";
