@@ -659,7 +659,7 @@ td[data-status="Late"] {
 
 .form-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(150px, 1fr));
+  grid-template-columns: repeat(8, minmax(110px, 1fr));
   gap: 8px 10px;
 }
 
@@ -705,7 +705,7 @@ textarea {
 
 .compact-calcs,
 .wide-field {
-  grid-column: span 2;
+  grid-column: span 4;
 }
 
 .notes-field,
@@ -803,7 +803,12 @@ textarea {
   }
 
   .form-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .compact-calcs,
+  .wide-field {
+    grid-column: span 2;
   }
 }
 
