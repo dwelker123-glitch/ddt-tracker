@@ -1,5 +1,6 @@
 import seedRecords from "../data/seedRecords.json";
 import seedSchedules from "../data/seedSchedules.json";
+import seedSnapshots from "../data/seedSnapshots.json";
 import { trackerPageForLocation } from "../data/locations";
 import { normalizeLocation } from "./importExport";
 import type {
@@ -114,40 +115,50 @@ export function upsertRecord(record: DdtInputRecord) {
 }
 
 export function getSnapshots(): HistoricalSnapshot[] {
-  const snapshots = readStorage<unknown>(snapshotsKey, []);
-  if (!Array.isArray(snapshots)) {
+  const savedSnapshots = readStorage<unknown>(snapshotsKey, []);
+  if (!Array.isArray(savedSnapshots)) {
     debugLog.warn("Historical snapshot data was malformed; using empty history.");
-    return [];
   }
-  return snapshots.flatMap((snapshot) => {
-    if (!snapshot || typeof snapshot !== "object" || !("records" in snapshot)) {
-      debugLog.warn("Rejected malformed historical snapshot.");
-      return [];
+  const snapshots = [
+    ...(Array.isArray(savedSnapshots) ? savedSnapshots : []),
+    ...seedSnapshots,
+  ];
+  const byId = new Map<string, HistoricalSnapshot>();
+  for (const snapshot of snapshots) {
+    const normalized = normalizeSnapshot(snapshot);
+    if (normalized && !byId.has(normalized.id)) {
+      byId.set(normalized.id, normalized);
     }
-    const rawSnapshot = snapshot as Partial<HistoricalSnapshot>;
-    const location = normalizeLocation(rawSnapshot.location);
-    const date = String(rawSnapshot.date ?? "");
-    const records = Array.isArray(rawSnapshot.records)
-      ? rawSnapshot.records.flatMap((record) => {
-          const normalized = normalizeRecord(record);
-          return normalized ? [withMetrics(normalized)] : [];
-        })
-      : [];
-    if (!date) {
-      debugLog.warn("Rejected historical snapshot missing a date.");
-      return [];
-    }
-    return [
-      {
-        id: String(rawSnapshot.id ?? `${location}-${date}`),
-        location,
-        date,
-        closedAt: String(rawSnapshot.closedAt ?? ""),
-        records,
-        summary: summarize(records),
-      },
-    ];
-  });
+  }
+  return Array.from(byId.values()).sort((a, b) => b.date.localeCompare(a.date));
+}
+
+function normalizeSnapshot(snapshot: unknown): HistoricalSnapshot | null {
+  if (!snapshot || typeof snapshot !== "object" || !("records" in snapshot)) {
+    debugLog.warn("Rejected malformed historical snapshot.");
+    return null;
+  }
+  const rawSnapshot = snapshot as Partial<HistoricalSnapshot>;
+  const location = normalizeLocation(rawSnapshot.location);
+  const date = String(rawSnapshot.date ?? "");
+  const records = Array.isArray(rawSnapshot.records)
+    ? rawSnapshot.records.flatMap((record) => {
+        const normalized = normalizeRecord(record);
+        return normalized ? [withMetrics(normalized)] : [];
+      })
+    : [];
+  if (!date) {
+    debugLog.warn("Rejected historical snapshot missing a date.");
+    return null;
+  }
+  return {
+    id: String(rawSnapshot.id ?? `${location}-${date}`),
+    location,
+    date,
+    closedAt: String(rawSnapshot.closedAt ?? ""),
+    records,
+    summary: summarize(records),
+  };
 }
 
 export function closeDay(location: DdtInputRecord["location"], date: string) {

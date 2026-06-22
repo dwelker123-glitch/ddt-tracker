@@ -67,6 +67,12 @@ describe("storage safeguards and persistence", () => {
     expect(getInputRecords().length).toBeGreaterThan(0);
   });
 
+  it("loads seeded historical snapshots when no local snapshots exist", () => {
+    const snapshots = getSnapshots();
+    expect(snapshots.some((snapshot) => snapshot.date === "2026-06-13")).toBe(true);
+    expect(snapshots.find((snapshot) => snapshot.date === "2026-06-19")?.records.length).toBeGreaterThan(0);
+  });
+
   it("ignores legacy OPSX values when normalizing records and snapshots", () => {
     const record = {
       ...makeBlankRecord("Touhy"),

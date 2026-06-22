@@ -7,18 +7,19 @@ import type { DdtRecord } from "../types";
 
 export function DashboardPage({ records }: { records: DdtRecord[] }) {
   const snapshots = getSnapshots();
-  const summary = summarize(records);
+  const dashboardRecords = [...snapshots.flatMap((snapshot) => snapshot.records), ...records];
+  const summary = summarize(dashboardRecords);
   return (
     <div className="stack">
       <KpiStrip summary={summary} />
       <section className="analytics-grid">
         <div className="panel">
           <div className="panel-heading"><h2>DDT Compliance</h2></div>
-          <ComplianceChart data={complianceByDate(records)} />
+          <ComplianceChart data={complianceByDate(dashboardRecords)} />
         </div>
         <div className="panel">
           <div className="panel-heading"><h2>Top Delay Reasons</h2></div>
-          <DelayChart data={delayReasons(records)} />
+          <DelayChart data={delayReasons(dashboardRecords)} />
         </div>
       </section>
       <section className="panel">
