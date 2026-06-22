@@ -26,9 +26,10 @@ describe("App navigation and layout", () => {
     expect(tray.compareDocumentPosition(board as Node) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
   });
 
-  it("keeps OPSX out of the user interface", () => {
+  it("keeps removed workbook columns out of the user interface", () => {
     render(<App />);
     expect(screen.queryByText(/OPSX/i)).not.toBeInTheDocument();
+    expect(screen.queryByText(/KAT/i)).not.toBeInTheDocument();
   });
 
   it("supports dark and light mode from the header toggle", async () => {
@@ -61,9 +62,8 @@ describe("App navigation and layout", () => {
           { flight: "", category: "" },
         ],
         scheduledDdt: "08:10",
+        sealTime: "08:15",
         actualDdt: "08:20",
-        scheduledKat: "",
-        actualKat: "",
         delayReason: "Gate hold",
         notes: "Search navigation test",
         operationalComments: "",
@@ -99,9 +99,8 @@ describe("App navigation and layout", () => {
         { flight: "", category: "" },
       ],
       scheduledDdt: "09:00",
+      sealTime: "09:10",
       actualDdt: "09:18",
-      scheduledKat: "",
-      actualKat: "",
       delayReason: "Late inbound",
       notes: "Historical lookup test",
       operationalComments: "",
@@ -125,7 +124,7 @@ describe("App navigation and layout", () => {
 
     expect(await screen.findByText("HX 789")).toBeInTheDocument();
     expect(screen.getByText(/2026-06-20 · Touhy · Dock T12/)).toBeInTheDocument();
-    expect(screen.getByText(/09:00 \/ 09:18/)).toBeInTheDocument();
+    expect(screen.getByText(/09:00 \/ 09:10 \/ 09:18/)).toBeInTheDocument();
     expect(screen.getByText(/Late inbound/)).toBeInTheDocument();
     expect(screen.getByText(/Historical lookup test/)).toBeInTheDocument();
   });

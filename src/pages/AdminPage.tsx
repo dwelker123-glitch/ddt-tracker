@@ -18,7 +18,7 @@ export function AdminPage({ onRecordsChange }: { onRecordsChange: () => void }) 
           </div>
         </div>
         <div className="admin-list">
-          <div><strong>Protected calculations</strong><span>DDT variance, KAT variance, status, compliance, rolling summaries</span></div>
+          <div><strong>Protected calculations</strong><span>DDT variance, status, compliance, rolling summaries</span></div>
           <div><strong>Storage mode</strong><span>Local JSON, shaped for future database migration</span></div>
           <div><strong>Historical path</strong><span>/data/history/YYYY/MM/DD/</span></div>
         </div>

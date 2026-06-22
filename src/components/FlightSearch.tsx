@@ -27,6 +27,7 @@ function searchableText(result: FlightSearchResult) {
       record.location,
       record.dock,
       record.scheduledDdt,
+      record.sealTime,
       record.actualDdt,
       record.metrics.ddtVarianceLabel,
       record.driver,
@@ -106,7 +107,9 @@ export function FlightSearch({ records, onSelect }: Props) {
                   </span>
                   <span>
                     <b>DDT</b>
-                    <small>{record.scheduledDdt || "N/A"} / {record.actualDdt || "N/A"}</small>
+                    <small>
+                      {record.scheduledDdt || "N/A"} / {record.sealTime || "N/A"} / {record.actualDdt || "N/A"}
+                    </small>
                   </span>
                   <span>
                     <b>Variance</b>

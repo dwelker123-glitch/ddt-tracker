@@ -42,13 +42,11 @@ export function RecordEditor({ record, onSave, error }: Props) {
         <label>Driver<input {...register("driver")} disabled={Boolean(record.closedAt)} /></label>
         <label>Truck<input {...register("truck")} disabled={Boolean(record.closedAt)} /></label>
         <label>Scheduled DDT<input {...register("scheduledDdt")} disabled={Boolean(record.closedAt)} /></label>
+        <label>Seal Time<input {...register("sealTime")} disabled={Boolean(record.closedAt)} /></label>
         <label>Actual DDT<input {...register("actualDdt")} disabled={Boolean(record.closedAt)} /></label>
-        <label>Scheduled KAT<input {...register("scheduledKat")} disabled={Boolean(record.closedAt)} /></label>
-        <label>Actual KAT<input {...register("actualKat")} disabled={Boolean(record.closedAt)} /></label>
         <label>Delay reason<input {...register("delayReason")} disabled={Boolean(record.closedAt)} /></label>
         <div className="readonly-grid compact-calcs" aria-label="System controlled calculated values">
           <div><span>DDT variance</span><strong>{record.metrics.ddtVarianceLabel}</strong></div>
-          <div><span>KAT variance</span><strong>{record.metrics.katVarianceLabel}</strong></div>
           <div><span>On-time</span><strong>{record.metrics.status}</strong></div>
         </div>
         <label className="wide-field notes-field">

@@ -80,22 +80,7 @@ def find_index(headers: list[str], predicate) -> int | None:
 
 
 def build_columns(headers: list[str]) -> dict[str, Any]:
-    skd_indices = [index for index, header in enumerate(headers) if "SKD KDT" in header]
     flight_indices = [index for index, header in enumerate(headers) if header == "FLT"]
-    ddt_scheduled = skd_indices[0] if skd_indices else None
-    kat_scheduled = skd_indices[1] if len(skd_indices) > 1 else None
-    ddt_actual = find_index(
-        headers[ddt_scheduled + 1 :] if ddt_scheduled is not None else [],
-        lambda header: header in {"DOCK SEAL", "ACT KDT"},
-    )
-    if ddt_actual is not None and ddt_scheduled is not None:
-        ddt_actual += ddt_scheduled + 1
-    kat_actual = find_index(
-        headers[kat_scheduled + 1 :] if kat_scheduled is not None else [],
-        lambda header: header == "ACT KDT",
-    )
-    if kat_actual is not None and kat_scheduled is not None:
-        kat_actual += kat_scheduled + 1
 
     return {
         "dock": find_index(headers, lambda header: header == "DOCK"),
@@ -103,10 +88,9 @@ def build_columns(headers: list[str]) -> dict[str, Any]:
         "driver": find_index(headers, lambda header: "DRIVER" in header),
         "truck": find_index(headers, lambda header: header == "TRUCK"),
         "flights": flight_indices[:3],
-        "scheduledDdt": ddt_scheduled,
-        "actualDdt": ddt_actual,
-        "scheduledKat": kat_scheduled,
-        "actualKat": kat_actual,
+        "scheduledDdt": 11,
+        "sealTime": 12,
+        "actualDdt": 18,
         "notes": find_index(headers, lambda header: header == "NOTES"),
     }
 
@@ -175,9 +159,8 @@ def extract_records(workbook: dict[str, Any]) -> list[dict[str, Any]]:
                     "truck": cell(row, columns["truck"]),
                     "flights": flights,
                     "scheduledDdt": cell(row, columns["scheduledDdt"]),
+                    "sealTime": cell(row, columns["sealTime"]),
                     "actualDdt": cell(row, columns["actualDdt"]),
-                    "scheduledKat": cell(row, columns["scheduledKat"]),
-                    "actualKat": cell(row, columns["actualKat"]),
                     "delayReason": "",
                     "notes": cell(row, columns["notes"]),
                     "operationalComments": "",

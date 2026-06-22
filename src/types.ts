@@ -21,9 +21,8 @@ export type DdtInputRecord = {
   truck: string;
   flights: FlightLeg[];
   scheduledDdt: string;
+  sealTime: string;
   actualDdt: string;
-  scheduledKat: string;
-  actualKat: string;
   delayReason: string;
   notes: string;
   operationalComments: string;
@@ -34,9 +33,7 @@ export type DdtInputRecord = {
 
 export type CalculatedMetrics = {
   ddtVarianceMinutes: number | null;
-  katVarianceMinutes: number | null;
   ddtVarianceLabel: string;
-  katVarianceLabel: string;
   status: DdtStatus;
   late: boolean;
   onTime: boolean;

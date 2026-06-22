@@ -41,14 +41,11 @@ export function varianceMinutes(scheduled: string, actual: string): number | nul
 
 export function calculateRecord(record: DdtInputRecord): CalculatedMetrics {
   const ddtVarianceMinutes = varianceMinutes(record.scheduledDdt, record.actualDdt);
-  const katVarianceMinutes = varianceMinutes(record.scheduledKat, record.actualKat);
   const status =
     ddtVarianceMinutes === null ? "Incomplete" : ddtVarianceMinutes <= 0 ? "On-time" : "Late";
   return {
     ddtVarianceMinutes,
-    katVarianceMinutes,
     ddtVarianceLabel: formatVariance(ddtVarianceMinutes),
-    katVarianceLabel: formatVariance(katVarianceMinutes),
     status,
     late: status === "Late",
     onTime: status === "On-time",

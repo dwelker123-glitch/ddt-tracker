@@ -26,6 +26,7 @@ export function RecordTable({ records, selectedId, onSelect }: Props) {
     { header: "Flight 2", accessorFn: (row) => row.flights?.[1]?.flight ?? "" },
     { header: "Flight 3", accessorFn: (row) => row.flights?.[2]?.flight ?? "" },
     { header: "Scheduled DDT", accessorKey: "scheduledDdt" },
+    { header: "Seal Time", accessorKey: "sealTime" },
     { header: "Actual DDT", accessorKey: "actualDdt" },
     {
       id: "ddtVariance",
@@ -37,8 +38,6 @@ export function RecordTable({ records, selectedId, onSelect }: Props) {
         </span>
       ),
     },
-    { header: "Scheduled KAT", accessorKey: "scheduledKat" },
-    { header: "Actual KAT", accessorKey: "actualKat" },
     {
       id: "status",
       header: "Status",

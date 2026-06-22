@@ -18,6 +18,8 @@ def to_text(value: Any) -> str:
     if value is None:
         return ""
     if isinstance(value, datetime):
+        if value.year in {1899, 1900}:
+            return value.strftime("%H:%M")
         return value.date().isoformat()
     if isinstance(value, date):
         return value.isoformat()
@@ -81,9 +83,8 @@ def extract_records() -> list[dict[str, Any]]:
                     "truck": truck,
                     "flights": flights,
                     "scheduledDdt": to_text(row[11] if len(row) > 11 else ""),
-                    "actualDdt": to_text(row[12] if len(row) > 12 else ""),
-                    "scheduledKat": to_text(row[17] if len(row) > 17 else ""),
-                    "actualKat": to_text(row[18] if len(row) > 18 else ""),
+                    "sealTime": to_text(row[12] if len(row) > 12 else ""),
+                    "actualDdt": to_text(row[18] if len(row) > 18 else ""),
                     "delayReason": "",
                     "notes": to_text(row[20] if len(row) > 20 else ""),
                     "operationalComments": "",
