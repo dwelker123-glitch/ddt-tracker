@@ -26,7 +26,13 @@ export function RecordEditor({ record, onSave, error }: Props) {
     >
       <div className="panel-heading">
         <h2>Selected Departure</h2>
-        <span>Calculated</span>
+        <div className="editor-heading-actions">
+          <span>Calculated</span>
+          <button className="primary-button compact-save" type="submit" disabled={Boolean(record.closedAt)}>
+            <Save size={15} />
+            Save
+          </button>
+        </div>
       </div>
       <div className="form-grid">
         <label>Date<input type="date" {...register("date")} disabled={Boolean(record.closedAt)} /></label>
@@ -40,22 +46,20 @@ export function RecordEditor({ record, onSave, error }: Props) {
         <label>Scheduled KAT<input {...register("scheduledKat")} disabled={Boolean(record.closedAt)} /></label>
         <label>Actual KAT<input {...register("actualKat")} disabled={Boolean(record.closedAt)} /></label>
         <label>Delay reason<input {...register("delayReason")} disabled={Boolean(record.closedAt)} /></label>
+        <div className="readonly-grid compact-calcs" aria-label="System controlled calculated values">
+          <div><span>DDT variance</span><strong>{record.metrics.ddtVarianceLabel}</strong></div>
+          <div><span>KAT variance</span><strong>{record.metrics.katVarianceLabel}</strong></div>
+          <div><span>On-time</span><strong>{record.metrics.status}</strong></div>
+        </div>
+        <label className="wide-field notes-field">
+          Notes<textarea {...register("notes")} disabled={Boolean(record.closedAt)} />
+        </label>
+        <label className="wide-field comments-field">
+          Operational comments<textarea {...register("operationalComments")} disabled={Boolean(record.closedAt)} />
+        </label>
       </div>
-      <div className="readonly-grid" aria-label="System controlled calculated values">
-        <div><span>DDT variance</span><strong>{record.metrics.ddtVarianceLabel}</strong></div>
-        <div><span>KAT variance</span><strong>{record.metrics.katVarianceLabel}</strong></div>
-        <div><span>On-time</span><strong>{record.metrics.status}</strong></div>
-      </div>
-      <label className="wide-field">Notes<textarea {...register("notes")} disabled={Boolean(record.closedAt)} /></label>
-      <label className="wide-field">
-        Operational comments<textarea {...register("operationalComments")} disabled={Boolean(record.closedAt)} />
-      </label>
       {formState.errors.date && <p className="error-text">Date is required.</p>}
       {error && <p className="error-text">{error}</p>}
-      <button className="primary-button" type="submit" disabled={Boolean(record.closedAt)}>
-        <Save size={16} />
-        Save
-      </button>
     </form>
   );
 }

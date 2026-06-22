@@ -452,6 +452,10 @@ button {
   min-width: 0;
 }
 
+.editor-panel {
+  padding: 14px 16px 12px;
+}
+
 .panel::before,
 .editor-panel::before {
   content: "";
@@ -509,6 +513,17 @@ button {
   color: var(--muted);
   font-size: 12px;
   font-weight: 700;
+}
+
+.editor-heading-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.compact-save {
+  min-height: 30px;
+  padding: 0 10px;
 }
 
 .kpi-strip {
@@ -644,15 +659,15 @@ td[data-status="Late"] {
 
 .form-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(4, minmax(150px, 1fr));
+  gap: 8px 10px;
 }
 
 label {
   display: grid;
-  gap: 5px;
+  gap: 4px;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -664,7 +679,8 @@ select {
   border-radius: 7px;
   background: var(--surface);
   color: var(--text);
-  padding: 9px 10px;
+  min-height: 34px;
+  padding: 6px 9px;
   font-size: 13px;
 }
 
@@ -676,7 +692,7 @@ select:disabled {
 }
 
 textarea {
-  min-height: 66px;
+  min-height: 46px;
   resize: vertical;
 }
 
@@ -684,7 +700,22 @@ textarea {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 8px;
-  margin: 12px 0;
+  margin: 8px 0;
+}
+
+.compact-calcs,
+.wide-field {
+  grid-column: span 2;
+}
+
+.notes-field,
+.comments-field {
+  grid-row: span 1;
+}
+
+.compact-calcs {
+  align-self: end;
+  margin: 0;
 }
 
 .readonly-grid div,
@@ -693,7 +724,7 @@ textarea {
   border: 1px solid var(--border);
   border-radius: 7px;
   background: var(--surface-2);
-  padding: 11px;
+  padding: 8px 10px;
 }
 
 .readonly-grid span,
@@ -708,12 +739,12 @@ textarea {
 .readonly-grid strong,
 .summary-card strong {
   display: block;
-  margin-top: 5px;
-  font-size: 16px;
+  margin-top: 3px;
+  font-size: 15px;
 }
 
 .wide-field {
-  margin-top: 10px;
+  margin-top: 0;
 }
 
 .error-text {
@@ -770,6 +801,10 @@ textarea {
   .analytics-grid {
     grid-template-columns: 1fr;
   }
+
+  .form-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 760px) {
@@ -821,6 +856,11 @@ textarea {
   .readonly-grid,
   .filter-bar {
     grid-template-columns: 1fr;
+  }
+
+  .compact-calcs,
+  .wide-field {
+    grid-column: span 1;
   }
 
   .nav-item span {
