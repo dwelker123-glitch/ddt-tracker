@@ -33,7 +33,7 @@ export function PasswordGate({ children }: Props) {
         <div className="password-mark">
           <LockKeyhole size={24} />
         </div>
-        <h1>DDT Tracker</h1>
+        <h1>DDT Tracker v0.5</h1>
         <p>Employee access required.</p>
         <div className="password-field">
           <label htmlFor="employee-password">Password</label>

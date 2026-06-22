@@ -1,4 +1,12 @@
-import { flexRender, getCoreRowModel, useReactTable, type ColumnDef } from "@tanstack/react-table";
+import { useState } from "react";
+import {
+  flexRender,
+  getCoreRowModel,
+  getSortedRowModel,
+  useReactTable,
+  type ColumnDef,
+  type SortingState,
+} from "@tanstack/react-table";
 import type { DdtRecord } from "../types";
 
 type Props = {
@@ -8,9 +16,9 @@ type Props = {
 };
 
 export function RecordTable({ records, selectedId, onSelect }: Props) {
+  const [sorting, setSorting] = useState<SortingState>([{ id: "scheduledDdt", desc: false }]);
   const columns: ColumnDef<DdtRecord>[] = [
     { header: "Dock", accessorKey: "dock" },
-    { header: "OPSX", accessorKey: "opsx" },
     { header: "Loader", accessorKey: "loader" },
     { header: "Driver", accessorKey: "driver" },
     { header: "Truck", accessorKey: "truck" },
@@ -19,12 +27,37 @@ export function RecordTable({ records, selectedId, onSelect }: Props) {
     { header: "Flight 3", accessorFn: (row) => row.flights?.[2]?.flight ?? "" },
     { header: "Scheduled DDT", accessorKey: "scheduledDdt" },
     { header: "Actual DDT", accessorKey: "actualDdt" },
-    { header: "DDT Var", accessorFn: (row) => row.metrics.ddtVarianceLabel },
+    {
+      id: "ddtVariance",
+      header: "DDT Var",
+      accessorFn: (row) => row.metrics.ddtVarianceMinutes ?? -999,
+      cell: ({ row }) => (
+        <span className={row.original.metrics.late ? "variance-pill late" : "variance-pill"}>
+          {row.original.metrics.ddtVarianceLabel}
+        </span>
+      ),
+    },
     { header: "Scheduled KAT", accessorKey: "scheduledKat" },
     { header: "Actual KAT", accessorKey: "actualKat" },
-    { header: "Status", accessorFn: (row) => row.metrics.status },
+    {
+      id: "status",
+      header: "Status",
+      accessorFn: (row) => row.metrics.status,
+      cell: ({ row }) => (
+        <span className={`status-pill ${row.original.metrics.status.toLowerCase().replace("-", "")}`}>
+          {row.original.metrics.status}
+        </span>
+      ),
+    },
   ];
-  const table = useReactTable({ data: records, columns, getCoreRowModel: getCoreRowModel() });
+  const table = useReactTable({
+    data: records,
+    columns,
+    state: { sorting },
+    onSortingChange: setSorting,
+    getCoreRowModel: getCoreRowModel(),
+    getSortedRowModel: getSortedRowModel(),
+  });
   return (
     <div className="table-frame">
       <table className="data-table">
@@ -33,7 +66,17 @@ export function RecordTable({ records, selectedId, onSelect }: Props) {
             <tr key={headerGroup.id}>
               {headerGroup.headers.map((header) => (
                 <th key={header.id}>
-                  {flexRender(header.column.columnDef.header, header.getContext())}
+                  <button
+                    type="button"
+                    className="sort-header"
+                    onClick={header.column.getToggleSortingHandler()}
+                    disabled={!header.column.getCanSort()}
+                  >
+                    {flexRender(header.column.columnDef.header, header.getContext())}
+                    <span aria-hidden="true">
+                      {header.column.getIsSorted() === "asc" ? "▲" : header.column.getIsSorted() === "desc" ? "▼" : ""}
+                    </span>
+                  </button>
                 </th>
               ))}
             </tr>

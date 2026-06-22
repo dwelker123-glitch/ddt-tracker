@@ -7,6 +7,7 @@ import {
   Settings,
   Upload,
 } from "lucide-react";
+import { FlightSearch } from "./FlightSearch";
 import { summarize } from "../services/calculations";
 import type { DdtRecord, PageId } from "../types";
 
@@ -27,16 +28,17 @@ type Props = {
   toolbar: React.ReactNode;
   children: React.ReactNode;
   onNavigate: (page: PageId) => void;
+  onSelectRecord: (record: DdtRecord) => void;
 };
 
-export function AppShell({ page, title, records, toolbar, children, onNavigate }: Props) {
+export function AppShell({ page, title, records, toolbar, children, onNavigate, onSelectRecord }: Props) {
   const summary = summarize(records);
   return (
     <div className="app-shell">
       <aside className="sidebar">
         <div className="brand">
           <Database size={22} />
-          <span>DDT Tracker</span>
+          <span>DDT Tracker v0.5</span>
         </div>
         <nav className="nav-list" aria-label="Primary">
           {navItems.map((item) => {
@@ -62,6 +64,7 @@ export function AppShell({ page, title, records, toolbar, children, onNavigate }
             <p>Auto-saved · Calculated fields are locked</p>
           </div>
           <div className="topbar-actions">
+            <FlightSearch records={records} onSelect={onSelectRecord} />
             <div className="mini-stat">
               <span>DDT Compliance</span>
               <strong>{summary.compliance}%</strong>

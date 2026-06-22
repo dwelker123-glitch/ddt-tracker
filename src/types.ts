@@ -16,7 +16,6 @@ export type DdtInputRecord = {
   date: string;
   shift: Shift;
   dock: string;
-  opsx: string;
   loader: string;
   driver: string;
   truck: string;

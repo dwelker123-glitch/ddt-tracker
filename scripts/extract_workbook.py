@@ -76,7 +76,6 @@ def extract_records() -> list[dict[str, Any]]:
                     "date": current_date,
                     "shift": current_shift,
                     "dock": dock,
-                    "opsx": to_text(row[1] if len(row) > 1 else ""),
                     "loader": loader,
                     "driver": to_text(row[3] if len(row) > 3 else ""),
                     "truck": truck,

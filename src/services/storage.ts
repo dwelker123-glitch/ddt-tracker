@@ -61,7 +61,6 @@ export function normalizeRecord(record: Partial<DdtInputRecord> & { location?: u
     date: String(record.date),
     shift: record.shift ?? "AM",
     dock: String(record.dock ?? ""),
-    opsx: String(record.opsx ?? ""),
     loader: String(record.loader ?? ""),
     driver: String(record.driver ?? ""),
     truck: String(record.truck ?? ""),
@@ -120,10 +119,34 @@ export function getSnapshots(): HistoricalSnapshot[] {
     debugLog.warn("Historical snapshot data was malformed; using empty history.");
     return [];
   }
-  return snapshots.filter((snapshot): snapshot is HistoricalSnapshot => {
-    const valid = Boolean(snapshot && typeof snapshot === "object" && "records" in snapshot);
-    if (!valid) debugLog.warn("Rejected malformed historical snapshot.");
-    return valid;
+  return snapshots.flatMap((snapshot) => {
+    if (!snapshot || typeof snapshot !== "object" || !("records" in snapshot)) {
+      debugLog.warn("Rejected malformed historical snapshot.");
+      return [];
+    }
+    const rawSnapshot = snapshot as Partial<HistoricalSnapshot>;
+    const location = normalizeLocation(rawSnapshot.location);
+    const date = String(rawSnapshot.date ?? "");
+    const records = Array.isArray(rawSnapshot.records)
+      ? rawSnapshot.records.flatMap((record) => {
+          const normalized = normalizeRecord(record);
+          return normalized ? [withMetrics(normalized)] : [];
+        })
+      : [];
+    if (!date) {
+      debugLog.warn("Rejected historical snapshot missing a date.");
+      return [];
+    }
+    return [
+      {
+        id: String(rawSnapshot.id ?? `${location}-${date}`),
+        location,
+        date,
+        closedAt: String(rawSnapshot.closedAt ?? ""),
+        records,
+        summary: summarize(records),
+      },
+    ];
   });
 }
 

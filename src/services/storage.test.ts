@@ -66,4 +66,31 @@ describe("storage safeguards and persistence", () => {
     localStorage.setItem("ddt.records.v1", "{not-json");
     expect(getInputRecords().length).toBeGreaterThan(0);
   });
+
+  it("ignores legacy OPSX values when normalizing records and snapshots", () => {
+    const record = {
+      ...makeBlankRecord("Touhy"),
+      id: "legacy-opsx",
+      date: "2026-06-22",
+      dock: "9",
+      loader: "Loader C",
+      scheduledDdt: "10:00",
+      opsx: "legacy value",
+    };
+    const normalized = normalizeRecord(record as never);
+    expect(normalized).not.toHaveProperty("opsx");
+
+    localStorage.setItem(
+      "ddt.snapshots.v1",
+      JSON.stringify([
+        {
+          id: "legacy-snapshot",
+          location: "Touhy",
+          date: "2026-06-22",
+          records: [record],
+        },
+      ]),
+    );
+    expect(getSnapshots()[0].records[0]).not.toHaveProperty("opsx");
+  });
 });

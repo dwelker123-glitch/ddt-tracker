@@ -15,6 +15,7 @@ export default function App() {
   const [page, setPage] = useState<PageId>("touhy");
   const [theme, setTheme] = useState(getTheme());
   const [records, setRecords] = useState<DdtRecord[]>(getRecords());
+  const [focusedRecordId, setFocusedRecordId] = useState<string>();
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme;
@@ -35,6 +36,10 @@ export default function App() {
   }, [page]);
 
   const refreshRecords = () => setRecords(getRecords());
+  const navigateToRecord = (record: DdtRecord) => {
+    setFocusedRecordId(record.id);
+    setPage(record.location === "Devon" ? "devon" : "touhy");
+  };
 
   return (
     <PasswordGate>
@@ -42,6 +47,7 @@ export default function App() {
         page={page}
         title={title}
         onNavigate={setPage}
+        onSelectRecord={navigateToRecord}
         records={records}
         toolbar={
           <button
@@ -54,8 +60,22 @@ export default function App() {
           </button>
         }
       >
-        {page === "touhy" && <EntryPage location="Touhy" records={records} onRecordsChange={refreshRecords} />}
-        {page === "devon" && <EntryPage location="Devon" records={records} onRecordsChange={refreshRecords} />}
+        {page === "touhy" && (
+          <EntryPage
+            location="Touhy"
+            records={records}
+            focusedRecordId={focusedRecordId}
+            onRecordsChange={refreshRecords}
+          />
+        )}
+        {page === "devon" && (
+          <EntryPage
+            location="Devon"
+            records={records}
+            focusedRecordId={focusedRecordId}
+            onRecordsChange={refreshRecords}
+          />
+        )}
         {page === "weekly" && <WeeklySummaryPage records={records} />}
         {page === "trends" && <HistoricalTrendsPage records={records} />}
         {page === "schedule" && <ScheduleUploadPage records={records} />}

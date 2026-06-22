@@ -1,5 +1,5 @@
 import { LockKeyhole, Plus } from "lucide-react";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { ComplianceChart, DelayChart } from "../components/Charts";
 import { KpiStrip } from "../components/KpiStrip";
 import { RecordEditor } from "../components/RecordEditor";
@@ -12,20 +12,52 @@ import type { DdtInputRecord, DdtRecord, LocationId } from "../types";
 type Props = {
   location: LocationId;
   records: DdtRecord[];
+  focusedRecordId?: string;
   onRecordsChange: () => void;
 };
 
-export function EntryPage({ location, records, onRecordsChange }: Props) {
+export function EntryPage({ location, records, focusedRecordId, onRecordsChange }: Props) {
   const locationRecords = records.filter((record) => record.location === location);
   const [selectedId, setSelectedId] = useState(locationRecords[0]?.id);
   const [saveError, setSaveError] = useState("");
+  const [boardQuery, setBoardQuery] = useState("");
+  const [statusFilter, setStatusFilter] = useState("all");
   const selected = locationRecords.find((record) => record.id === selectedId) ?? locationRecords[0];
   const summary = summarize(locationRecords);
   const trend = complianceByDate(locationRecords);
   const reasons = delayReasons(locationRecords);
   const date = selected?.date ?? new Date().toISOString().slice(0, 10);
 
-  const filtered = useMemo(() => locationRecords.slice(0, 80), [locationRecords]);
+  useEffect(() => {
+    if (focusedRecordId && locationRecords.some((record) => record.id === focusedRecordId)) {
+      setSelectedId(focusedRecordId);
+    }
+  }, [focusedRecordId, locationRecords]);
+
+  const filtered = useMemo(() => {
+    const query = boardQuery.toLowerCase().trim();
+    return locationRecords
+      .filter((record) => {
+        const statusMatches = statusFilter === "all" || record.metrics.status === statusFilter;
+        const queryMatches =
+          !query ||
+          [
+            record.date,
+            record.dock,
+            record.loader,
+            record.driver,
+            record.truck,
+            record.delayReason,
+            record.notes,
+            ...record.flights.map((flight) => flight.flight),
+          ]
+            .join(" ")
+            .toLowerCase()
+            .includes(query);
+        return statusMatches && queryMatches;
+      })
+      .slice(0, 120);
+  }, [boardQuery, locationRecords, statusFilter]);
 
   const save = (record: DdtInputRecord) => {
     try {
@@ -51,13 +83,37 @@ export function EntryPage({ location, records, onRecordsChange }: Props) {
 
   const handleCloseDay = () => {
     if (!confirm(`Close ${date}? This locks the day's records and creates a historical snapshot.`)) return;
-    closeDay(location, date);
-    onRecordsChange();
+    try {
+      closeDay(location, date);
+      setSaveError("");
+      onRecordsChange();
+    } catch {
+      setSaveError("Unable to close this day right now. Check saved data and try again.");
+    }
   };
 
   return (
     <div className="page-grid">
       <div className="main-column">
+        <section className="filter-bar" aria-label="Filters">
+          <label>
+            Board search
+            <input
+              value={boardQuery}
+              onChange={(event) => setBoardQuery(event.target.value)}
+              placeholder="Filter flight, dock, driver, truck"
+            />
+          </label>
+          <label>
+            Status
+            <select value={statusFilter} onChange={(event) => setStatusFilter(event.target.value)}>
+              <option value="all">All statuses</option>
+              <option value="On-time">On-time</option>
+              <option value="Late">Late</option>
+              <option value="Incomplete">Incomplete</option>
+            </select>
+          </label>
+        </section>
         <section className="entry-tray" aria-label="New data entry tray">
           <div className="entry-tray-actions">
             <button type="button" className="secondary-button" onClick={addRecord}>

@@ -32,7 +32,6 @@ export function RecordEditor({ record, onSave, error }: Props) {
         <label>Date<input type="date" {...register("date")} disabled={Boolean(record.closedAt)} /></label>
         <label>Shift<input {...register("shift")} disabled={Boolean(record.closedAt)} /></label>
         <label>Dock<input {...register("dock")} disabled={Boolean(record.closedAt)} /></label>
-        <label>OPSX<input {...register("opsx")} disabled={Boolean(record.closedAt)} /></label>
         <label>Loader<input {...register("loader")} disabled={Boolean(record.closedAt)} /></label>
         <label>Driver<input {...register("driver")} disabled={Boolean(record.closedAt)} /></label>
         <label>Truck<input {...register("truck")} disabled={Boolean(record.closedAt)} /></label>

@@ -6,7 +6,6 @@ export const ddtRecordSchema = z.object({
   date: z.string().min(1),
   shift: z.string().min(1),
   dock: z.string().min(1),
-  opsx: z.string().optional(),
   loader: z.string().min(1),
   driver: z.string().optional(),
   truck: z.string().optional(),

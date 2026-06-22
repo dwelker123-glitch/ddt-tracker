@@ -35,7 +35,6 @@ export function ImportExportPage({
           date: String(row.Date ?? row.date ?? ""),
           shift: String(row.Shift ?? row.shift ?? "AM") as Shift,
           dock: String(row.Dock ?? row.dock ?? ""),
-          opsx: String(row.OPSX ?? row.opsx ?? ""),
           loader: String(row.Loader ?? row.loader ?? ""),
           driver: String(row.Driver ?? row.driver ?? ""),
           truck: String(row.Truck ?? row.truck ?? ""),
