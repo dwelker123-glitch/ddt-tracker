@@ -1,6 +1,6 @@
 import { ComplianceChart, DelayChart } from "../components/Charts";
 import { KpiStrip } from "../components/KpiStrip";
-import { complianceByDate, delayReasons, summarize } from "../services/calculations";
+import { complianceByDateAndLocation, delayReasons, summarize } from "../services/calculations";
 import { locationLabel } from "../data/locations";
 import { getSnapshots } from "../services/storage";
 import type { DdtRecord } from "../types";
@@ -14,8 +14,8 @@ export function DashboardPage({ records }: { records: DdtRecord[] }) {
       <KpiStrip summary={summary} />
       <section className="analytics-grid">
         <div className="panel">
-          <div className="panel-heading"><h2>DDT Compliance</h2></div>
-          <ComplianceChart data={complianceByDate(dashboardRecords)} />
+          <div className="panel-heading"><h2>DDT Compliance Trend</h2></div>
+          <ComplianceChart data={complianceByDateAndLocation(dashboardRecords)} />
         </div>
         <div className="panel">
           <div className="panel-heading"><h2>Top Delay Reasons</h2></div>

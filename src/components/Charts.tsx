@@ -2,6 +2,7 @@ import {
   Bar,
   BarChart,
   CartesianGrid,
+  Legend,
   Line,
   LineChart,
   ResponsiveContainer,
@@ -13,7 +14,7 @@ import {
 export function ComplianceChart({
   data,
 }: {
-  data: Array<{ date: string; compliance: number; averageVariance: number; lateDepartures: number }>;
+  data: Array<{ date: string; Touhy: number | null; Devon: number | null }>;
 }) {
   return (
     <ResponsiveContainer width="100%" height={220}>
@@ -22,7 +23,9 @@ export function ComplianceChart({
         <XAxis dataKey="date" tick={{ fontSize: 11 }} />
         <YAxis tick={{ fontSize: 11 }} domain={[0, 100]} />
         <Tooltip />
-        <Line type="monotone" dataKey="compliance" stroke="#0f9f85" strokeWidth={2} dot={false} />
+        <Legend />
+        <Line type="monotone" dataKey="Touhy" stroke="#9f1d22" strokeWidth={2.5} dot={false} connectNulls />
+        <Line type="monotone" dataKey="Devon" stroke="#1f5f9f" strokeWidth={2.5} dot={false} connectNulls />
       </LineChart>
     </ResponsiveContainer>
   );

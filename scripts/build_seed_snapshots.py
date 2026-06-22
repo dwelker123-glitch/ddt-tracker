@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import json
-from datetime import date, datetime, time
+from datetime import date, datetime, time, timedelta
 from pathlib import Path
 from typing import Any
 
@@ -11,16 +11,33 @@ ROOT = Path(__file__).resolve().parents[1]
 SNAPSHOTS_OUT = ROOT / "src" / "data" / "seedSnapshots.json"
 
 WORKBOOKS = [
-    Path("/Users/drewwelker/Downloads/6-13-2026 DDT Tracker.xlsx"),
+    {
+        "path": Path("/Users/drewwelker/Downloads/6-13-2026 DDT Tracker.xlsx"),
+        "location": "Touhy",
+        "week_start": None,
+    },
+    {
+        "path": Path("/Users/drewwelker/Downloads/DDT Devon 6-13-26.xlsx"),
+        "location": "Devon",
+        "week_start": "2026-06-13",
+    },
+    {
+        "path": Path("/Users/drewwelker/Downloads/6-20-2026 DDT DEVON WOLF.xlsx"),
+        "location": "Devon",
+        "week_start": "2026-06-20",
+    },
 ]
 
 DAY_SHEETS = {"SAT", "SUN", "MON", "TUE", "WED", "THU", "FRI"}
+DAY_OFFSETS = {"SAT": 0, "SUN": 1, "MON": 2, "TUE": 3, "WED": 4, "THU": 5, "FRI": 6}
 
 
 def to_text(value: Any) -> str:
     if value is None:
         return ""
     if isinstance(value, datetime):
+        if value.year in {1899, 1900}:
+            return value.strftime("%H:%M")
         return value.date().isoformat()
     if isinstance(value, date):
         return value.isoformat()
@@ -33,7 +50,9 @@ def norm(value: Any) -> str:
     return to_text(value).upper().replace("\xa0", " ").strip()
 
 
-def sheet_date(ws) -> str:
+def sheet_date(ws, week_start: str | None) -> str:
+    if week_start and ws.title.upper() in DAY_OFFSETS:
+        return (date.fromisoformat(week_start) + timedelta(days=DAY_OFFSETS[ws.title.upper()])).isoformat()
     value = ws["C1"].value
     if isinstance(value, datetime):
         return value.date().isoformat()
@@ -98,27 +117,44 @@ def cell(row: tuple[Any, ...], index: int | None) -> str:
     return to_text(row[index])
 
 
-def is_record_row(dock: str, row: tuple[Any, ...]) -> bool:
-    if not any(character.isdigit() for character in dock):
+def is_record_row(dock: str, row: tuple[Any, ...], columns: dict[str, Any]) -> bool:
+    if norm(dock) == "DOCK":
         return False
     joined = " ".join(norm(value) for value in row)
-    return "TOUR " not in joined
+    if "TOUR " in joined:
+        return False
+    flights = [cell(row, index) for index in columns["flights"]]
+    has_dock = any(character.isdigit() for character in dock)
+    has_staff_or_truck = any(
+        [
+            cell(row, columns["loader"]),
+            cell(row, columns["driver"]),
+            cell(row, columns["truck"]),
+        ]
+    )
+    has_schedule = bool(cell(row, columns["scheduledDdt"]))
+    if has_dock:
+        return has_staff_or_truck or has_schedule or any(flights)
+    return has_staff_or_truck and has_schedule and any(flights)
 
 
-def extract_records(workbook_path: Path) -> list[dict[str, Any]]:
+def extract_records(workbook: dict[str, Any]) -> list[dict[str, Any]]:
+    workbook_path = workbook["path"]
+    location = workbook["location"]
+    tracker_page = f"{location} DDT Entry"
     wb = load_workbook(workbook_path, data_only=True, read_only=True)
     records: list[dict[str, Any]] = []
     for ws in wb.worksheets:
         if ws.title.upper() not in DAY_SHEETS and not ws.title.startswith("Touhy "):
             continue
         current_shift = "AM"
-        current_date = sheet_date(ws)
+        current_date = sheet_date(ws, workbook["week_start"])
         headers = [norm(value) for value in next(ws.iter_rows(min_row=4, max_row=4, values_only=True))]
         columns = build_columns(headers)
         for row in ws.iter_rows(min_row=5, values_only=True):
             current_shift = detect_shift(list(row), current_shift)
             dock = cell(row, columns["dock"])
-            if not is_record_row(dock, row):
+            if not is_record_row(dock, row, columns):
                 continue
             flights = [
                 {"flight": cell(row, index), "category": cell(row, index + 1)}
@@ -128,9 +164,9 @@ def extract_records(workbook_path: Path) -> list[dict[str, Any]]:
                 continue
             records.append(
                 {
-                    "id": f"history-{current_date}-{ws.title.lower().replace(' ', '-')}-{len(records) + 1}",
-                    "location": "Touhy",
-                    "trackerPage": "Touhy DDT Entry",
+                    "id": f"history-{location.lower()}-{current_date}-{ws.title.lower().replace(' ', '-')}-{len(records) + 1}",
+                    "location": location,
+                    "trackerPage": tracker_page,
                     "date": current_date,
                     "shift": current_shift,
                     "dock": dock,
@@ -163,8 +199,8 @@ def build_snapshots() -> list[dict[str, Any]]:
         for day, day_records in sorted(by_date.items(), reverse=True):
             snapshots.append(
                 {
-                    "id": f"Touhy-{day}",
-                    "location": "Touhy",
+                    "id": f"{workbook['location']}-{day}",
+                    "location": workbook["location"],
                     "date": day,
                     "closedAt": f"{day}T23:59:00.000Z",
                     "records": day_records,

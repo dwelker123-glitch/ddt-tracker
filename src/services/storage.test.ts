@@ -71,6 +71,12 @@ describe("storage safeguards and persistence", () => {
     const snapshots = getSnapshots();
     expect(snapshots.some((snapshot) => snapshot.date === "2026-06-13")).toBe(true);
     expect(snapshots.find((snapshot) => snapshot.date === "2026-06-19")?.records.length).toBeGreaterThan(0);
+    expect(
+      snapshots.find((snapshot) => snapshot.location === "Devon" && snapshot.date === "2026-06-13")?.records.length,
+    ).toBeGreaterThan(0);
+    expect(
+      snapshots.find((snapshot) => snapshot.location === "Devon" && snapshot.date === "2026-06-20")?.records.length,
+    ).toBeGreaterThan(0);
   });
 
   it("ignores legacy OPSX values when normalizing records and snapshots", () => {

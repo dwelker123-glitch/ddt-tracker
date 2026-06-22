@@ -1,5 +1,7 @@
 import type { CalculatedMetrics, DdtInputRecord, DdtRecord, SummaryMetrics } from "../types";
 
+const trendLocations = ["Touhy", "Devon"] as const;
+
 const minutesInDay = 24 * 60;
 
 export function parseTimeToMinutes(value: string): number | null {
@@ -89,6 +91,24 @@ export function complianceByDate(records: DdtRecord[]) {
       compliance: summarize(items).compliance,
       averageVariance: summarize(items).averageVariance,
       lateDepartures: summarize(items).lateDepartures,
+    }));
+}
+
+export function complianceByDateAndLocation(records: DdtRecord[]) {
+  const grouped = records.reduce<Record<string, Record<(typeof trendLocations)[number], DdtRecord[]>>>(
+    (acc, record) => {
+      acc[record.date] = acc[record.date] ?? { Touhy: [], Devon: [] };
+      acc[record.date][record.location] = [...acc[record.date][record.location], record];
+      return acc;
+    },
+    {},
+  );
+  return Object.entries(grouped)
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([date, byLocation]) => ({
+      date,
+      Touhy: byLocation.Touhy.length ? summarize(byLocation.Touhy).compliance : null,
+      Devon: byLocation.Devon.length ? summarize(byLocation.Devon).compliance : null,
     }));
 }
 
