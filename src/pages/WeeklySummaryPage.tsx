@@ -56,6 +56,13 @@ function groupByDateAndLocation(records: DdtRecord[]) {
   ).sort(([a], [b]) => a.localeCompare(b));
 }
 
+function flightList(record: DdtRecord) {
+  return record.flights
+    .map((flight) => flight.flight.trim())
+    .filter(Boolean)
+    .join(", ");
+}
+
 export function WeeklySummaryPage({ records }: { records: DdtRecord[] }) {
   const [mode, setMode] = useState<SummaryMode>("weekly");
   const allRecords = useMemo(
@@ -158,6 +165,57 @@ export function WeeklySummaryPage({ records }: { records: DdtRecord[] }) {
           </tbody>
         </table>
       </section>
+      {mode === "daily" && (
+        <section className="panel">
+          <div className="panel-heading">
+            <h2>Daily Flight Details</h2>
+            <span>{filteredRecords.length} records</span>
+          </div>
+          <table className="data-table compact">
+            <thead>
+              <tr>
+                <th>Location</th>
+                <th>Dock</th>
+                <th>Flights</th>
+                <th>Scheduled DDT</th>
+                <th>Seal Time</th>
+                <th>Actual DDT</th>
+                <th>Variance</th>
+                <th>Status</th>
+                <th>Driver</th>
+                <th>Truck</th>
+                <th>Delay Reason</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              {filteredRecords
+                .slice()
+                .sort((a, b) => {
+                  const timeSort = a.scheduledDdt.localeCompare(b.scheduledDdt);
+                  if (timeSort) return timeSort;
+                  return locationLabel(a.location).localeCompare(locationLabel(b.location));
+                })
+                .map((record) => (
+                  <tr key={`${record.location}-${record.date}-${record.id}`}>
+                    <td>{locationLabel(record.location)}</td>
+                    <td>{record.dock || "N/A"}</td>
+                    <td>{flightList(record) || "N/A"}</td>
+                    <td>{record.scheduledDdt || "N/A"}</td>
+                    <td>{record.sealTime || "N/A"}</td>
+                    <td>{record.actualDdt || "N/A"}</td>
+                    <td>{record.metrics.ddtVarianceLabel}</td>
+                    <td>{record.metrics.status}</td>
+                    <td>{record.driver || "N/A"}</td>
+                    <td>{record.truck || "N/A"}</td>
+                    <td>{record.delayReason || "None"}</td>
+                    <td>{record.notes || "No notes"}</td>
+                  </tr>
+                ))}
+            </tbody>
+          </table>
+        </section>
+      )}
     </div>
   );
 }

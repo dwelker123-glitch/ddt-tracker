@@ -28,6 +28,9 @@ describe("App navigation and layout", () => {
     expect(screen.getByLabelText("Week")).toBeInTheDocument();
     await user.click(screen.getByRole("button", { name: "Daily" }));
     expect(screen.getByLabelText("Day")).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Daily Flight Details" })).toBeInTheDocument();
+    expect(screen.getByText("Flights")).toBeInTheDocument();
+    expect(screen.getAllByText("Seal Time").length).toBeGreaterThan(0);
   });
 
   it("places the new data entry tray above the departure board", async () => {
