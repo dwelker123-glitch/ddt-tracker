@@ -204,8 +204,16 @@ export function WeeklySummaryPage({ records }: { records: DdtRecord[] }) {
                     <td>{record.scheduledDdt || "N/A"}</td>
                     <td>{record.sealTime || "N/A"}</td>
                     <td>{record.actualDdt || "N/A"}</td>
-                    <td>{record.metrics.ddtVarianceLabel}</td>
-                    <td>{record.metrics.status}</td>
+                    <td>
+                      <span className={record.metrics.late ? "variance-pill late" : "variance-pill"}>
+                        {record.metrics.ddtVarianceLabel}
+                      </span>
+                    </td>
+                    <td>
+                      <span className={`status-pill ${record.metrics.status.toLowerCase().replace("-", "")}`}>
+                        {record.metrics.status}
+                      </span>
+                    </td>
                     <td>{record.driver || "N/A"}</td>
                     <td>{record.truck || "N/A"}</td>
                     <td>{record.delayReason || "None"}</td>
