@@ -26,7 +26,7 @@ export default function App() {
     const labels: Record<PageId, string> = {
       touhy: "Touhy DDT Entry",
       devon: "Devon DDT Entry",
-      weekly: "Weekly Summary",
+      weekly: "Summary",
       dashboard: "Dashboard",
       schedule: "Management Schedule Upload",
       "import-export": "Import / Export",

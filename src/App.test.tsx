@@ -16,6 +16,20 @@ describe("App navigation and layout", () => {
     expect(screen.queryByText("Devon DDT Entry B")).not.toBeInTheDocument();
   });
 
+  it("shows the Summary page with weekly and daily selectors", async () => {
+    const user = userEvent.setup();
+    render(<App />);
+
+    expect(screen.getByRole("button", { name: "Summary" })).toBeInTheDocument();
+    expect(screen.queryByRole("button", { name: "Weekly Summary" })).not.toBeInTheDocument();
+
+    await user.click(screen.getByRole("button", { name: "Summary" }));
+    expect(screen.getByRole("button", { name: "Weekly" })).toBeInTheDocument();
+    expect(screen.getByLabelText("Week")).toBeInTheDocument();
+    await user.click(screen.getByRole("button", { name: "Daily" }));
+    expect(screen.getByLabelText("Day")).toBeInTheDocument();
+  });
+
   it("places the new data entry tray above the departure board", async () => {
     const user = userEvent.setup();
     render(<App />);

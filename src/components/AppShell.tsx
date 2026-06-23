@@ -14,7 +14,7 @@ import type { DdtRecord, PageId } from "../types";
 const navItems: Array<{ id: PageId; label: string; icon: typeof MapPin }> = [
   { id: "touhy", label: "Touhy DDT Entry", icon: MapPin },
   { id: "devon", label: "Devon DDT Entry", icon: MapPin },
-  { id: "weekly", label: "Weekly Summary", icon: CalendarClock },
+  { id: "weekly", label: "Summary", icon: CalendarClock },
   { id: "dashboard", label: "Dashboard", icon: BarChart3 },
   { id: "schedule", label: "Management Schedule Upload", icon: Upload },
   { id: "import-export", label: "Import / Export", icon: FileSpreadsheet },
