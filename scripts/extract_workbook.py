@@ -7,7 +7,7 @@ from typing import Any
 
 from openpyxl import load_workbook
 
-WORKBOOK = Path("/Users/drewwelker/Documents/6-20-2026 DDT Tracker Touhy.xlsx")
+WORKBOOK = Path("/Users/drewwelker/Downloads/6-20-2026 DDT Tracker Touhy.xlsx")
 ROOT = Path(__file__).resolve().parents[1]
 SEED_OUT = ROOT / "src" / "data" / "seedRecords.json"
 SCHEDULE_OUT = ROOT / "src" / "data" / "seedSchedules.json"
@@ -92,7 +92,7 @@ def extract_records() -> list[dict[str, Any]]:
                     "supervisor": "",
                 }
             )
-    return records[:220]
+    return records
 
 
 def extract_schedule() -> list[dict[str, Any]]:

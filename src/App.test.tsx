@@ -28,9 +28,20 @@ describe("App navigation and layout", () => {
     expect(screen.getByLabelText("Week")).toBeInTheDocument();
     await user.click(screen.getByRole("button", { name: "Daily" }));
     expect(screen.getByLabelText("Day")).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Daily Performance by Hour" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Daily Flight Details" })).toBeInTheDocument();
     expect(screen.getByText("Flights")).toBeInTheDocument();
     expect(screen.getAllByText("Seal Time").length).toBeGreaterThan(0);
+  });
+
+  it("shows hourly performance on the day-of entry and historical dashboard views", async () => {
+    const user = userEvent.setup();
+    render(<App />);
+
+    expect(screen.getByRole("heading", { name: "Day-of Performance by Hour" })).toBeInTheDocument();
+
+    await user.click(screen.getByRole("button", { name: "Dashboard" }));
+    expect(screen.getByRole("heading", { name: "Historical Performance by Hour" })).toBeInTheDocument();
   });
 
   it("places the new data entry tray above the departure board", async () => {

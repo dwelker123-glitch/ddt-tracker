@@ -1,6 +1,7 @@
 import { LockKeyhole, Plus } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { KpiStrip } from "../components/KpiStrip";
+import { HourlyPerformanceTable } from "../components/HourlyPerformanceTable";
 import { RecordEditor } from "../components/RecordEditor";
 import { RecordTable } from "../components/RecordTable";
 import { summarize } from "../services/calculations";
@@ -24,6 +25,7 @@ export function EntryPage({ location, records, focusedRecordId, onRecordsChange 
   const selected = locationRecords.find((record) => record.id === selectedId) ?? locationRecords[0];
   const summary = summarize(locationRecords);
   const date = selected?.date ?? new Date().toISOString().slice(0, 10);
+  const dayRecords = locationRecords.filter((record) => record.date === date);
 
   useEffect(() => {
     if (focusedRecordId && locationRecords.some((record) => record.id === focusedRecordId)) {
@@ -124,6 +126,7 @@ export function EntryPage({ location, records, focusedRecordId, onRecordsChange 
         </div>
         {selected && <RecordEditor record={selected} onSave={save} error={saveError} />}
       </section>
+      <HourlyPerformanceTable records={dayRecords} title="Day-of Performance by Hour" />
       <section className="panel">
         <div className="panel-heading">
           <div>

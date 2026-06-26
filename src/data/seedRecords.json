@@ -7258,5 +7258,7298 @@
     "operationalComments": "",
     "manager": "",
     "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-221",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "24",
+    "loader": "Francisco",
+    "driver": "",
+    "truck": "7162",
+    "flights": [
+      {
+        "flight": "UA 1659",
+        "category": "x"
+      },
+      {
+        "flight": "UA 1612",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:18",
+    "sealTime": "07:27",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-222",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "26",
+    "loader": "Priyanki",
+    "driver": "",
+    "truck": "1180",
+    "flights": [
+      {
+        "flight": "UA 2672",
+        "category": "x"
+      },
+      {
+        "flight": "UA 2287",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:18",
+    "sealTime": "08:05",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-223",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "28",
+    "loader": "Taylor",
+    "driver": "",
+    "truck": "O883",
+    "flights": [
+      {
+        "flight": "UA 1887",
+        "category": "x"
+      },
+      {
+        "flight": "UA 1856",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:20",
+    "sealTime": "08:17",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-224",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "13",
+    "loader": "Syl",
+    "driver": "",
+    "truck": "7615",
+    "flights": [
+      {
+        "flight": "AS 1546",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:20",
+    "sealTime": "07:45",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-225",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "11",
+    "loader": "Derrick",
+    "driver": "",
+    "truck": "7603",
+    "flights": [
+      {
+        "flight": "UA  365",
+        "category": "x"
+      },
+      {
+        "flight": "UA 2182",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:20",
+    "sealTime": "08:30",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "tour sheet says 8:35 ddt",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-226",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "9",
+    "loader": "John B",
+    "driver": "",
+    "truck": "7610",
+    "flights": [
+      {
+        "flight": "UA 2414",
+        "category": "x"
+      },
+      {
+        "flight": "UA  424",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:20",
+    "sealTime": "08:20",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-227",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "13",
+    "loader": "Syl",
+    "driver": "",
+    "truck": "4798",
+    "flights": [
+      {
+        "flight": "UA 1297",
+        "category": "x"
+      },
+      {
+        "flight": "UA 2653",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:22",
+    "sealTime": "08:26",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-228",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "15",
+    "loader": "Priyanki",
+    "driver": "",
+    "truck": "7602",
+    "flights": [
+      {
+        "flight": "UA 2849",
+        "category": "x"
+      },
+      {
+        "flight": "UA 2195",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:25",
+    "sealTime": "08:43",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "tour sheet says 8:40 ddt",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-229",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "17",
+    "loader": "Mario",
+    "driver": "",
+    "truck": "9450",
+    "flights": [
+      {
+        "flight": "UA 1620",
+        "category": "x"
+      },
+      {
+        "flight": "UA 2804",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:25",
+    "sealTime": "08:22",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-230",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "19",
+    "loader": "Tia/ Thaer",
+    "driver": "",
+    "truck": "1805",
+    "flights": [
+      {
+        "flight": "UA 1355",
+        "category": "x"
+      },
+      {
+        "flight": "UA 1061",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:25",
+    "sealTime": "08:25",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-231",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "21",
+    "loader": "J.P.",
+    "driver": "",
+    "truck": "4683",
+    "flights": [
+      {
+        "flight": "UA 1803",
+        "category": "x"
+      },
+      {
+        "flight": "UA  279",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:39",
+    "sealTime": "08:31",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-232",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "10",
+    "loader": "Alvin",
+    "driver": "",
+    "truck": "9447",
+    "flights": [
+      {
+        "flight": "2267",
+        "category": "x"
+      },
+      {
+        "flight": "1304",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "09:45",
+    "sealTime": "09:50",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-233",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "12",
+    "loader": "Derrick",
+    "driver": "",
+    "truck": "9449",
+    "flights": [
+      {
+        "flight": "606",
+        "category": "x"
+      },
+      {
+        "flight": "2189",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "09:56",
+    "sealTime": "09:50",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-234",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "14",
+    "loader": "Syl",
+    "driver": "",
+    "truck": "7620",
+    "flights": [
+      {
+        "flight": "758",
+        "category": "x"
+      },
+      {
+        "flight": "2657",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "10:07",
+    "sealTime": "10:18",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-235",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "16",
+    "loader": "Francisco",
+    "driver": "",
+    "truck": "1809",
+    "flights": [
+      {
+        "flight": "2774",
+        "category": "x"
+      },
+      {
+        "flight": "1955",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "10:07",
+    "sealTime": "09:43",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-236",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "18",
+    "loader": "Adonias",
+    "driver": "",
+    "truck": "7621",
+    "flights": [
+      {
+        "flight": "1554",
+        "category": "x"
+      },
+      {
+        "flight": "1695",
+        "category": "x"
+      },
+      {
+        "flight": "1693",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "10:25",
+    "sealTime": "09:59",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-237",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "20",
+    "loader": "Thaer/ Tia",
+    "driver": "",
+    "truck": "7592",
+    "flights": [
+      {
+        "flight": "2821",
+        "category": "x"
+      },
+      {
+        "flight": "2465",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "10:25",
+    "sealTime": "09:50",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-238",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "22",
+    "loader": "Airion",
+    "driver": "",
+    "truck": "7624",
+    "flights": [
+      {
+        "flight": "247",
+        "category": "x"
+      },
+      {
+        "flight": "455",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "10:25",
+    "sealTime": "09:50",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-239",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "23",
+    "loader": "Jorge",
+    "driver": "",
+    "truck": "9446",
+    "flights": [
+      {
+        "flight": "561",
+        "category": "x"
+      },
+      {
+        "flight": "2343",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "10:25",
+    "sealTime": "09:49",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-240",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "29",
+    "loader": "Charaf",
+    "driver": "",
+    "truck": "7017",
+    "flights": [
+      {
+        "flight": "2440",
+        "category": "x"
+      },
+      {
+        "flight": "2683",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "10:30",
+    "sealTime": "10:30",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-241",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "27",
+    "loader": "Ibrahim",
+    "driver": "",
+    "truck": "9453",
+    "flights": [
+      {
+        "flight": "752",
+        "category": "x"
+      },
+      {
+        "flight": "1660",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "10:30",
+    "sealTime": "10:18",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-242",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "28",
+    "loader": "Taylor",
+    "driver": "",
+    "truck": "O876",
+    "flights": [
+      {
+        "flight": "623",
+        "category": "x"
+      },
+      {
+        "flight": "2226",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "10:30",
+    "sealTime": "10:20",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-243",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "9",
+    "loader": "Peter",
+    "driver": "",
+    "truck": "O922",
+    "flights": [
+      {
+        "flight": "794",
+        "category": "x"
+      },
+      {
+        "flight": "2794",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "10:38",
+    "sealTime": "10:26",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-244",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "11",
+    "loader": "Simon",
+    "driver": "",
+    "truck": "9442",
+    "flights": [
+      {
+        "flight": "1811",
+        "category": "x"
+      },
+      {
+        "flight": "2803",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "10:42",
+    "sealTime": "10:38",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-245",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "13",
+    "loader": "Sandeep",
+    "driver": "",
+    "truck": "4799",
+    "flights": [
+      {
+        "flight": "2290",
+        "category": "x"
+      },
+      {
+        "flight": "3932",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "10:44",
+    "sealTime": "10:48",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-246",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "15",
+    "loader": "Priyanki",
+    "driver": "",
+    "truck": "7597",
+    "flights": [
+      {
+        "flight": "1363",
+        "category": "x"
+      },
+      {
+        "flight": "2370",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "10:56",
+    "sealTime": "10:45",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-247",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "17",
+    "loader": "Mario",
+    "driver": "",
+    "truck": "5008",
+    "flights": [
+      {
+        "flight": "622",
+        "category": "x"
+      },
+      {
+        "flight": "1239",
+        "category": "x"
+      },
+      {
+        "flight": "2430",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "11:15",
+    "sealTime": "10:57",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-248",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "18",
+    "loader": "Asha",
+    "driver": "",
+    "truck": "7611",
+    "flights": [
+      {
+        "flight": "2844",
+        "category": "x"
+      },
+      {
+        "flight": "2091",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "11:15",
+    "sealTime": "11:00",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-249",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "21",
+    "loader": "John B",
+    "driver": "",
+    "truck": "4681",
+    "flights": [
+      {
+        "flight": "1332",
+        "category": "x"
+      },
+      {
+        "flight": "1502",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "11:15",
+    "sealTime": "10:14",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-250",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "23",
+    "loader": "Peter",
+    "driver": "",
+    "truck": "9437",
+    "flights": [
+      {
+        "flight": "1525",
+        "category": "x"
+      },
+      {
+        "flight": "1349",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "11:15",
+    "sealTime": "10:26",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-251",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "25",
+    "loader": "Clairemise",
+    "driver": "",
+    "truck": "7017",
+    "flights": [
+      {
+        "flight": "356",
+        "category": "x"
+      },
+      {
+        "flight": "1069",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "11:40",
+    "sealTime": "11:00",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-252",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "27",
+    "loader": "Tia",
+    "driver": "",
+    "truck": "1177",
+    "flights": [
+      {
+        "flight": "1746",
+        "category": "x"
+      },
+      {
+        "flight": "1057",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "11:40",
+    "sealTime": "11:23",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-253",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "30",
+    "loader": "Thaer",
+    "driver": "",
+    "truck": "5029",
+    "flights": [
+      {
+        "flight": "1905",
+        "category": "x"
+      },
+      {
+        "flight": "374",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "11:40",
+    "sealTime": "11:44",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-254",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "19",
+    "loader": "Chris",
+    "driver": "",
+    "truck": "4795",
+    "flights": [
+      {
+        "flight": "609",
+        "category": "x"
+      },
+      {
+        "flight": "2635",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "11:45",
+    "sealTime": "11:18",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-255",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "16",
+    "loader": "Alvin",
+    "driver": "",
+    "truck": "7016",
+    "flights": [
+      {
+        "flight": "1314",
+        "category": "x"
+      },
+      {
+        "flight": "704",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "11:45",
+    "sealTime": "11:48",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-256",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "18",
+    "loader": "Mahmoud",
+    "driver": "",
+    "truck": "7595",
+    "flights": [
+      {
+        "flight": "1821",
+        "category": "x"
+      },
+      {
+        "flight": "2000",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "11:45",
+    "sealTime": "12:16",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "1821 plane change @( 11:53 ) going solo",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-257",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "20",
+    "loader": "D'Wight",
+    "driver": "",
+    "truck": "9441",
+    "flights": [
+      {
+        "flight": "1862",
+        "category": "x"
+      },
+      {
+        "flight": "2141",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "11:50",
+    "sealTime": "11:57",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-258",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "22",
+    "loader": "Francisco",
+    "driver": "",
+    "truck": "6494",
+    "flights": [
+      {
+        "flight": "587",
+        "category": "x"
+      },
+      {
+        "flight": "1577",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "11:57",
+    "sealTime": "11:55",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-259",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "23",
+    "loader": "Mike",
+    "driver": "",
+    "truck": "O885",
+    "flights": [
+      {
+        "flight": "1129",
+        "category": "x"
+      },
+      {
+        "flight": "695",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "12:05",
+    "sealTime": "11:52",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-260",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "25",
+    "loader": "Taylor",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2298",
+        "category": "x"
+      },
+      {
+        "flight": "1550",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "12:15",
+    "sealTime": "12:43",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "was waiting for a truck",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-261",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "10",
+    "loader": "Simon",
+    "driver": "",
+    "truck": "7602",
+    "flights": [
+      {
+        "flight": "CM",
+        "category": "x"
+      },
+      {
+        "flight": "229",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "13:06",
+    "sealTime": "12:50",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-262",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "12",
+    "loader": "Chris",
+    "driver": "",
+    "truck": "4798",
+    "flights": [
+      {
+        "flight": "1941",
+        "category": "x"
+      },
+      {
+        "flight": "2251",
+        "category": "x"
+      },
+      {
+        "flight": "1616",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "12:45",
+    "sealTime": "13:06",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "was waiting to pull food",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-263",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "14",
+    "loader": "Joshy",
+    "driver": "",
+    "truck": "7163",
+    "flights": [
+      {
+        "flight": "664",
+        "category": "x"
+      },
+      {
+        "flight": "378",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "12:45",
+    "sealTime": "12:39",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-264",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "16",
+    "loader": "Adonias",
+    "driver": "",
+    "truck": "6418",
+    "flights": [
+      {
+        "flight": "1334",
+        "category": "x"
+      },
+      {
+        "flight": "2825",
+        "category": "x"
+      },
+      {
+        "flight": "600",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "13:11",
+    "sealTime": "13:15",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-265",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "18",
+    "loader": "Priyanki",
+    "driver": "",
+    "truck": "7162",
+    "flights": [
+      {
+        "flight": "2846",
+        "category": "x"
+      },
+      {
+        "flight": "2124",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "13:20",
+    "sealTime": "13:09",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-266",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "20",
+    "loader": "Mustafa",
+    "driver": "",
+    "truck": "7613",
+    "flights": [
+      {
+        "flight": "2812",
+        "category": "x"
+      },
+      {
+        "flight": "793",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "13:25",
+    "sealTime": "12:55",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-267",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "22",
+    "loader": "Peter",
+    "driver": "",
+    "truck": "4797",
+    "flights": [
+      {
+        "flight": "576",
+        "category": "x"
+      },
+      {
+        "flight": "745",
+        "category": "x"
+      },
+      {
+        "flight": "485",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "13:32",
+    "sealTime": "13:34",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-268",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "24",
+    "loader": "Thaer",
+    "driver": "",
+    "truck": "6492",
+    "flights": [
+      {
+        "flight": "2329",
+        "category": "x"
+      },
+      {
+        "flight": "841",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "13:32",
+    "sealTime": "13:30",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-269",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "26",
+    "loader": "Taylor",
+    "driver": "",
+    "truck": "9455",
+    "flights": [
+      {
+        "flight": "2207",
+        "category": "x"
+      },
+      {
+        "flight": "511",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "13:37",
+    "sealTime": "13:05",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-270",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "11",
+    "loader": "Charaf",
+    "driver": "",
+    "truck": "7598",
+    "flights": [
+      {
+        "flight": "2437",
+        "category": "x"
+      },
+      {
+        "flight": "2053",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "13:38",
+    "sealTime": "13:05",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-271",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "13",
+    "loader": "D'Wight",
+    "driver": "",
+    "truck": "4683",
+    "flights": [
+      {
+        "flight": "777",
+        "category": "x"
+      },
+      {
+        "flight": "2223",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "13:39",
+    "sealTime": "13:20",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-272",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "15",
+    "loader": "Mahmoud",
+    "driver": "",
+    "truck": "9450",
+    "flights": [
+      {
+        "flight": "2466",
+        "category": "x"
+      },
+      {
+        "flight": "714",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "13:40",
+    "sealTime": "12:56",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-273",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "17",
+    "loader": "Sandeep",
+    "driver": "",
+    "truck": "7610",
+    "flights": [
+      {
+        "flight": "1920",
+        "category": "x"
+      },
+      {
+        "flight": "1317",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "13:50",
+    "sealTime": "13:27",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-274",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "19",
+    "loader": "Asha",
+    "driver": "",
+    "truck": "7607",
+    "flights": [
+      {
+        "flight": "2790",
+        "category": "x"
+      },
+      {
+        "flight": "1875",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "13:57",
+    "sealTime": "13:25",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-275",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "21",
+    "loader": "Clairemise",
+    "driver": "",
+    "truck": "1180",
+    "flights": [
+      {
+        "flight": "1801",
+        "category": "x"
+      },
+      {
+        "flight": "2618",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "14:05",
+    "sealTime": "13:40",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-276",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "12",
+    "loader": "",
+    "driver": "",
+    "truck": "1809",
+    "flights": [
+      {
+        "flight": "2357",
+        "category": "x"
+      },
+      {
+        "flight": "1382",
+        "category": "x"
+      },
+      {
+        "flight": "2417",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "14:45",
+    "sealTime": "14:32",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-277",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "14",
+    "loader": "",
+    "driver": "",
+    "truck": "7603",
+    "flights": [
+      {
+        "flight": "371",
+        "category": "x"
+      },
+      {
+        "flight": "1776",
+        "category": "x"
+      },
+      {
+        "flight": "1557",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "14:45",
+    "sealTime": "14:45",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-278",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "10",
+    "loader": "",
+    "driver": "",
+    "truck": "1805",
+    "flights": [
+      {
+        "flight": "CHRT",
+        "category": "x"
+      },
+      {
+        "flight": "3776",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "14:50",
+    "sealTime": "15:10",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "Waiting ACTS",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-279",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "16",
+    "loader": "",
+    "driver": "",
+    "truck": "9453",
+    "flights": [
+      {
+        "flight": "F9",
+        "category": "x"
+      },
+      {
+        "flight": "3135",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "15:14",
+    "sealTime": "14:35",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-280",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "18",
+    "loader": "",
+    "driver": "",
+    "truck": "9446",
+    "flights": [
+      {
+        "flight": "1954",
+        "category": "x"
+      },
+      {
+        "flight": "1369",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "15:30",
+    "sealTime": "14:42",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-281",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "20",
+    "loader": "",
+    "driver": "",
+    "truck": "9443",
+    "flights": [
+      {
+        "flight": "2865",
+        "category": "x"
+      },
+      {
+        "flight": "2481",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "15:30",
+    "sealTime": "14:59",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-282",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "22",
+    "loader": "",
+    "driver": "",
+    "truck": "9442",
+    "flights": [
+      {
+        "flight": "2652",
+        "category": "x"
+      },
+      {
+        "flight": "303",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "15:35",
+    "sealTime": "14:49",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-283",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "24",
+    "loader": "",
+    "driver": "",
+    "truck": "9449",
+    "flights": [
+      {
+        "flight": "2294",
+        "category": "x"
+      },
+      {
+        "flight": "1335",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "15:38",
+    "sealTime": "15:12",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-284",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "26",
+    "loader": "",
+    "driver": "",
+    "truck": "9444",
+    "flights": [
+      {
+        "flight": "2496",
+        "category": "x"
+      },
+      {
+        "flight": "1748",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "15:40",
+    "sealTime": "15:10",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-285",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "27",
+    "loader": "",
+    "driver": "",
+    "truck": "7016",
+    "flights": [
+      {
+        "flight": "1393",
+        "category": "x"
+      },
+      {
+        "flight": "2180",
+        "category": "x"
+      },
+      {
+        "flight": "534",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "15:41",
+    "sealTime": "15:44",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-286",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "11",
+    "loader": "",
+    "driver": "",
+    "truck": "9451",
+    "flights": [
+      {
+        "flight": "2784",
+        "category": "x"
+      },
+      {
+        "flight": "1732",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "15:44",
+    "sealTime": "15:25",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-287",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "13",
+    "loader": "",
+    "driver": "",
+    "truck": "9437",
+    "flights": [
+      {
+        "flight": "2458",
+        "category": "x"
+      },
+      {
+        "flight": "1974",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "15:45",
+    "sealTime": "15:21",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-288",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "10",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "288",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "15:50",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-289",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "15",
+    "loader": "",
+    "driver": "",
+    "truck": "9441",
+    "flights": [
+      {
+        "flight": "2202",
+        "category": "x"
+      },
+      {
+        "flight": "1568",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "15:54",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-290",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "17",
+    "loader": "",
+    "driver": "",
+    "truck": "4795",
+    "flights": [
+      {
+        "flight": "1967",
+        "category": "x"
+      },
+      {
+        "flight": "340",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "15:55",
+    "sealTime": "14:54",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-291",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "19",
+    "loader": "",
+    "driver": "",
+    "truck": "1177",
+    "flights": [
+      {
+        "flight": "1946",
+        "category": "x"
+      },
+      {
+        "flight": "1475",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "16:00",
+    "sealTime": "15:45",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-292",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "21",
+    "loader": "",
+    "driver": "",
+    "truck": "5029",
+    "flights": [
+      {
+        "flight": "2443",
+        "category": "x"
+      },
+      {
+        "flight": "516",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "16:04",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-293",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "23",
+    "loader": "",
+    "driver": "",
+    "truck": "7606",
+    "flights": [
+      {
+        "flight": "1583",
+        "category": "x"
+      },
+      {
+        "flight": "2179",
+        "category": "x"
+      },
+      {
+        "flight": "636",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "16:05",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-294",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "25",
+    "loader": "",
+    "driver": "",
+    "truck": "4682",
+    "flights": [
+      {
+        "flight": "2331",
+        "category": "x"
+      },
+      {
+        "flight": "2362",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "16:05",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-295",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "29",
+    "loader": "",
+    "driver": "",
+    "truck": "7611",
+    "flights": [
+      {
+        "flight": "1504",
+        "category": "x"
+      },
+      {
+        "flight": "2792",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "16:07",
+    "sealTime": "15:50",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-296",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "30",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1989",
+        "category": "x"
+      },
+      {
+        "flight": "1398",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "16:10",
+    "sealTime": "15:39",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-297",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "9",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "118",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "16:25",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-298",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "20",
+    "loader": "Jorge",
+    "driver": "",
+    "truck": "5008",
+    "flights": [
+      {
+        "flight": "1178",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "16:00",
+    "sealTime": "16:17",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-299",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "22",
+    "loader": "Mustafa",
+    "driver": "",
+    "truck": "7624",
+    "flights": [
+      {
+        "flight": "1401",
+        "category": "x"
+      },
+      {
+        "flight": "2829",
+        "category": "x"
+      },
+      {
+        "flight": "1884",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "17:05",
+    "sealTime": "17:16",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-300",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "24",
+    "loader": "Thaer",
+    "driver": "",
+    "truck": "876",
+    "flights": [
+      {
+        "flight": "1580",
+        "category": "x"
+      },
+      {
+        "flight": "658",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "17:29",
+    "sealTime": "16:53",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-301",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "10",
+    "loader": "Simon",
+    "driver": "",
+    "truck": "1169",
+    "flights": [
+      {
+        "flight": "1842",
+        "category": "x"
+      },
+      {
+        "flight": "2747",
+        "category": "x"
+      },
+      {
+        "flight": "1850",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "17:30",
+    "sealTime": "17:30",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-302",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "12",
+    "loader": "Mike",
+    "driver": "",
+    "truck": "7622",
+    "flights": [
+      {
+        "flight": "1156",
+        "category": "x"
+      },
+      {
+        "flight": "602",
+        "category": "x"
+      },
+      {
+        "flight": "1819",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "17:30",
+    "sealTime": "17:45",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-303",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "14",
+    "loader": "Joshy",
+    "driver": "",
+    "truck": "7696",
+    "flights": [
+      {
+        "flight": "1673",
+        "category": "x"
+      },
+      {
+        "flight": "1761",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "17:30",
+    "sealTime": "16:48",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-304",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "16",
+    "loader": "Peter",
+    "driver": "",
+    "truck": "884",
+    "flights": [
+      {
+        "flight": "2160",
+        "category": "x"
+      },
+      {
+        "flight": "1492",
+        "category": "x"
+      },
+      {
+        "flight": "1923",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "17:30",
+    "sealTime": "17:25",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-305",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "18",
+    "loader": "Sandeep",
+    "driver": "",
+    "truck": "4684",
+    "flights": [
+      {
+        "flight": "2426",
+        "category": "x"
+      },
+      {
+        "flight": "2005",
+        "category": "x"
+      },
+      {
+        "flight": "2135",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "17:32",
+    "sealTime": "18:00",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-306",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "11",
+    "loader": "Francisco",
+    "driver": "",
+    "truck": "7162",
+    "flights": [
+      {
+        "flight": "481",
+        "category": "x"
+      },
+      {
+        "flight": "1800",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "17:35",
+    "sealTime": "17:15",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-307",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "13",
+    "loader": "Taylor",
+    "driver": "",
+    "truck": "7003",
+    "flights": [
+      {
+        "flight": "2649",
+        "category": "x"
+      },
+      {
+        "flight": "759",
+        "category": "x"
+      },
+      {
+        "flight": "2317",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "17:35",
+    "sealTime": "17:10",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-308",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "15",
+    "loader": "Mahmoud",
+    "driver": "",
+    "truck": "9450",
+    "flights": [
+      {
+        "flight": "2199",
+        "category": "x"
+      },
+      {
+        "flight": "1710",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "17:35",
+    "sealTime": "17:29",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-309",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "17",
+    "loader": "Priyanki",
+    "driver": "",
+    "truck": "7604",
+    "flights": [
+      {
+        "flight": "630",
+        "category": "x"
+      },
+      {
+        "flight": "2770",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "17:40",
+    "sealTime": "16:59",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-310",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "19",
+    "loader": "Asha",
+    "driver": "",
+    "truck": "7599",
+    "flights": [
+      {
+        "flight": "312",
+        "category": "x"
+      },
+      {
+        "flight": "1828",
+        "category": "x"
+      },
+      {
+        "flight": "2071",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "17:40",
+    "sealTime": "17:35",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-311",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "21",
+    "loader": "Chuchu",
+    "driver": "",
+    "truck": "6492",
+    "flights": [
+      {
+        "flight": "2063",
+        "category": "x"
+      },
+      {
+        "flight": "1649",
+        "category": "x"
+      },
+      {
+        "flight": "457",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "17:41",
+    "sealTime": "17:29",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-312",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "23",
+    "loader": "Adonias",
+    "driver": "",
+    "truck": "4683",
+    "flights": [
+      {
+        "flight": "308",
+        "category": "x"
+      },
+      {
+        "flight": "329",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "17:43",
+    "sealTime": "17:56",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-313",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "25",
+    "loader": "Dwight",
+    "driver": "",
+    "truck": "4793",
+    "flights": [
+      {
+        "flight": "1338",
+        "category": "x"
+      },
+      {
+        "flight": "1273",
+        "category": "x"
+      },
+      {
+        "flight": "2148",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "17:43",
+    "sealTime": "18:10",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-314",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "20",
+    "loader": "Chris",
+    "driver": "",
+    "truck": "7602",
+    "flights": [
+      {
+        "flight": "2144",
+        "category": "x"
+      },
+      {
+        "flight": "2783",
+        "category": "x"
+      },
+      {
+        "flight": "2808",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "17:44",
+    "sealTime": "17:55",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-315",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "27",
+    "loader": "Charaf",
+    "driver": "",
+    "truck": "883",
+    "flights": [
+      {
+        "flight": "1394",
+        "category": "x"
+      },
+      {
+        "flight": "2211",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "17:44",
+    "sealTime": "17:45",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-316",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "24",
+    "loader": "Joshy",
+    "driver": "",
+    "truck": "7989",
+    "flights": [
+      {
+        "flight": "1023",
+        "category": "x"
+      },
+      {
+        "flight": "1625",
+        "category": "x"
+      },
+      {
+        "flight": "1209",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "17:44",
+    "sealTime": "17:45",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-317",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "29",
+    "loader": "Tiara",
+    "driver": "",
+    "truck": "7620",
+    "flights": [
+      {
+        "flight": "2734",
+        "category": "x"
+      },
+      {
+        "flight": "2106",
+        "category": "x"
+      },
+      {
+        "flight": "1400",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "17:45",
+    "sealTime": "18:34",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-318",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "14",
+    "loader": "Mike",
+    "driver": "",
+    "truck": "3073",
+    "flights": [
+      {
+        "flight": "2813",
+        "category": "x"
+      },
+      {
+        "flight": "2059",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "17:52",
+    "sealTime": "18:10",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-319",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "16",
+    "loader": "Dwight",
+    "driver": "",
+    "truck": "1809",
+    "flights": [
+      {
+        "flight": "1495",
+        "category": "x"
+      },
+      {
+        "flight": "533",
+        "category": "x"
+      },
+      {
+        "flight": "1015",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "17:54",
+    "sealTime": "18:15",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-320",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "18",
+    "loader": "Sandeep",
+    "driver": "",
+    "truck": "1178",
+    "flights": [
+      {
+        "flight": "1182",
+        "category": "x"
+      },
+      {
+        "flight": "2243",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "17:55",
+    "sealTime": "18:05",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-321",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "11",
+    "loader": "Francisco",
+    "driver": "",
+    "truck": "7595",
+    "flights": [
+      {
+        "flight": "2499",
+        "category": "x"
+      },
+      {
+        "flight": "2665",
+        "category": "x"
+      },
+      {
+        "flight": "403",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "18:08",
+    "sealTime": "18:15",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-322",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "Simon",
+    "driver": "",
+    "truck": "8011",
+    "flights": [
+      {
+        "flight": "1301",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "19:05",
+    "sealTime": "18:30",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-323",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "10",
+    "loader": "Simon",
+    "driver": "",
+    "truck": "1169",
+    "flights": [
+      {
+        "flight": "912",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "19:20",
+    "sealTime": "18:28",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-324",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "13",
+    "loader": "",
+    "driver": "",
+    "truck": "7163",
+    "flights": [
+      {
+        "flight": "1779",
+        "category": "x"
+      },
+      {
+        "flight": "767",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "19:30",
+    "sealTime": "18:30",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-325",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "WIDE",
+    "driver": "BODIES",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-326",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "953",
+    "driver": "FY",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "15:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-327",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "972",
+    "driver": "FY",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "15:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-328",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "972",
+    "driver": "Y",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "15:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-329",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "987",
+    "driver": "F",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "15:55",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-330",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "987",
+    "driver": "Y",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "15:55",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-331",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "920",
+    "driver": "FY",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "16:30",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-332",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "944",
+    "driver": "F",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "14:40",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-333",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "944",
+    "driver": "Y",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "14:40",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-334",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "980",
+    "driver": "F",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "18:05",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-335",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "980",
+    "driver": "Y",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "18:05",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-336",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "909",
+    "driver": "FY",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "16:15",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-337",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "845",
+    "driver": "F",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "19:15",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-338",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "845",
+    "driver": "Y",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "19:15",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-339",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "769",
+    "driver": "FY",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "19:25",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-340",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "938",
+    "driver": "FY",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "19:25",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-341",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "907",
+    "driver": "F",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "16:15",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-sun-342",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-21",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "907",
+    "driver": "Y",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "16:15",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-343",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "7",
+    "loader": "Jorge",
+    "driver": "",
+    "truck": "7625",
+    "flights": [
+      {
+        "flight": "2666",
+        "category": "x"
+      },
+      {
+        "flight": "2373",
+        "category": "x"
+      },
+      {
+        "flight": "1269",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "07:45",
+    "sealTime": "03:23",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "(SKD KDT)  TIMES ARE WRONG TOUR 1 & 2",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-344",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "8",
+    "loader": "Thaer",
+    "driver": "",
+    "truck": "7595",
+    "flights": [
+      {
+        "flight": "1939",
+        "category": "x"
+      },
+      {
+        "flight": "2310",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:10",
+    "sealTime": "03:06",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-345",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "9",
+    "loader": "Derrick",
+    "driver": "",
+    "truck": "1170",
+    "flights": [
+      {
+        "flight": "2806",
+        "category": "x"
+      },
+      {
+        "flight": "2120",
+        "category": "x"
+      },
+      {
+        "flight": "2795",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "09:00",
+    "sealTime": "03:42",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-346",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "11",
+    "loader": "Mike",
+    "driver": "",
+    "truck": "7612",
+    "flights": [
+      {
+        "flight": "1077",
+        "category": "x"
+      },
+      {
+        "flight": "1799",
+        "category": "x"
+      },
+      {
+        "flight": "1285",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:39",
+    "sealTime": "03:34",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-347",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "28",
+    "loader": "Syl",
+    "driver": "",
+    "truck": "7162",
+    "flights": [
+      {
+        "flight": "AS 715",
+        "category": "x"
+      },
+      {
+        "flight": "AS1470",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:22",
+    "sealTime": "03:40",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-348",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "12",
+    "loader": "Lashawn/ Alicia",
+    "driver": "",
+    "truck": "7615",
+    "flights": [
+      {
+        "flight": "2295",
+        "category": "x"
+      },
+      {
+        "flight": "2300",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:10",
+    "sealTime": "03:21",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-349",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "27",
+    "loader": "Syl",
+    "driver": "",
+    "truck": "6492",
+    "flights": [
+      {
+        "flight": "F944",
+        "category": "x"
+      },
+      {
+        "flight": "F91596",
+        "category": "x"
+      },
+      {
+        "flight": "F92205/ 2145",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:17",
+    "sealTime": "03:40",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-350",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "13",
+    "loader": "Eric",
+    "driver": "",
+    "truck": "7605",
+    "flights": [
+      {
+        "flight": "1627",
+        "category": "x"
+      },
+      {
+        "flight": "1488",
+        "category": "x"
+      },
+      {
+        "flight": "539",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:20",
+    "sealTime": "03:50",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-351",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "14",
+    "loader": "Adonias",
+    "driver": "",
+    "truck": "7619",
+    "flights": [
+      {
+        "flight": "1186",
+        "category": "x"
+      },
+      {
+        "flight": "2038",
+        "category": "x"
+      },
+      {
+        "flight": "1116",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:18",
+    "sealTime": "03:32",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-352",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "15",
+    "loader": "Charaf",
+    "driver": "",
+    "truck": "4683",
+    "flights": [
+      {
+        "flight": "246",
+        "category": "x"
+      },
+      {
+        "flight": "1421",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:15",
+    "sealTime": "03:35",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-353",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "16",
+    "loader": "Peter",
+    "driver": "",
+    "truck": "4682",
+    "flights": [
+      {
+        "flight": "1689",
+        "category": "x"
+      },
+      {
+        "flight": "1657",
+        "category": "x"
+      },
+      {
+        "flight": "1262",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:10",
+    "sealTime": "04:08",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-354",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "17",
+    "loader": "Ibrahim",
+    "driver": "",
+    "truck": "7621",
+    "flights": [
+      {
+        "flight": "1358",
+        "category": "x"
+      },
+      {
+        "flight": "563",
+        "category": "x"
+      },
+      {
+        "flight": "2034",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:14",
+    "sealTime": "04:47",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-355",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "18",
+    "loader": "Lashawn/ Alicia",
+    "driver": "",
+    "truck": "4819",
+    "flights": [
+      {
+        "flight": "341",
+        "category": "x"
+      },
+      {
+        "flight": "1231",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:10",
+    "sealTime": "04:33",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-356",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "19",
+    "loader": "V.P.",
+    "driver": "",
+    "truck": "1805",
+    "flights": [
+      {
+        "flight": "2361",
+        "category": "x"
+      },
+      {
+        "flight": "1740",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:25",
+    "sealTime": "03:36",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-357",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "20",
+    "loader": "John",
+    "driver": "",
+    "truck": "7603",
+    "flights": [
+      {
+        "flight": "2428",
+        "category": "x"
+      },
+      {
+        "flight": "574",
+        "category": "x"
+      },
+      {
+        "flight": "2609",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:20",
+    "sealTime": "04:30",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-358",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "21",
+    "loader": "Hasana",
+    "driver": "",
+    "truck": "7003",
+    "flights": [
+      {
+        "flight": "2622",
+        "category": "x"
+      },
+      {
+        "flight": "2247",
+        "category": "x"
+      },
+      {
+        "flight": "1076",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:25",
+    "sealTime": "04:14",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-359",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "22",
+    "loader": "Joseph",
+    "driver": "",
+    "truck": "7607",
+    "flights": [
+      {
+        "flight": "2232",
+        "category": "x"
+      },
+      {
+        "flight": "2326",
+        "category": "x"
+      },
+      {
+        "flight": "2736",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:14",
+    "sealTime": "04:30",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-360",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "23",
+    "loader": "Daksha",
+    "driver": "",
+    "truck": "1809",
+    "flights": [
+      {
+        "flight": "1217",
+        "category": "x"
+      },
+      {
+        "flight": "482",
+        "category": "x"
+      },
+      {
+        "flight": "2823",
+        "category": "x"
+      }
+    ],
+    "scheduledDdt": "08:14",
+    "sealTime": "04:13",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-361",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "24",
+    "loader": "Andrew",
+    "driver": "",
+    "truck": "6418",
+    "flights": [
+      {
+        "flight": "1336",
+        "category": "x"
+      },
+      {
+        "flight": "1150",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:18",
+    "sealTime": "03:44",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-362",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "25",
+    "loader": "Thaer",
+    "driver": "",
+    "truck": "7609",
+    "flights": [
+      {
+        "flight": "2811",
+        "category": "x"
+      },
+      {
+        "flight": "2175",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:20",
+    "sealTime": "04:30",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-363",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "27",
+    "loader": "James",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2038",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "08:25",
+    "sealTime": "06:00",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "2038  plane change going solo",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-364",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "24",
+    "loader": "Jorge",
+    "driver": "",
+    "truck": "7597",
+    "flights": [
+      {
+        "flight": "2092",
+        "category": "x"
+      },
+      {
+        "flight": "2301",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "02:45",
+    "sealTime": "05:02",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "( SKD KDT) times are wrong tour 1 & 2",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-365",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "22",
+    "loader": "MIke",
+    "driver": "",
+    "truck": "4798",
+    "flights": [
+      {
+        "flight": "1705",
+        "category": "x"
+      },
+      {
+        "flight": "2814",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "03:45",
+    "sealTime": "05:11",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-366",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "30",
+    "loader": "Syl",
+    "driver": "",
+    "truck": "7163",
+    "flights": [
+      {
+        "flight": "AS587",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "03:45",
+    "sealTime": "05:51",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-367",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "29",
+    "loader": "Syl",
+    "driver": "",
+    "truck": "4795",
+    "flights": [
+      {
+        "flight": "CM236",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "03:50",
+    "sealTime": "05:40",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-368",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "20",
+    "loader": "Daksha",
+    "driver": "",
+    "truck": "1168",
+    "flights": [
+      {
+        "flight": "2775",
+        "category": "x"
+      },
+      {
+        "flight": "1111",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "03:45",
+    "sealTime": "05:28",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-369",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "18",
+    "loader": "V.P.",
+    "driver": "",
+    "truck": "4793",
+    "flights": [
+      {
+        "flight": "2431",
+        "category": "x"
+      },
+      {
+        "flight": "2847",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "03:45",
+    "sealTime": "05:30",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-370",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "16",
+    "loader": "Nora / Mary",
+    "driver": "",
+    "truck": "4799",
+    "flights": [
+      {
+        "flight": "764",
+        "category": "x"
+      },
+      {
+        "flight": "1643",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "03:45",
+    "sealTime": "05:44",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-371",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "14",
+    "loader": "Charaf",
+    "driver": "",
+    "truck": "7599",
+    "flights": [
+      {
+        "flight": "2333",
+        "category": "x"
+      },
+      {
+        "flight": "2483",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "03:45",
+    "sealTime": "06:22",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-372",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "12",
+    "loader": "Andrew",
+    "driver": "",
+    "truck": "1169",
+    "flights": [
+      {
+        "flight": "1484",
+        "category": "x"
+      },
+      {
+        "flight": "2797",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "04:45",
+    "sealTime": "05:47",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-373",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "10",
+    "loader": "Derrick",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1778",
+        "category": "x"
+      },
+      {
+        "flight": "2728",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "04:50",
+    "sealTime": "06:28",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-374",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "8",
+    "loader": "Adonias",
+    "driver": "",
+    "truck": "7596",
+    "flights": [
+      {
+        "flight": "2277",
+        "category": "x"
+      },
+      {
+        "flight": "840",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "04:45",
+    "sealTime": "05:58",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-375",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "23",
+    "loader": "Alvin",
+    "driver": "",
+    "truck": "4796",
+    "flights": [
+      {
+        "flight": "466",
+        "category": "x"
+      },
+      {
+        "flight": "307",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "03:58",
+    "sealTime": "05:38",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-376",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "21",
+    "loader": "Thaer",
+    "driver": "",
+    "truck": "O884",
+    "flights": [
+      {
+        "flight": "1180",
+        "category": "x"
+      },
+      {
+        "flight": "1198",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "04:45",
+    "sealTime": "06:01",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-377",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "19",
+    "loader": "John",
+    "driver": "",
+    "truck": "9444",
+    "flights": [
+      {
+        "flight": "528",
+        "category": "x"
+      },
+      {
+        "flight": "202",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "04:15",
+    "sealTime": "05:44",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-378",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "17",
+    "loader": "Ibrahim",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2099",
+        "category": "x"
+      },
+      {
+        "flight": "1008",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "04:45",
+    "sealTime": "06:02",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-379",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "15",
+    "loader": "Peter",
+    "driver": "",
+    "truck": "9453",
+    "flights": [
+      {
+        "flight": "1292",
+        "category": "x"
+      },
+      {
+        "flight": "490",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "04:57",
+    "sealTime": "06:17",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-380",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "13",
+    "loader": "Hasana",
+    "driver": "",
+    "truck": "7620",
+    "flights": [
+      {
+        "flight": "1270",
+        "category": "x"
+      },
+      {
+        "flight": "1674",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "04:55",
+    "sealTime": "06:35",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-381",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "11",
+    "loader": "Lashonda",
+    "driver": "",
+    "truck": "7016",
+    "flights": [
+      {
+        "flight": "1996",
+        "category": "x"
+      },
+      {
+        "flight": "660",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "04:45",
+    "sealTime": "05:52",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-382",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "9",
+    "loader": "Lashawn/ Alicia",
+    "driver": "",
+    "truck": "5711",
+    "flights": [
+      {
+        "flight": "1972",
+        "category": "x"
+      },
+      {
+        "flight": "1688",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "04:45",
+    "sealTime": "06:03",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-383",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "25",
+    "loader": "Joseph",
+    "driver": "",
+    "truck": "O882",
+    "flights": [
+      {
+        "flight": "2805",
+        "category": "x"
+      },
+      {
+        "flight": "1117",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "06:42",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-384",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "26",
+    "loader": "V.P.",
+    "driver": "",
+    "truck": "7607",
+    "flights": [
+      {
+        "flight": "2044",
+        "category": "x"
+      },
+      {
+        "flight": "1381",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "06:54",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-385",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "24",
+    "loader": "Daksha",
+    "driver": "",
+    "truck": "4797",
+    "flights": [
+      {
+        "flight": "535",
+        "category": "x"
+      },
+      {
+        "flight": "1994",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "06:36",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-386",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "22",
+    "loader": "Jorge",
+    "driver": "",
+    "truck": "8011",
+    "flights": [
+      {
+        "flight": "2610",
+        "category": "x"
+      },
+      {
+        "flight": "224",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "06:44",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-387",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "20",
+    "loader": "Eric",
+    "driver": "",
+    "truck": "7595",
+    "flights": [
+      {
+        "flight": "581",
+        "category": "x"
+      },
+      {
+        "flight": "1082",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "06:25",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-388",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "18",
+    "loader": "MIke",
+    "driver": "",
+    "truck": "7612",
+    "flights": [
+      {
+        "flight": "2137",
+        "category": "x"
+      },
+      {
+        "flight": "729",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "06:42",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-389",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "16",
+    "loader": "Andrew",
+    "driver": "",
+    "truck": "7162",
+    "flights": [
+      {
+        "flight": "2145",
+        "category": "x"
+      },
+      {
+        "flight": "530",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "06:45",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-390",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 1",
+    "dock": "14",
+    "loader": "Alvin",
+    "driver": "",
+    "truck": "6418",
+    "flights": [
+      {
+        "flight": "2225",
+        "category": "x"
+      },
+      {
+        "flight": "359",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "07:06",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-391",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "12",
+    "loader": "Peter",
+    "driver": "",
+    "truck": "9451",
+    "flights": [
+      {
+        "flight": "669",
+        "category": "x"
+      },
+      {
+        "flight": "1887",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "08:04",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-392",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "9",
+    "loader": "Sylvanus",
+    "driver": "",
+    "truck": "O922",
+    "flights": [
+      {
+        "flight": "AS1546",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "07:23",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-393",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "10",
+    "loader": "Lashawn",
+    "driver": "",
+    "truck": "7017",
+    "flights": [
+      {
+        "flight": "1793",
+        "category": "x"
+      },
+      {
+        "flight": "1355",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "07:43",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-394",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "25",
+    "loader": "Joseph",
+    "driver": "",
+    "truck": "4819",
+    "flights": [
+      {
+        "flight": "567",
+        "category": "x"
+      },
+      {
+        "flight": "2616",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "08:20",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-395",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "23",
+    "loader": "Larry",
+    "driver": "",
+    "truck": "9450",
+    "flights": [
+      {
+        "flight": "1606",
+        "category": "x"
+      },
+      {
+        "flight": "1377",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "08:20",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-396",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "21",
+    "loader": "Derrick",
+    "driver": "",
+    "truck": "6492",
+    "flights": [
+      {
+        "flight": "215",
+        "category": "x"
+      },
+      {
+        "flight": "279",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "08:32",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-397",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "19",
+    "loader": "Husana",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "441",
+        "category": "x"
+      },
+      {
+        "flight": "2804",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "08:25",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-398",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "17",
+    "loader": "Thaer",
+    "driver": "",
+    "truck": "4682",
+    "flights": [
+      {
+        "flight": "2389",
+        "category": "x"
+      },
+      {
+        "flight": "2287",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "08:15",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-399",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "15",
+    "loader": "Clairemise",
+    "driver": "",
+    "truck": "7621",
+    "flights": [
+      {
+        "flight": "723",
+        "category": "x"
+      },
+      {
+        "flight": "1733",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "08:15",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-400",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "13",
+    "loader": "John",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2684",
+        "category": "x"
+      },
+      {
+        "flight": "2342",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "08:26",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-401",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "11",
+    "loader": "Jorge",
+    "driver": "",
+    "truck": "4681",
+    "flights": [
+      {
+        "flight": "2401",
+        "category": "x"
+      },
+      {
+        "flight": "2653",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "07:51",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-402",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "26",
+    "loader": "Ibrahim",
+    "driver": "",
+    "truck": "7622",
+    "flights": [
+      {
+        "flight": "1659",
+        "category": "x"
+      },
+      {
+        "flight": "1612",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "08:02",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-403",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "24",
+    "loader": "Mike",
+    "driver": "",
+    "truck": "6494",
+    "flights": [
+      {
+        "flight": "2672",
+        "category": "x"
+      },
+      {
+        "flight": "424",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "08:19",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-404",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "22",
+    "loader": "Charaf",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "365",
+        "category": "x"
+      },
+      {
+        "flight": "1856",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "08:18",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-405",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "20",
+    "loader": "Adonias",
+    "driver": "",
+    "truck": "9449",
+    "flights": [
+      {
+        "flight": "2414",
+        "category": "x"
+      },
+      {
+        "flight": "1834",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "08:35",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-406",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "28",
+    "loader": "Nora / Mary",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1297",
+        "category": "x"
+      },
+      {
+        "flight": "2195",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-407",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "16",
+    "loader": "Andrew",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1620",
+        "category": "x"
+      },
+      {
+        "flight": "786",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-408",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "14",
+    "loader": "V.P.",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2849",
+        "category": "x"
+      },
+      {
+        "flight": "2668",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-409",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "11",
+    "loader": "Daksha",
+    "driver": "",
+    "truck": "7623",
+    "flights": [
+      {
+        "flight": "2427",
+        "category": "x"
+      },
+      {
+        "flight": "1869",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-410",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "10",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1044",
+        "category": ""
+      },
+      {
+        "flight": "2182",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-411",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "9",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1803",
+        "category": ""
+      },
+      {
+        "flight": "2008",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-412",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "14",
+    "loader": "Tabetha/JP",
+    "driver": "",
+    "truck": "3073",
+    "flights": [
+      {
+        "flight": "1688",
+        "category": "x"
+      },
+      {
+        "flight": "",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "08:14",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "strap broke had to rebuild flight",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-413",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1061",
+        "category": ""
+      },
+      {
+        "flight": "794",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-414",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2267",
+        "category": ""
+      },
+      {
+        "flight": "1304",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-415",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2774",
+        "category": ""
+      },
+      {
+        "flight": "2794",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-416",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "606",
+        "category": ""
+      },
+      {
+        "flight": "2189",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-417",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "758",
+        "category": ""
+      },
+      {
+        "flight": "1332",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-418",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2821",
+        "category": ""
+      },
+      {
+        "flight": "2290",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-419",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1554",
+        "category": ""
+      },
+      {
+        "flight": "455",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-420",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1955",
+        "category": ""
+      },
+      {
+        "flight": "1695",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-421",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "247",
+        "category": ""
+      },
+      {
+        "flight": "622",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-422",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "561",
+        "category": ""
+      },
+      {
+        "flight": "2226",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-423",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2440",
+        "category": ""
+      },
+      {
+        "flight": "1363",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-424",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "623",
+        "category": ""
+      },
+      {
+        "flight": "356",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-425",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "752",
+        "category": ""
+      },
+      {
+        "flight": "1746",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-426",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2465",
+        "category": ""
+      },
+      {
+        "flight": "2844",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-427",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2657",
+        "category": ""
+      },
+      {
+        "flight": "1525",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-428",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1811",
+        "category": ""
+      },
+      {
+        "flight": "1660",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-429",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2683",
+        "category": ""
+      },
+      {
+        "flight": "2343",
+        "category": ""
+      },
+      {
+        "flight": "2370",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-430",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1693",
+        "category": ""
+      },
+      {
+        "flight": "587",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-431",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1905",
+        "category": ""
+      },
+      {
+        "flight": "704",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-432",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2635",
+        "category": ""
+      },
+      {
+        "flight": "609",
+        "category": ""
+      },
+      {
+        "flight": "1129",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-433",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1821",
+        "category": ""
+      },
+      {
+        "flight": "1502",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-434",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1239",
+        "category": ""
+      },
+      {
+        "flight": "374",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-435",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1314",
+        "category": ""
+      },
+      {
+        "flight": "1057",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-436",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1862",
+        "category": ""
+      },
+      {
+        "flight": "2142",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-437",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2091",
+        "category": ""
+      },
+      {
+        "flight": "1577",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-438",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1069",
+        "category": ""
+      },
+      {
+        "flight": "95",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-439",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "2000",
+        "category": ""
+      },
+      {
+        "flight": "2803",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-440",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "1349",
+        "category": ""
+      },
+      {
+        "flight": "2430",
+        "category": ""
+      },
+      {
+        "flight": "2298",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "21:45",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
+  },
+  {
+    "id": "touhy-mon-441",
+    "location": "Touhy",
+    "trackerPage": "Touhy DDT Entry",
+    "date": "2026-06-22",
+    "shift": "Tour 3",
+    "dock": "",
+    "loader": "",
+    "driver": "",
+    "truck": "",
+    "flights": [
+      {
+        "flight": "CM",
+        "category": ""
+      },
+      {
+        "flight": "229",
+        "category": ""
+      },
+      {
+        "flight": "",
+        "category": ""
+      }
+    ],
+    "scheduledDdt": "13:06",
+    "sealTime": "",
+    "actualDdt": "",
+    "delayReason": "",
+    "notes": "",
+    "operationalComments": "",
+    "manager": "",
+    "supervisor": ""
   }
 ]

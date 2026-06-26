@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
+import { HourlyPerformanceTable } from "../components/HourlyPerformanceTable";
 import { KpiStrip } from "../components/KpiStrip";
-import { summarize } from "../services/calculations";
+import { summarize, uniqueRecords } from "../services/calculations";
 import { locationLabel } from "../data/locations";
 import { getSnapshots } from "../services/storage";
 import type { DdtRecord } from "../types";
@@ -26,15 +27,6 @@ function weekEndFor(weekStart: string) {
   const date = toDate(weekStart);
   date.setDate(date.getDate() + 6);
   return formatDate(date);
-}
-
-function uniqueRecords(records: DdtRecord[]) {
-  return Array.from(
-    records.reduce<Map<string, DdtRecord>>((acc, record) => {
-      acc.set(`${record.location}-${record.date}-${record.id}`, record);
-      return acc;
-    }, new Map()).values(),
-  );
 }
 
 function groupByLocation(records: DdtRecord[]) {
@@ -130,6 +122,10 @@ export function WeeklySummaryPage({ records }: { records: DdtRecord[] }) {
         </div>
       </section>
       <KpiStrip summary={summary} />
+      <HourlyPerformanceTable
+        records={filteredRecords}
+        title={mode === "weekly" ? "Weekly Performance by Hour" : "Daily Performance by Hour"}
+      />
       <section className="panel">
         <div className="panel-heading"><h2>Location Performance</h2></div>
         <div className="summary-grid">
@@ -147,23 +143,25 @@ export function WeeklySummaryPage({ records }: { records: DdtRecord[] }) {
       </section>
       <section className="panel">
         <div className="panel-heading"><h2>{mode === "weekly" ? "Weekly Records" : "Daily Records"}</h2></div>
-        <table className="data-table compact">
-          <thead><tr><th>Date</th><th>Location</th><th>Departures</th><th>Compliance</th><th>Avg Variance</th></tr></thead>
-          <tbody>
-            {rows.map(([key, items]) => {
-              const itemSummary = summarize(items);
-              return (
-                <tr key={key}>
-                  <td>{items[0].date}</td>
-                  <td>{locationLabel(items[0].location)}</td>
-                  <td>{itemSummary.totalDepartures}</td>
-                  <td>{itemSummary.compliance}%</td>
-                  <td>{itemSummary.averageVariance}m</td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
+        <div className="table-frame">
+          <table className="data-table compact summary-records-table">
+            <thead><tr><th>Date</th><th>Location</th><th>Departures</th><th>Compliance</th><th>Avg Variance</th></tr></thead>
+            <tbody>
+              {rows.map(([key, items]) => {
+                const itemSummary = summarize(items);
+                return (
+                  <tr key={key}>
+                    <td>{items[0].date}</td>
+                    <td>{locationLabel(items[0].location)}</td>
+                    <td>{itemSummary.totalDepartures}</td>
+                    <td>{itemSummary.compliance}%</td>
+                    <td>{itemSummary.averageVariance}m</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
       </section>
       {mode === "daily" && (
         <section className="panel">
@@ -171,57 +169,59 @@ export function WeeklySummaryPage({ records }: { records: DdtRecord[] }) {
             <h2>Daily Flight Details</h2>
             <span>{filteredRecords.length} records</span>
           </div>
-          <table className="data-table compact">
-            <thead>
-              <tr>
-                <th>Location</th>
-                <th>Dock</th>
-                <th>Flights</th>
-                <th>Scheduled DDT</th>
-                <th>Seal Time</th>
-                <th>Actual DDT</th>
-                <th>Variance</th>
-                <th>Status</th>
-                <th>Driver</th>
-                <th>Truck</th>
-                <th>Delay Reason</th>
-                <th>Notes</th>
-              </tr>
-            </thead>
-            <tbody>
-              {filteredRecords
-                .slice()
-                .sort((a, b) => {
-                  const timeSort = a.scheduledDdt.localeCompare(b.scheduledDdt);
-                  if (timeSort) return timeSort;
-                  return locationLabel(a.location).localeCompare(locationLabel(b.location));
-                })
-                .map((record) => (
-                  <tr key={`${record.location}-${record.date}-${record.id}`}>
-                    <td>{locationLabel(record.location)}</td>
-                    <td>{record.dock || "N/A"}</td>
-                    <td>{flightList(record) || "N/A"}</td>
-                    <td>{record.scheduledDdt || "N/A"}</td>
-                    <td>{record.sealTime || "N/A"}</td>
-                    <td>{record.actualDdt || "N/A"}</td>
-                    <td>
-                      <span className={record.metrics.late ? "variance-pill late" : "variance-pill"}>
-                        {record.metrics.ddtVarianceLabel}
-                      </span>
-                    </td>
-                    <td>
-                      <span className={`status-pill ${record.metrics.status.toLowerCase().replace("-", "")}`}>
-                        {record.metrics.status}
-                      </span>
-                    </td>
-                    <td>{record.driver || "N/A"}</td>
-                    <td>{record.truck || "N/A"}</td>
-                    <td>{record.delayReason || "None"}</td>
-                    <td>{record.notes || "No notes"}</td>
-                  </tr>
-                ))}
-            </tbody>
-          </table>
+          <div className="table-frame">
+            <table className="data-table compact daily-details-table">
+              <thead>
+                <tr>
+                  <th>Location</th>
+                  <th>Dock</th>
+                  <th>Flights</th>
+                  <th>Scheduled DDT</th>
+                  <th>Seal Time</th>
+                  <th>Actual DDT</th>
+                  <th>Variance</th>
+                  <th>Status</th>
+                  <th>Driver</th>
+                  <th>Truck</th>
+                  <th>Delay Reason</th>
+                  <th>Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                {filteredRecords
+                  .slice()
+                  .sort((a, b) => {
+                    const timeSort = a.scheduledDdt.localeCompare(b.scheduledDdt);
+                    if (timeSort) return timeSort;
+                    return locationLabel(a.location).localeCompare(locationLabel(b.location));
+                  })
+                  .map((record) => (
+                    <tr key={`${record.location}-${record.date}-${record.id}`}>
+                      <td>{locationLabel(record.location)}</td>
+                      <td>{record.dock || "N/A"}</td>
+                      <td>{flightList(record) || "N/A"}</td>
+                      <td>{record.scheduledDdt || "N/A"}</td>
+                      <td>{record.sealTime || "N/A"}</td>
+                      <td>{record.actualDdt || "N/A"}</td>
+                      <td>
+                        <span className={record.metrics.late ? "variance-pill late" : "variance-pill"}>
+                          {record.metrics.ddtVarianceLabel}
+                        </span>
+                      </td>
+                      <td>
+                        <span className={`status-pill ${record.metrics.status.toLowerCase().replace("-", "")}`}>
+                          {record.metrics.status}
+                        </span>
+                      </td>
+                      <td>{record.driver || "N/A"}</td>
+                      <td>{record.truck || "N/A"}</td>
+                      <td>{record.delayReason || "None"}</td>
+                      <td>{record.notes || "No notes"}</td>
+                    </tr>
+                  ))}
+              </tbody>
+            </table>
+          </div>
         </section>
       )}
     </div>

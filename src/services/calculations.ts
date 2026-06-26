@@ -1,6 +1,6 @@
-import type { CalculatedMetrics, DdtInputRecord, DdtRecord, SummaryMetrics } from "../types";
+import type { CalculatedMetrics, DdtInputRecord, DdtRecord, HourlyPerformance, SummaryMetrics } from "../types";
 
-const trendLocations = ["Touhy", "Devon"] as const;
+type TrendLocation = "Touhy" | "Devon";
 
 const minutesInDay = 24 * 60;
 
@@ -92,7 +92,7 @@ export function complianceByDate(records: DdtRecord[]) {
 }
 
 export function complianceByDateAndLocation(records: DdtRecord[]) {
-  const grouped = records.reduce<Record<string, Record<(typeof trendLocations)[number], DdtRecord[]>>>(
+  const grouped = records.reduce<Record<string, Record<TrendLocation, DdtRecord[]>>>(
     (acc, record) => {
       acc[record.date] = acc[record.date] ?? { Touhy: [], Devon: [] };
       acc[record.date][record.location] = [...acc[record.date][record.location], record];
@@ -119,4 +119,35 @@ export function delayReasons(records: DdtRecord[]) {
   return Object.entries(counts)
     .map(([reason, count]) => ({ reason, count }))
     .sort((a, b) => b.count - a.count);
+}
+
+export function uniqueRecords(records: DdtRecord[]) {
+  return Array.from(
+    records.reduce<Map<string, DdtRecord>>((acc, record) => {
+      acc.set(`${record.location}-${record.date}-${record.id}`, record);
+      return acc;
+    }, new Map()).values(),
+  );
+}
+
+function hourLabel(hour: number) {
+  return `${String(hour).padStart(2, "0")}:00`;
+}
+
+export function hourlyPerformance(records: DdtRecord[]): HourlyPerformance[] {
+  const grouped = records.reduce<Record<number, DdtRecord[]>>((acc, record) => {
+    const scheduledMinutes = parseTimeToMinutes(record.scheduledDdt);
+    if (scheduledMinutes === null) return acc;
+    const hour = Math.floor(scheduledMinutes / 60);
+    acc[hour] = [...(acc[hour] ?? []), record];
+    return acc;
+  }, {});
+
+  return Object.entries(grouped)
+    .sort(([a], [b]) => Number(a) - Number(b))
+    .map(([hour, items]) => ({
+      hour: Number(hour),
+      label: hourLabel(Number(hour)),
+      ...summarize(items),
+    }));
 }

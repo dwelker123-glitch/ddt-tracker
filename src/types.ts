@@ -73,6 +73,11 @@ export type SummaryMetrics = {
   averageVariance: number;
 };
 
+export type HourlyPerformance = SummaryMetrics & {
+  hour: number;
+  label: string;
+};
+
 export type Filters = {
   dateRange: "7d" | "30d" | "90d" | "all";
   location: LocationId | "all";

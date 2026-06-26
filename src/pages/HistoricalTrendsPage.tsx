@@ -1,13 +1,14 @@
 import { ComplianceChart, DelayChart } from "../components/Charts";
+import { HourlyPerformanceTable } from "../components/HourlyPerformanceTable";
 import { KpiStrip } from "../components/KpiStrip";
-import { complianceByDateAndLocation, delayReasons, summarize } from "../services/calculations";
+import { complianceByDateAndLocation, delayReasons, summarize, uniqueRecords } from "../services/calculations";
 import { locationLabel } from "../data/locations";
 import { getSnapshots } from "../services/storage";
 import type { DdtRecord } from "../types";
 
 export function DashboardPage({ records }: { records: DdtRecord[] }) {
   const snapshots = getSnapshots();
-  const dashboardRecords = [...snapshots.flatMap((snapshot) => snapshot.records), ...records];
+  const dashboardRecords = uniqueRecords([...snapshots.flatMap((snapshot) => snapshot.records), ...records]);
   const summary = summarize(dashboardRecords);
   return (
     <div className="stack">
@@ -22,6 +23,7 @@ export function DashboardPage({ records }: { records: DdtRecord[] }) {
           <DelayChart data={delayReasons(dashboardRecords)} />
         </div>
       </section>
+      <HourlyPerformanceTable records={dashboardRecords} title="Historical Performance by Hour" />
       <section className="panel">
         <div className="panel-heading"><h2>Historical Snapshots</h2></div>
         <table className="data-table compact">
